@@ -24,16 +24,16 @@
 					>;
 				/* sample keymap */
 				linux,keymap = <
-					0x00010052 /* row 0, col 0, KEY_KP0 */
-					0x0002004f /* row 0, col 1, KEY_KP1 */
-					0x00030050 /* row 0, col 3, KEY_KP2 */
-					0x01000051 /* row 1, col 0, KEY_KP3 */
-					0x0101004b /* row 1, col 1, KEY_KP4 */
-					0x0102004c /* row 1, col 2, KEY_KP5 */
-					0x0103004d /* row 1, col 3, KEY_KP6 */
-					0x02000047 /* row 2, col 0, KEY_KP7 */
-					0x02010048 /* row 2, col 1, KEY_KP8 */
-					0x02020049 /* row 2, col 3, KEY_KP9 */
+					0x000000a5 /* row 0, col 0, KEY_PREVIOUSSONG */
+					0x00010072 /* row 0, col 1, KEY_VOLUMEDOWN */
+					0x0003002a /* row 0, col 3, KEY_LEFTSHIFT */
+					0x01000071 /* row 1, col 0, KEY_MUTE */
+					0x01010073 /* row 1, col 1, KEY_VOLUMEUP */
+					0x01020038 /* row 1, col 2, KEY_LEFTALT */
+					0x01030036 /* row 1, col 3, KEY_RIGHTSHIFT */
+					0x020000a3 /* row 2, col 0, KEY_NEXTSONG */
+					0x0201001d /* row 2, col 1, KEY_LEFTCTRL */
+					0x02030061 /* row 2, col 3, KEY_RIGHTCTRL */
 					>;
 				gpio-activelow;
 				debounce-delay-ms = <100>;
