@@ -1,0 +1,12 @@
+To create a backup,
+
+Start N2+ in SPI mode,
+
+Enter to shell, then type:
+
+ums /dev/mmcblk0
+
+Connect N2+ with micro-USB OTG cable to computer
+
+Use POWERISO software or similar
+
