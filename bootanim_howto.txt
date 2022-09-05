@@ -5,6 +5,7 @@ chmod 755 /odm/boot-logo.bmp.gz
 
 // ****** To change boot animation *******
 mount -o remount,rw /system
+
 For Android 11:
 cp /sdcard/bootanimation.zip /system/media/
 chmod 755 /system/media/bootanimation.zip
