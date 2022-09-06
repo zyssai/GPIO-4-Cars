@@ -12,15 +12,15 @@
 			matrix_keypad: matrix-keypad {
 				compatible = "gpio-matrix-keypad";
 				col-gpios = <
-					&gpio GPIOA_11 GPIO_ACTIVE_HIGH
-					&gpio GPIOX_13 GPIO_ACTIVE_HIGH
-					&gpio GPIOX_16 GPIO_ACTIVE_HIGH
-					&gpio GPIOX_18 GPIO_ACTIVE_HIGH
+					&gpio GPIOX_3 GPIO_ACTIVE_HIGH
+					&gpio GPIOX_4 GPIO_ACTIVE_HIGH
+					&gpio GPIOX_0 GPIO_ACTIVE_HIGH
+					&gpio GPIOX_1 GPIO_ACTIVE_HIGH
 					>;
 				row-gpios = <
-					&gpio GPIOX_19 GPIO_ACTIVE_HIGH
-					&gpio GPIOX_21 GPIO_ACTIVE_HIGH
-					&gpio GPIOX_22 GPIO_ACTIVE_HIGH
+					&gpio GPIOX_8 GPIO_ACTIVE_HIGH
+					&gpio GPIOX_9 GPIO_ACTIVE_HIGH
+					&gpio GPIOX_2 GPIO_ACTIVE_HIGH
 					>;
 				/* sample keymap */
 				linux,keymap = <
