@@ -27,12 +27,12 @@
 					0x000000a5 /* row 0, col 0, KEY_PREVIOUSSONG */
 					0x00010072 /* row 0, col 1, KEY_VOLUMEDOWN */
 					0x0003002a /* row 0, col 3, KEY_LEFTSHIFT */
-					0x01000071 /* row 1, col 0, KEY_MUTE */
-					0x01010073 /* row 1, col 1, KEY_VOLUMEUP */
+					0x010000a3 /* row 1, col 0, KEY_NEXTSONG */
+					0x0101001d /* row 1, col 1, KEY_LEFTCTRL */
 					0x01020038 /* row 1, col 2, KEY_LEFTALT */
 					0x01030036 /* row 1, col 3, KEY_RIGHTSHIFT */
-					0x020000a3 /* row 2, col 0, KEY_NEXTSONG */
-					0x0201001d /* row 2, col 1, KEY_LEFTCTRL */
+					0x02000071 /* row 2, col 0, KEY_MUTE */
+					0x02010073 /* row 2, col 1, KEY_VOLUMEUP */
 					0x02030061 /* row 2, col 3, KEY_RIGHTCTRL */
 					>;
 				gpio-activelow;
