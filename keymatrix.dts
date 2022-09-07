@@ -29,7 +29,7 @@
 					0x0003002a /* row 0, col 3, KEY_LEFTSHIFT */
 					0x010000a3 /* row 1, col 0, KEY_NEXTSONG */
 					0x0101001d /* row 1, col 1, KEY_LEFTCTRL */
-					0x01020038 /* row 1, col 2, KEY_LEFTALT */
+					0x0102006e /* row 1, col 2, KEY_INSERT */
 					0x01030036 /* row 1, col 3, KEY_RIGHTSHIFT */
 					0x02000071 /* row 2, col 0, KEY_MUTE */
 					0x02010073 /* row 2, col 1, KEY_VOLUMEUP */
