@@ -1,0 +1,8 @@
+Need to compile keymatrix.dts to obtain keymatrix.dtbo
+
+copy keymatrix.dtbo to /odm
+
+Add "keymatrix" to /odm/env.ini
+Add "keymatrix" to Odroid Setting app Overlay section, and remove "spi0"
+
+
