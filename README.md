@@ -1,6 +1,8 @@
 # Lag'And'Droid 
 
 Files needed for an Android into Renault Laguna III project.
+More information here:
+https://forum.odroid.com/viewtopic.php?f=182&t=42184
 
 ## Description
 
