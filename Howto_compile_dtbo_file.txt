@@ -1,7 +1,7 @@
 To compile dtbo file, follow these steps:
 
-`$ sudo apt-get update
-$ sudo apt-get install git lzop build-essential gcc bc libncurses5-dev libc6-i386 lib32stdc++6 zlib1g:i386`
+$ sudo apt-get update
+$ sudo apt-get install git lzop build-essential gcc bc libncurses5-dev libc6-i386 lib32stdc++6 zlib1g:i386
 
 If zlib1g:i386 can't be found, just ignore it.
 
