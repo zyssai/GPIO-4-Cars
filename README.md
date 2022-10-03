@@ -1,6 +1,6 @@
 # GPIO'4'Cars
 
-This project, named GPIO'4'Cars, was designed to easily connect your Odroid N2+ board, with your car :twisted:
+This project, named GPIO'4'Cars, was designed to easily connect your Odroid N2+ board, with your car.
 
 There is still a lot of work.
 
