@@ -1,0 +1,52 @@
+10-31 12:10:11.291  3516  3622 D SystemServerTimingAsync: InitThreadPoolExec:Update app-ops uidState in case package com.jw.shutdownservice changed
+10-31 12:10:11.291  3516  3622 D SystemServerInitThreadPool: Started executing Update app-ops uidState in case package com.jw.shutdownservice changed
+10-31 12:10:11.294  3516  3622 D SystemServerInitThreadPool: Finished executing Update app-ops uidState in case package com.jw.shutdownservice changed
+10-31 12:10:11.294  3516  3622 V SystemServerTimingAsync: InitThreadPoolExec:Update app-ops uidState in case package com.jw.shutdownservice changed took to complete: 2ms
+10-31 12:10:11.318  3260  3260 I ThermalHAL: current temperature:29.600000, throttling_threshold:0.000000, shutdown_threshold:0.000000
+10-31 12:10:11.318  3260  3260 I ThermalHAL: current temperature:29.600000, throttling_threshold:75.000000, shutdown_threshold:110.000000
+10-31 12:10:11.661  3516  3516 V StorageManagerService: Package com.jw.shutdownservice does not have legacy storage
+10-31 12:10:21.968  3516  3564 I ActivityManager: Start proc 6080:com.jw.shutdownservice/u0a112 for broadcast {com.jw.shutdownservice/com.jw.shutdownservice.autostart}
+10-31 12:10:21.984  6080  6080 I shutdownservic: Late-enabling -Xcheck:jni
+10-31 12:10:22.171  6080  6080 V GraphicsEnvironment: ANGLE Developer option for 'com.jw.shutdownservice' set to: 'default'
+10-31 12:10:22.172  6080  6080 V GraphicsEnvironment: ANGLE GameManagerService for com.jw.shutdownservice: false
+10-31 12:10:22.181  3516  3931 I ActivityManager: Background started FGS: Allowed [callingPackage: com.jw.shutdownservice; callingUid: 10112; uidState: RCVR; intent: Intent { cmp=com.jw.shutdownservice/.GpioShutdownService }; code:BOOT_COMPLETED; tempAllowListReason:<broadcast:1000:android.intent.action.BOOT_COMPLETED,reason:,reasonCode:BOOT_COMPLETED,duration:20000,callingUid:1000>; targetSdkVersion:30; callerTargetSdkVersion:30; startForegroundCount:0; bindFromPackage:null]
+10-31 12:10:22.183  6080  6080 I com.jw.gpioshutdown: Autostart Service
+10-31 12:10:22.197  6080  6080 I com.jw.gpioshutdown: onCreate() entry
+10-31 12:10:22.241  6080  6324 W shutdownservic: Accessing hidden field Ljava/lang/UNIXProcess;->pid:I (unsupported, reflection, allowed)
+10-31 12:10:22.256  6316  6316 I sh      : type=1400 audit(0.0:30): avc: denied { read } for name="/" dev="mmcblk0p16" ino=2 scontext=u:r:untrusted_app:s0:c112,c256,c512,c768 tcontext=u:object_r:rootfs:s0 tclass=dir permissive=1 app=com.jw.shutdownservice
+10-31 12:10:22.256  6316  6316 I sh      : type=1400 audit(0.0:31): avc: denied { open } for path="/" dev="mmcblk0p16" ino=2 scontext=u:r:untrusted_app:s0:c112,c256,c512,c768 tcontext=u:object_r:rootfs:s0 tclass=dir permissive=1 app=com.jw.shutdownservice
+10-31 12:10:22.371  6080  6080 I com.jw.gpioshutdown: Root is available
+10-31 12:10:22.429  6080  6080 I com.jw.gpioshutdown: RootTools access is given
+10-31 12:10:22.429  6080  6080 I com.jw.gpioshutdown: Model: hardkernel odroid-n2plus
+10-31 12:10:22.429  6080  6080 I com.jw.gpioshutdown: Checking ro.product.device, check = true
+10-31 12:10:22.429  6080  6080 I com.jw.gpioshutdown: buildtype: odroid
+10-31 12:10:22.430  6080  6080 I com.jw.gpioshutdown: Entering wiringPiSetup, check = true
+10-31 12:10:22.439  6080  6080 E AndroidRuntime: Process: com.jw.shutdownservice, PID: 6080
+10-31 12:10:22.439  6080  6080 E AndroidRuntime: java.lang.UnsatisfiedLinkError: dlopen failed: library "libwiringPi.so" not found: needed by /data/app/~~2o3aWpUKQSqIxzV2AbAOaA==/com.jw.shutdownservice-a1Ksb2_4wJXx2CwcKu2JYQ==/lib/arm64/libwpi_android.so in namespace classloader-namespace
+10-31 12:10:22.439  6080  6080 E AndroidRuntime: 	at com.jw.shutdownservice.GpioShutdownService.onCreate(GpioShutdownService.java:1093)
+10-31 12:10:22.471  3516  3931 I ActivityManager: Process com.jw.shutdownservice (pid 6080) has died: prcp FGS 
+10-31 12:10:22.472  3516  3931 W ActivityManager: Scheduling restart of crashed service com.jw.shutdownservice/.GpioShutdownService in 1000ms for start-requested
+10-31 12:10:23.482  3516  3564 I ActivityManager: Start proc 6771:com.jw.shutdownservice/u0a112 for service {com.jw.shutdownservice/com.jw.shutdownservice.GpioShutdownService}
+10-31 12:10:23.491  6771  6771 I shutdownservic: Late-enabling -Xcheck:jni
+10-31 12:10:23.637  6771  6771 V GraphicsEnvironment: ANGLE Developer option for 'com.jw.shutdownservice' set to: 'default'
+10-31 12:10:23.638  6771  6771 V GraphicsEnvironment: ANGLE GameManagerService for com.jw.shutdownservice: false
+10-31 12:10:23.654  6771  6771 I com.jw.gpioshutdown: onCreate() entry
+10-31 12:10:23.693  6771  6812 W shutdownservic: Accessing hidden field Ljava/lang/UNIXProcess;->pid:I (unsupported, reflection, allowed)
+10-31 12:10:23.704  6810  6810 I sh      : type=1400 audit(0.0:32): avc: denied { read } for name="/" dev="mmcblk0p16" ino=2 scontext=u:r:untrusted_app:s0:c112,c256,c512,c768 tcontext=u:object_r:rootfs:s0 tclass=dir permissive=1 app=com.jw.shutdownservice
+10-31 12:10:23.704  6810  6810 I sh      : type=1400 audit(0.0:33): avc: denied { open } for path="/" dev="mmcblk0p16" ino=2 scontext=u:r:untrusted_app:s0:c112,c256,c512,c768 tcontext=u:object_r:rootfs:s0 tclass=dir permissive=1 app=com.jw.shutdownservice
+10-31 12:10:23.756  6771  6771 I com.jw.gpioshutdown: Root is available
+10-31 12:10:23.805  6771  6771 I com.jw.gpioshutdown: RootTools access is given
+10-31 12:10:23.805  6771  6771 I com.jw.gpioshutdown: Model: hardkernel odroid-n2plus
+10-31 12:10:23.805  6771  6771 I com.jw.gpioshutdown: Checking ro.product.device, check = true
+10-31 12:10:23.805  6771  6771 I com.jw.gpioshutdown: buildtype: odroid
+10-31 12:10:23.806  6771  6771 I com.jw.gpioshutdown: Entering wiringPiSetup, check = true
+10-31 12:10:23.811  6771  6771 E AndroidRuntime: Process: com.jw.shutdownservice, PID: 6771
+10-31 12:10:23.811  6771  6771 E AndroidRuntime: java.lang.UnsatisfiedLinkError: dlopen failed: library "libwiringPi.so" not found: needed by /data/app/~~2o3aWpUKQSqIxzV2AbAOaA==/com.jw.shutdownservice-a1Ksb2_4wJXx2CwcKu2JYQ==/lib/arm64/libwpi_android.so in namespace classloader-namespace
+10-31 12:10:23.811  6771  6771 E AndroidRuntime: 	at com.jw.shutdownservice.GpioShutdownService.onCreate(GpioShutdownService.java:1093)
+10-31 12:10:28.480  3516  3607 I ActivityManager: Killing 6771:com.jw.shutdownservice/u0a112 (adj 200): crash
+10-31 12:10:28.481  3516  3607 W ActivityManager: Bringing down service while still waiting for start foreground: ServiceRecord{d1a6fd6 u0 com.jw.shutdownservice/.GpioShutdownService}
+10-31 12:10:28.484  3516  6876 E BufferQueueProducer: [ViewRootImpl[shutdownservice]#0(BLAST Consumer)0](id:dbc00000000,api:0,p:-1,c:3516) disconnect: not connected (req=1)
+10-31 12:10:28.485  3516  3553 W InputManager-JNI: Input channel object '9ab6a6 Application Error: com.jw.shutdownservice (client)' was disposed without first being removed with the input manager!
+10-31 12:10:28.497  3516  3898 V ActivityManager: Got obituary of 6771:com.jw.shutdownservice
+10-31 12:10:30.994  4127  4259 E eakd    : *~*~*~ Channel {0} was not shutdown properly!!! ~*~*~*
+10-31 12:10:30.994  4127  4259 E eakd    :     Make sure to call shutdown()/shutdownNow() and wait until awaitTermination() returns true.
