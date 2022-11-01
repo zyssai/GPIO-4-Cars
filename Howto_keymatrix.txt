@@ -2,7 +2,7 @@ Need to compile keymatrix.dts to obtain keymatrix.dtbo
 
 copy keymatrix.dtbo to /odm
 
-Add "keymatrix" to /odm/env.ini
+Add "keymatrix" to user_overlay at the end of /odm/env.ini
 Add "keymatrix" to Odroid Setting app Overlay section
 
 
