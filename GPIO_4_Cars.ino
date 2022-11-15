@@ -3,7 +3,7 @@
   GPIO'4'Cars
                  ATtiny85 Pin map
 
-                    +-\/-+
+                    +----+
    NC         PB5  1|O   |8  VCC
    input_5v     3  2|    |7  2   ignition
    input_12v   A2  3|    |6  1   n2_power
