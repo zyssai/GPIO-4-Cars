@@ -4,18 +4,18 @@
                  ATtiny85 Pin map
 
                     +-\/-+
-   NC          PB5 1|O   |8  VCC
-  input_5v   3 PB3 2|    |7 PB2 2 pwm_input
- input_12v  A2 PB4 3|    |6 PB1 1 n2_power
-               GND 4|    |5 PB0 0 pwm_output
+ NC            PB5 1|O   |8 VCC
+ input_pwm  A3 PB3 2|    |7 PB2 A1 input_5v
+ n2_power    4 PB4 3|    |6 PB1 1  input_12v
+               GND 4|    |5 PB0 0  pwm_output
                     +----+
                     
 */
  
-const int pin_input_12v = A2;
-const int pin_input_5v = 3;
-const int pin_pwm_relay = 2;
-const int pin_n2_power = 1;
+const int pin_input_5v = 2;
+const int pin_input_pwm = A3;
+const int pin_input_12v = 1;
+const int pin_n2_power = 4;
 const int pin_pwm_output = 0;
 
 const int analog_value = 800;
