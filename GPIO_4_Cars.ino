@@ -4,10 +4,10 @@
                  ATtiny85 Pin map
 
                     +-\/-+
-   NC         PB5  1|O   |8  VCC
-   input_5v     3  2|    |7  2   pwm_input
-   input_12v   A2  3|    |6  1   n2_power
-              GND  4|    |5  0   pwm_output
+   NC          PB5 1|O   |8  VCC
+  input_5v   3 PB3 2|    |7 PB2 2 pwm_input
+ input_12v  A2 PB4 3|    |6 PB1 1 n2_power
+               GND 4|    |5 PB0 0 pwm_output
                     +----+
                     
 */
