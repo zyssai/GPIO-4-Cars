@@ -12,7 +12,7 @@
                     
 */
  
-const int pin_input_5v = 2;
+const int pin_input_5v = A1;
 const int pin_input_pwm = A3;
 const int pin_input_12v = 1;
 const int pin_n2_power = 4;
