@@ -12,33 +12,32 @@
                     
 */
  
-const int pin_input_5v = A1;
 const int pin_input_pwm = A3;
+const int pin_input_5v = A1;
 const int pin_input_12v = 1;
 const int pin_n2_power = 4;
 const int pin_pwm_output = 0;
-
 const int analog_value = 800;
 int input_5v = 0;
 bool input_12v = false;
  
 void setup() {
-  pinMode(pin_input_12v, INPUT);
+  pinMode(pin_input_pwm, INPUT);
   pinMode(pin_input_5v, INPUT);
-  pinMode(pin_pwm_relay, OUTPUT);
+  pinMode(pin_input_12v, INPUT);
   pinMode(pin_n2_power, OUTPUT);
   pinMode(pin_pwm_output, OUTPUT);
 }
 
 void loop() {
-  power_rail();
+  power();
 }
 
-void power_rail() {    // Set n2_power pin HIGH if input_12v OR input_5v are HIGH
-  input_12v = digitalRead(pin_input_12v);
+void power() {    // Set n2_power pin HIGH if input_12v OR input_5v are HIGH
   input_5v = analogRead(pin_input_5v);
+  input_12v = digitalRead(pin_input_12v);
   if ((input_12v = true) || (input_5v > analog_value)) {
-    pwm_screen();
+    pwm();
     digitalWrite(pin_n2_power, HIGH);
   }
   else{
@@ -47,7 +46,7 @@ void power_rail() {    // Set n2_power pin HIGH if input_12v OR input_5v are HIG
   }
 }
 
-void pwm_screen() {    // Set pwm pin ON or OFF.
+void pwm() {    // Set pwm pin ON or OFF.
   analogWrite(pin_pwm_output, 38);
   digitalWrite(pin_pwm_relay, HIGH);
   delay(200);
