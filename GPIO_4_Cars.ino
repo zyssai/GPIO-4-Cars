@@ -54,3 +54,4 @@ void power() {    // Set n2_power pin HIGH if input_12v OR input_5v are HIGH
 void pwm() {    // Set PWM
   input_pwm = analogRead(pin_input_pwm);
   analogWrite(pin_pwm_output, pin_input_pwm);
+}
