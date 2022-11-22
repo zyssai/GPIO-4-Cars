@@ -70,7 +70,7 @@ void pwm() {    // Set PWM
       analogWrite(pin_pwm_output, 38);
       boot_time = (boot_time - 100);
       if (boot_time <= 0) {
-        boot_time = 8000;
+        boot_time = boot_time_duration;
         boot_sequence = false;
       }
     }
