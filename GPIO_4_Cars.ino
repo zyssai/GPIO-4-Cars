@@ -20,6 +20,7 @@ const int pin_pwm_output = 0;
 
 const int analog_5v_value = 800;
 const int boot_time_duration = 8000;
+const int low_duty_pwm_value = 38;
 int input_pwm = 0;
 int input_5v = 0;
 int boot_time = 0;
@@ -44,9 +45,12 @@ void loop() {
 void power() {    // Set n2_power pin HIGH if input_12v OR input_5v are HIGH
   input_5v = analogRead(pin_input_5v);
   input_12v = digitalRead(pin_input_12v);
-  if ((input_12v = true) || (input_5v > analog_5_value)) {
+  if ((input_12v = true) || (input_5v > analog_5v_value)) {   // input_12v OR input_5v are HIGH
     power_output = true;
   } else {
+    power_output = false;
+  }
+  if ((input_12v = false) && (input_5v > analog_5v_value)) {   // EMERGENCY CASE: input_12v LOW AND input_5v HIGH
     power_output = false;
   }
   if (power_output != old_power_output) {
@@ -61,13 +65,13 @@ void power() {    // Set n2_power pin HIGH if input_12v OR input_5v are HIGH
   }
 }
 
-void pwm() {    // Set PWM
+void pwm() {                                      // Set PWM according to incoming N2+ PWM
   if (boot_sequence = false) {
     input_pwm = analogRead(pin_input_pwm);
     analogWrite(pin_pwm_output, pin_input_pwm);
-  } else {
+  } else {                                        // Set PWM to low duty cycle during boot process
     if (boot_time >= 0) {
-      analogWrite(pin_pwm_output, 38);
+      analogWrite(pin_pwm_output, low_duty_pwm_value);
       boot_time = (boot_time - 100);
       if (boot_time <= 0) {
         boot_time = boot_time_duration;
