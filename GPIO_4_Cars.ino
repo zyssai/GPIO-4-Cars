@@ -130,7 +130,7 @@ void pwm() {                                      // Set PWM according to incomi
 
     input_pwm = ((input_pwm * 10) /57);
 
-    }
+
 
     analogWrite(pin_pwm_output, input_pwm);
 
@@ -153,7 +153,7 @@ void pwm() {                                      // Set PWM according to incomi
       }
 
     }
-                    
+ }                  
 
  
 
