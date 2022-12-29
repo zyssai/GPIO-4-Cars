@@ -1,23 +1,5 @@
-// ****** To change logo *******
-mount -o remount,rw /odm
-cp /sdcard/boot-logo.bmp.gz /odm/
+remount
+cp /storage/emulated/0/Download/boot-logo.bmp.gz /odm/
 chmod 755 /odm/boot-logo.bmp.gz
-
-// ****** To change boot animation *******
-mount -o remount,rw /system
-
-For Android 11:
-cp /sdcard/bootanimation.zip /system/media/
-chmod 755 /system/media/bootanimation.zip
-
-For Android 12:
-cp /sdcard/bootanimation.zip /system/product/media/
+cp /storage/emulated/0/Download/bootanimation.zip /system/product/media/
 chmod 755 /system/product/media/bootanimation.zip
-
-if error when mount system:
-
-mount -o rw,remount /
-
-Don't forget to reset the state to 'ro'.
-
-mount -o ro,remount /
