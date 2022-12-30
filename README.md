@@ -10,27 +10,17 @@ https://forum.odroid.com/viewtopic.php?f=182&t=45350
 
 ## Description
 
-• Work in progress 
-
-## Getting Started
-
-### Dependencies
-
-* Work in progress 
+• Please go to Odroid forum as to have last version of description. 
 
 ### Installing
 
 * Work in progress 
 
-## Help
-
-Any advise for common problems or issues.
-
 ```
 
 ## Authors
 
-All the Odroid community, a Romanian friend, and my french friend Mika!
+All the Odroid community, mctom, and my french friend Mika!
 
 ## Version History
 
