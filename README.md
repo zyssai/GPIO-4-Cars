@@ -10,7 +10,7 @@ https://forum.odroid.com/viewtopic.php?f=182&t=45350
 
 ## Description
 
-• Please go to Odroid forum as to have last version of description. 
+• Please go to Odroid forum to have last version of description. 
 
 
 
