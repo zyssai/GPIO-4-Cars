@@ -31,7 +31,6 @@
 			status = "okay";
 			pinctrl-names = "default";
 			pinctrl-0 = <&i2c1_master_pins1>;
-//			clock-frequency = <100000>;	/* default 100k */
 			clock-frequency = <50000>;
 
 			lt8619c: hdmi-bridge@32 {
