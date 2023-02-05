@@ -1,0 +1,2486 @@
+-- Journal begins at Wed 2022-03-30 10:14:04 CEST, ends at Sun 2023-02-05 17:39:30 CET. --
+févr. 05 17:36:57 NAS systemd-udevd[432]: Using default interface naming scheme 'v247'.
+févr. 05 17:36:57 NAS systemd-udevd[429]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+févr. 05 17:36:57 NAS systemd-udevd[432]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+févr. 05 17:36:58 NAS kernel: intel_powerclamp: No package C-state available
+févr. 05 17:36:57 NAS systemd-udevd[432]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+févr. 05 17:36:58 NAS systemd[1]: Starting Show Plymouth Boot Screen...
+░░ Subject: L'unité (unit) plymouth-start.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) plymouth-start.service a commencé à démarrer.
+févr. 05 17:36:58 NAS systemd[1]: Finished Flush Journal to Persistent Storage.
+░░ Subject: L'unité (unit) systemd-journal-flush.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-journal-flush.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Found device KingDian_S180_60GB 5.
+░░ Subject: L'unité (unit) dev-disk-by\x2duuid-44289de1\x2d7ff8\x2d4aed\x2db5a8\x2d3b534ce96e7c.device a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) dev-disk-by\x2duuid-44289de1\x2d7ff8\x2d4aed\x2db5a8\x2d3b534ce96e7c.device a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Started Show Plymouth Boot Screen.
+░░ Subject: L'unité (unit) plymouth-start.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) plymouth-start.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Found device ST4000DM004-2CV104 HDD1.
+░░ Subject: L'unité (unit) dev-disk-by\x2dlabel-HDD1.device a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) dev-disk-by\x2dlabel-HDD1.device a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Found device ST4000DM004-2CV104 HDD3.
+░░ Subject: L'unité (unit) dev-disk-by\x2dlabel-HDD3.device a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) dev-disk-by\x2dlabel-HDD3.device a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Found device ST4000DM000-1F2168 HDD4.
+░░ Subject: L'unité (unit) dev-disk-by\x2dlabel-HDD4.device a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) dev-disk-by\x2dlabel-HDD4.device a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Found device ST4000DM004-2CV104 HDD2.
+░░ Subject: L'unité (unit) dev-disk-by\x2dlabel-HDD2.device a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) dev-disk-by\x2dlabel-HDD2.device a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Found device /dev/disk/by-label/RAID.
+░░ Subject: L'unité (unit) dev-disk-by\x2dlabel-RAID.device a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) dev-disk-by\x2dlabel-RAID.device a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS kernel: intel_powerclamp: No package C-state available
+févr. 05 17:36:58 NAS systemd[1]: Condition check resulted in Dispatch Password Requests to Console Directory Watch being skipped.
+░░ Subject: L'unité (unit) systemd-ask-password-console.path a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-ask-password-console.path a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+░░ Subject: L'unité (unit) systemd-ask-password-plymouth.path a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-ask-password-plymouth.path a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Reached target Local Encrypted Volumes.
+░░ Subject: L'unité (unit) cryptsetup.target a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) cryptsetup.target a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Activating swap /dev/disk/by-uuid/44289de1-7ff8-4aed-b5a8-3b534ce96e7c...
+░░ Subject: L'unité (unit) dev-disk-by\x2duuid-44289de1\x2d7ff8\x2d4aed\x2db5a8\x2d3b534ce96e7c.swap a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) dev-disk-by\x2duuid-44289de1\x2d7ff8\x2d4aed\x2db5a8\x2d3b534ce96e7c.swap a commencé à démarrer.
+févr. 05 17:36:58 NAS systemd[1]: Mounting /mnt/HDD1...
+░░ Subject: L'unité (unit) mnt-HDD1.mount a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) mnt-HDD1.mount a commencé à démarrer.
+févr. 05 17:36:58 NAS systemd[1]: Mounting /mnt/HDD2...
+░░ Subject: L'unité (unit) mnt-HDD2.mount a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) mnt-HDD2.mount a commencé à démarrer.
+févr. 05 17:36:58 NAS systemd[1]: Mounting /mnt/HDD3...
+░░ Subject: L'unité (unit) mnt-HDD3.mount a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) mnt-HDD3.mount a commencé à démarrer.
+févr. 05 17:36:58 NAS systemd[1]: mnt-HDD4.mount: Directory /mnt/HDD4 to mount over is not empty, mounting anyway.
+░░ Subject: Le point de montage n'est pas vide
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ Le répertoire /mnt/HDD4 est spécifié comme point de montage (second champ du
+░░ fichier /etc/fstab, ou champ Where= dans une unité (unit) systemd) et n'est
+░░ pas vide.
+░░ Cela ne perturbe pas le montage du système de fichiers, mais les fichiers
+░░ préalablement présents dans ce répertoire sont devenus inaccessibles.
+░░ Pour atteindre ces fichiers, veuillez monter manuellement le système de
+░░ fichiers sous-jacent à un autre emplacement.
+févr. 05 17:36:58 NAS systemd[1]: Mounting /mnt/HDD4...
+░░ Subject: L'unité (unit) mnt-HDD4.mount a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) mnt-HDD4.mount a commencé à démarrer.
+févr. 05 17:36:58 NAS systemd[1]: mnt-RAID.mount: Directory /mnt/RAID to mount over is not empty, mounting anyway.
+░░ Subject: Le point de montage n'est pas vide
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ Le répertoire /mnt/RAID est spécifié comme point de montage (second champ du
+░░ fichier /etc/fstab, ou champ Where= dans une unité (unit) systemd) et n'est
+░░ pas vide.
+░░ Cela ne perturbe pas le montage du système de fichiers, mais les fichiers
+░░ préalablement présents dans ce répertoire sont devenus inaccessibles.
+░░ Pour atteindre ces fichiers, veuillez monter manuellement le système de
+░░ fichiers sous-jacent à un autre emplacement.
+févr. 05 17:36:58 NAS systemd[1]: Mounting /mnt/RAID...
+░░ Subject: L'unité (unit) mnt-RAID.mount a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) mnt-RAID.mount a commencé à démarrer.
+févr. 05 17:36:58 NAS systemd[1]: Started MD array monitor.
+░░ Subject: L'unité (unit) mdmonitor.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) mdmonitor.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+░░ Subject: L'unité (unit) systemd-binfmt.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-binfmt.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS kernel: intel_powerclamp: No package C-state available
+févr. 05 17:36:58 NAS kernel: nvidia-modeset: Loading NVIDIA Kernel Mode Setting Driver for UNIX platforms  470.161.03  Wed Oct 19 00:05:15 UTC 2022
+févr. 05 17:36:58 NAS systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+░░ Subject: L'unité (unit) systemd-boot-system-token.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-boot-system-token.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+░░ Subject: L'unité (unit) systemd-hwdb-update.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-hwdb-update.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+░░ Subject: L'unité (unit) systemd-machine-id-commit.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-machine-id-commit.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+░░ Subject: L'unité (unit) systemd-pstore.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-pstore.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Starting Create Volatile Files and Directories...
+░░ Subject: L'unité (unit) systemd-tmpfiles-setup.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-tmpfiles-setup.service a commencé à démarrer.
+févr. 05 17:36:58 NAS kernel: Adding 998396k swap on /dev/sdg5.  Priority:-2 extents:1 across:998396k SSFS
+févr. 05 17:36:58 NAS systemd[1]: Activated swap /dev/disk/by-uuid/44289de1-7ff8-4aed-b5a8-3b534ce96e7c.
+░░ Subject: L'unité (unit) dev-disk-by\x2duuid-44289de1\x2d7ff8\x2d4aed\x2db5a8\x2d3b534ce96e7c.swap a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) dev-disk-by\x2duuid-44289de1\x2d7ff8\x2d4aed\x2db5a8\x2d3b534ce96e7c.swap a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Reached target Swap.
+░░ Subject: L'unité (unit) swap.target a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) swap.target a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Finished Create Volatile Files and Directories.
+░░ Subject: L'unité (unit) systemd-tmpfiles-setup.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-tmpfiles-setup.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Starting Network Time Synchronization...
+░░ Subject: L'unité (unit) systemd-timesyncd.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-timesyncd.service a commencé à démarrer.
+févr. 05 17:36:58 NAS systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+░░ Subject: L'unité (unit) systemd-update-utmp.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-update-utmp.service a commencé à démarrer.
+févr. 05 17:36:58 NAS kernel: EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+févr. 05 17:36:58 NAS systemd[1]: Mounted /mnt/RAID.
+░░ Subject: L'unité (unit) mnt-RAID.mount a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) mnt-RAID.mount a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Finished Update UTMP about System Boot/Shutdown.
+░░ Subject: L'unité (unit) systemd-update-utmp.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-update-utmp.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd-modules-load[287]: Inserted module 'nvidia_drm'
+févr. 05 17:36:58 NAS kernel: [drm] [nvidia-drm] [GPU ID 0x00000100] Loading driver
+févr. 05 17:36:58 NAS kernel: [drm] Initialized nvidia-drm 0.0.0 20160202 for 0000:01:00.0 on minor 0
+févr. 05 17:36:58 NAS systemd[1]: Finished Load Kernel Modules.
+░░ Subject: L'unité (unit) systemd-modules-load.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-modules-load.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Starting Apply Kernel Variables...
+░░ Subject: L'unité (unit) systemd-sysctl.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-sysctl.service a commencé à démarrer.
+févr. 05 17:36:58 NAS systemd[1]: Started Network Time Synchronization.
+░░ Subject: L'unité (unit) systemd-timesyncd.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-timesyncd.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Reached target System Time Set.
+░░ Subject: L'unité (unit) time-set.target a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) time-set.target a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Reached target System Time Synchronized.
+░░ Subject: L'unité (unit) time-sync.target a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) time-sync.target a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Finished Apply Kernel Variables.
+░░ Subject: L'unité (unit) systemd-sysctl.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-sysctl.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Reached target System Initialization.
+░░ Subject: L'unité (unit) sysinit.target a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) sysinit.target a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Started CUPS Scheduler.
+░░ Subject: L'unité (unit) cups.path a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) cups.path a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Started Trigger anacron every hour.
+░░ Subject: L'unité (unit) anacron.timer a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) anacron.timer a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Started Daily apt download activities.
+░░ Subject: L'unité (unit) apt-daily.timer a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) apt-daily.timer a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Started Daily apt upgrade and clean activities.
+░░ Subject: L'unité (unit) apt-daily-upgrade.timer a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) apt-daily-upgrade.timer a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+░░ Subject: L'unité (unit) e2scrub_all.timer a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) e2scrub_all.timer a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Started Daily exim4-base housekeeping.
+░░ Subject: L'unité (unit) exim4-base.timer a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) exim4-base.timer a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Started Discard unused blocks once a week.
+░░ Subject: L'unité (unit) fstrim.timer a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) fstrim.timer a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Started Refresh fwupd metadata regularly.
+░░ Subject: L'unité (unit) fwupd-refresh.timer a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) fwupd-refresh.timer a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Started Daily rotation of log files.
+░░ Subject: L'unité (unit) logrotate.timer a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) logrotate.timer a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Started Daily man-db regeneration.
+░░ Subject: L'unité (unit) man-db.timer a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) man-db.timer a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Started Daily Cleanup of Temporary Directories.
+░░ Subject: L'unité (unit) systemd-tmpfiles-clean.timer a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-tmpfiles-clean.timer a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Reached target Paths.
+░░ Subject: L'unité (unit) paths.target a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) paths.target a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Reached target Timers.
+░░ Subject: L'unité (unit) timers.target a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) timers.target a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+░░ Subject: L'unité (unit) avahi-daemon.socket a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) avahi-daemon.socket a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Listening on CUPS Scheduler.
+░░ Subject: L'unité (unit) cups.socket a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) cups.socket a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Listening on D-Bus System Message Bus Socket.
+░░ Subject: L'unité (unit) dbus.socket a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) dbus.socket a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Starting Docker Socket for the API.
+░░ Subject: L'unité (unit) docker.socket a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) docker.socket a commencé à démarrer.
+févr. 05 17:36:58 NAS systemd[1]: Listening on PC/SC Smart Card Daemon Activation Socket.
+░░ Subject: L'unité (unit) pcscd.socket a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) pcscd.socket a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Starting Raise network interfaces...
+░░ Subject: L'unité (unit) networking.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) networking.service a commencé à démarrer.
+févr. 05 17:36:58 NAS systemd[1]: Listening on Docker Socket for the API.
+░░ Subject: L'unité (unit) docker.socket a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) docker.socket a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Reached target Sockets.
+░░ Subject: L'unité (unit) sockets.target a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) sockets.target a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Reached target Basic System.
+░░ Subject: L'unité (unit) basic.target a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) basic.target a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Starting Accounts Service...
+░░ Subject: L'unité (unit) accounts-daemon.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) accounts-daemon.service a commencé à démarrer.
+févr. 05 17:36:58 NAS systemd[1]: Started Run anacron jobs.
+░░ Subject: L'unité (unit) anacron.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) anacron.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS anacron[550]: Anacron 2.3 started on 2023-02-05
+févr. 05 17:36:58 NAS systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+░░ Subject: L'unité (unit) avahi-daemon.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) avahi-daemon.service a commencé à démarrer.
+févr. 05 17:36:58 NAS cron[556]: (CRON) INFO (pidfile fd = 3)
+févr. 05 17:36:58 NAS systemd[1]: Starting LSB: Set up cgroupfs mounts....
+░░ Subject: L'unité (unit) cgroupfs-mount.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) cgroupfs-mount.service a commencé à démarrer.
+févr. 05 17:36:58 NAS systemd[1]: Started Regular background program processing daemon.
+░░ Subject: L'unité (unit) cron.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) cron.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Started D-Bus System Message Bus.
+░░ Subject: L'unité (unit) dbus.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) dbus.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS anacron[550]: Normal exit (0 jobs run)
+févr. 05 17:36:58 NAS systemd[1]: Starting Network Manager...
+░░ Subject: L'unité (unit) NetworkManager.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager.service a commencé à démarrer.
+févr. 05 17:36:58 NAS systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+░░ Subject: L'unité (unit) e2scrub_reap.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) e2scrub_reap.service a commencé à démarrer.
+févr. 05 17:36:58 NAS systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+░░ Subject: L'unité (unit) getty-static.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) getty-static.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Starting Initialize hardware monitoring sensors...
+░░ Subject: L'unité (unit) lm-sensors.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) lm-sensors.service a commencé à démarrer.
+févr. 05 17:36:58 NAS systemd[1]: Starting NVIDIA Persistence Daemon...
+░░ Subject: L'unité (unit) nvidia-persistenced.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) nvidia-persistenced.service a commencé à démarrer.
+févr. 05 17:36:58 NAS systemd[1]: Starting Authorization Manager...
+░░ Subject: L'unité (unit) polkit.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) polkit.service a commencé à démarrer.
+févr. 05 17:36:58 NAS systemd[1]: Starting System Logging Service...
+░░ Subject: L'unité (unit) rsyslog.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) rsyslog.service a commencé à démarrer.
+févr. 05 17:36:58 NAS systemd[1]: Starting Self Monitoring and Reporting Technology (SMART) Daemon...
+░░ Subject: L'unité (unit) smartmontools.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) smartmontools.service a commencé à démarrer.
+févr. 05 17:36:58 NAS systemd[1]: Starting Switcheroo Control Proxy service...
+░░ Subject: L'unité (unit) switcheroo-control.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) switcheroo-control.service a commencé à démarrer.
+févr. 05 17:36:58 NAS cron[556]: (CRON) INFO (Running @reboot jobs)
+févr. 05 17:36:58 NAS systemd[1]: Starting User Login Management...
+░░ Subject: L'unité (unit) systemd-logind.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-logind.service a commencé à démarrer.
+févr. 05 17:36:58 NAS systemd[1]: Starting Disk Manager...
+░░ Subject: L'unité (unit) udisks2.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) udisks2.service a commencé à démarrer.
+févr. 05 17:36:58 NAS nvidia-persistenced[570]: Started (570)
+févr. 05 17:36:58 NAS systemd[1]: Starting WPA supplicant...
+░░ Subject: L'unité (unit) wpa_supplicant.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) wpa_supplicant.service a commencé à démarrer.
+févr. 05 17:36:58 NAS avahi-daemon[552]: Found user 'avahi' (UID 109) and group 'avahi' (GID 114).
+févr. 05 17:36:58 NAS systemd[1]: anacron.service: Succeeded.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit anacron.service has successfully entered the 'dead' state.
+févr. 05 17:36:58 NAS avahi-daemon[552]: Successfully dropped root privileges.
+févr. 05 17:36:58 NAS systemd[1]: Started LSB: Set up cgroupfs mounts..
+░░ Subject: L'unité (unit) cgroupfs-mount.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) cgroupfs-mount.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS avahi-daemon[552]: avahi-daemon 0.8 starting up.
+févr. 05 17:36:58 NAS sensors[587]: coretemp-isa-0000
+févr. 05 17:36:58 NAS sensors[587]: Adapter: ISA adapter
+févr. 05 17:36:58 NAS sensors[587]: Core 0:       +58.0°C  (high = +80.0°C, crit = +100.0°C)
+févr. 05 17:36:58 NAS sensors[587]: Core 3:       +57.0°C  (high = +80.0°C, crit = +100.0°C)
+févr. 05 17:36:58 NAS sensors[587]: Core 1:       +56.0°C  (high = +80.0°C, crit = +100.0°C)
+févr. 05 17:36:58 NAS sensors[587]: Core 2:       +58.0°C  (high = +80.0°C, crit = +100.0°C)
+févr. 05 17:36:58 NAS systemd[1]: Finished Initialize hardware monitoring sensors.
+░░ Subject: L'unité (unit) lm-sensors.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) lm-sensors.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd[1]: Finished Uncomplicated firewall.
+░░ Subject: L'unité (unit) ufw.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) ufw.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS systemd-logind[573]: New seat seat0.
+░░ Subject: Un nouveau poste (seat) seat0 est disponible
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ Documentation: sd-login(3)
+░░ 
+░░ Un nouveau poste (seat) seat0 a été configuré et est maintenant
+░░ disponible.
+févr. 05 17:36:58 NAS systemd-logind[573]: Watching system buttons on /dev/input/event1 (Power Button)
+févr. 05 17:36:58 NAS systemd-logind[573]: Watching system buttons on /dev/input/event0 (Power Button)
+févr. 05 17:36:58 NAS systemd-logind[573]: Watching system buttons on /dev/input/event3 (SINO WEALTH USB Composite Device)
+févr. 05 17:36:58 NAS udisksd[574]: udisks daemon version 2.9.2 starting
+févr. 05 17:36:58 NAS systemd-logind[573]: Watching system buttons on /dev/input/event5 (SINO WEALTH USB Composite Device System Control)
+févr. 05 17:36:58 NAS systemd-logind[573]: Watching system buttons on /dev/input/event6 (SINO WEALTH USB Composite Device Consumer Control)
+févr. 05 17:36:58 NAS systemd[1]: Started System Logging Service.
+░░ Subject: L'unité (unit) rsyslog.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) rsyslog.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS rsyslogd[567]: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2102.0]
+févr. 05 17:36:58 NAS systemd[1]: Finished Raise network interfaces.
+░░ Subject: L'unité (unit) networking.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) networking.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS rsyslogd[567]: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="567" x-info="https://www.rsyslog.com"] start
+févr. 05 17:36:58 NAS smartd[569]: smartd 7.2 2020-12-30 r5155 [x86_64-linux-5.10.0-21-amd64] (local build)
+févr. 05 17:36:59 NAS kernel: resource sanity check: requesting [mem 0x000c0000-0x000fffff], which spans more than PCI Bus 0000:00 [mem 0x000c0000-0x000dffff window]
+févr. 05 17:36:59 NAS kernel: caller _nv000720rm+0x1ad/0x200 [nvidia] mapping multiple BARs
+févr. 05 17:36:59 NAS NetworkManager[562]: <info>  [1675615019.0329] NetworkManager (version 1.30.6) is starting... (for the first time)
+févr. 05 17:36:58 NAS smartd[569]: Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+févr. 05 17:36:59 NAS NetworkManager[562]: <info>  [1675615019.0331] Read config: /etc/NetworkManager/NetworkManager.conf (lib: no-mac-addr-change.conf)
+févr. 05 17:36:58 NAS smartd[569]: Opened configuration file /etc/smartd.conf
+févr. 05 17:36:59 NAS systemd[1]: e2scrub_reap.service: Succeeded.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit e2scrub_reap.service has successfully entered the 'dead' state.
+févr. 05 17:36:58 NAS smartd[569]: Drive: DEVICESCAN, implied '-a' Directive on line 21 of file /etc/smartd.conf
+févr. 05 17:36:59 NAS systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+░░ Subject: L'unité (unit) e2scrub_reap.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) e2scrub_reap.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:58 NAS smartd[569]: Configuration file /etc/smartd.conf was parsed, found DEVICESCAN, scanning devices
+févr. 05 17:36:58 NAS smartd[569]: Device: /dev/sda, type changed from 'scsi' to 'sat'
+févr. 05 17:36:58 NAS smartd[569]: Device: /dev/sda [SAT], opened
+févr. 05 17:36:58 NAS smartd[569]: Device: /dev/sda [SAT], WDC WD5000AAKX-083CA1, S/N:WD-WCAYUHJ57348, WWN:5-0014ee-159f155c7, FW:19.01H19, 500 GB
+févr. 05 17:36:58 NAS smartd[569]: Device: /dev/sda [SAT], found in smartd database: Western Digital Blue
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sda [SAT], is SMART capable. Adding to "monitor" list.
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sda [SAT], state read from /var/lib/smartmontools/smartd.WDC_WD5000AAKX_083CA1-WD_WCAYUHJ57348.ata.state
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sdb, type changed from 'scsi' to 'sat'
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sdb [SAT], opened
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sdb [SAT], WDC WD5000AAKX-083CA1, S/N:WD-WCAYUHK81314, WWN:5-0014ee-1af40e72d, FW:19.01H19, 500 GB
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sdb [SAT], found in smartd database: Western Digital Blue
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sdb [SAT], is SMART capable. Adding to "monitor" list.
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sdb [SAT], state read from /var/lib/smartmontools/smartd.WDC_WD5000AAKX_083CA1-WD_WCAYUHK81314.ata.state
+févr. 05 17:36:59 NAS ntfs-3g[627]: Version 2017.3.23AR.3 integrated FUSE 28
+févr. 05 17:36:59 NAS ntfs-3g[627]: Mounted /dev/sdd1 (Read-Write, label "HDD2", NTFS 3.1)
+févr. 05 17:36:59 NAS ntfs-3g[627]: Cmdline options: rw,nosuid,nodev
+févr. 05 17:36:59 NAS ntfs-3g[627]: Mount options: nosuid,nodev,allow_other,nonempty,relatime,rw,fsname=/dev/sdd1,blkdev,blksize=4096
+févr. 05 17:36:59 NAS ntfs-3g[627]: Ownership and permissions disabled, configuration type 7
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sdc, type changed from 'scsi' to 'sat'
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sdc [SAT], opened
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sdc [SAT], ST4000DM004-2CV104, S/N:ZFN0DK01, WWN:5-000c50-0a47c857a, FW:0001, 4.00 TB
+févr. 05 17:36:59 NAS systemd[1]: Mounted /mnt/HDD2.
+░░ Subject: L'unité (unit) mnt-HDD2.mount a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) mnt-HDD2.mount a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sdc [SAT], found in smartd database: Seagate BarraCuda 3.5
+févr. 05 17:36:59 NAS ntfs-3g[630]: Version 2017.3.23AR.3 integrated FUSE 28
+févr. 05 17:36:59 NAS ntfs-3g[630]: Mounted /dev/sdc1 (Read-Write, label "HDD1", NTFS 3.1)
+févr. 05 17:36:59 NAS ntfs-3g[630]: Cmdline options: rw,nosuid,nodev
+févr. 05 17:36:59 NAS ntfs-3g[630]: Mount options: nosuid,nodev,allow_other,nonempty,relatime,rw,fsname=/dev/sdc1,blkdev,blksize=4096
+févr. 05 17:36:59 NAS ntfs-3g[630]: Ownership and permissions disabled, configuration type 7
+févr. 05 17:36:59 NAS systemd[1]: Mounted /mnt/HDD1.
+░░ Subject: L'unité (unit) mnt-HDD1.mount a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) mnt-HDD1.mount a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:59 NAS ntfs-3g[631]: Version 2017.3.23AR.3 integrated FUSE 28
+févr. 05 17:36:59 NAS ntfs-3g[631]: Mounted /dev/sdf1 (Read-Write, label "HDD4", NTFS 3.1)
+févr. 05 17:36:59 NAS ntfs-3g[631]: Cmdline options: rw,nosuid,nodev
+févr. 05 17:36:59 NAS ntfs-3g[631]: Mount options: nosuid,nodev,allow_other,nonempty,relatime,rw,fsname=/dev/sdf1,blkdev,blksize=4096
+févr. 05 17:36:59 NAS ntfs-3g[631]: Ownership and permissions disabled, configuration type 7
+févr. 05 17:36:59 NAS systemd[1]: Mounted /mnt/HDD4.
+░░ Subject: L'unité (unit) mnt-HDD4.mount a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) mnt-HDD4.mount a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:59 NAS ntfs-3g[632]: Version 2017.3.23AR.3 integrated FUSE 28
+févr. 05 17:36:59 NAS ntfs-3g[632]: Mounted /dev/sde1 (Read-Write, label "HDD3", NTFS 3.1)
+févr. 05 17:36:59 NAS ntfs-3g[632]: Cmdline options: rw,nosuid,nodev
+févr. 05 17:36:59 NAS ntfs-3g[632]: Mount options: nosuid,nodev,allow_other,nonempty,relatime,rw,fsname=/dev/sde1,blkdev,blksize=4096
+févr. 05 17:36:59 NAS ntfs-3g[632]: Ownership and permissions disabled, configuration type 7
+févr. 05 17:36:59 NAS wpa_supplicant[575]: Successfully initialized wpa_supplicant
+févr. 05 17:36:59 NAS avahi-daemon[552]: Successfully called chroot().
+févr. 05 17:36:59 NAS systemd[1]: Mounted /mnt/HDD3.
+░░ Subject: L'unité (unit) mnt-HDD3.mount a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) mnt-HDD3.mount a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:59 NAS avahi-daemon[552]: Successfully dropped remaining capabilities.
+févr. 05 17:36:59 NAS avahi-daemon[552]: No service file found in /etc/avahi/services.
+févr. 05 17:36:59 NAS avahi-daemon[552]: Joining mDNS multicast group on interface lo.IPv6 with address ::1.
+févr. 05 17:36:59 NAS avahi-daemon[552]: New relevant interface lo.IPv6 for mDNS.
+févr. 05 17:36:59 NAS systemd[1]: Started User Login Management.
+░░ Subject: L'unité (unit) systemd-logind.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-logind.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:59 NAS avahi-daemon[552]: Joining mDNS multicast group on interface lo.IPv4 with address 127.0.0.1.
+févr. 05 17:36:59 NAS avahi-daemon[552]: New relevant interface lo.IPv4 for mDNS.
+févr. 05 17:36:59 NAS avahi-daemon[552]: Network interface enumeration completed.
+févr. 05 17:36:59 NAS avahi-daemon[552]: Registering new address record for ::1 on lo.*.
+févr. 05 17:36:59 NAS systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+░░ Subject: L'unité (unit) avahi-daemon.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) avahi-daemon.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:59 NAS avahi-daemon[552]: Registering new address record for 127.0.0.1 on lo.IPv4.
+févr. 05 17:36:59 NAS systemd[1]: Started WPA supplicant.
+░░ Subject: L'unité (unit) wpa_supplicant.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) wpa_supplicant.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:59 NAS systemd[1]: Started Switcheroo Control Proxy service.
+░░ Subject: L'unité (unit) switcheroo-control.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) switcheroo-control.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:59 NAS systemd[1]: Condition check resulted in Manage Sound Card State (restore and store) being skipped.
+░░ Subject: L'unité (unit) alsa-state.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) alsa-state.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:59 NAS NetworkManager[562]: <info>  [1675615019.2886] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+févr. 05 17:36:59 NAS systemd[1]: Starting Save/Restore Sound Card State...
+░░ Subject: L'unité (unit) alsa-restore.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) alsa-restore.service a commencé à démarrer.
+févr. 05 17:36:59 NAS systemd[1]: Started Network Manager.
+░░ Subject: L'unité (unit) NetworkManager.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:59 NAS systemd[1]: Reached target Network.
+░░ Subject: L'unité (unit) network.target a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) network.target a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:59 NAS systemd[1]: Starting Network Manager Wait Online...
+░░ Subject: L'unité (unit) NetworkManager-wait-online.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-wait-online.service a commencé à démarrer.
+févr. 05 17:36:59 NAS NetworkManager[562]: <info>  [1675615019.3088] manager[0x55ddd42ed030]: monitoring kernel firmware directory '/lib/firmware'.
+févr. 05 17:36:59 NAS NetworkManager[562]: <info>  [1675615019.3093] monitoring ifupdown state file '/run/network/ifstate'.
+févr. 05 17:36:59 NAS systemd[1]: Starting containerd container runtime...
+░░ Subject: L'unité (unit) containerd.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) containerd.service a commencé à démarrer.
+févr. 05 17:36:59 NAS dbus-daemon[558]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.7' (uid=0 pid=562 comm="/usr/sbin/NetworkManager --no-daemon ")
+févr. 05 17:36:59 NAS systemd[1]: Starting CUPS Scheduler...
+░░ Subject: L'unité (unit) cups.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) cups.service a commencé à démarrer.
+févr. 05 17:36:59 NAS dbus-daemon[558]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.5' (uid=0 pid=549 comm="/usr/libexec/accounts-daemon ")
+févr. 05 17:36:59 NAS systemd[1]: Starting OpenVPN service...
+░░ Subject: L'unité (unit) openvpn.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) openvpn.service a commencé à démarrer.
+févr. 05 17:36:59 NAS xrdp-sesman[647]: (647)(140640144176704)[DEBUG] libscp initialized
+févr. 05 17:36:59 NAS systemd[1]: Starting OpenBSD Secure Shell server...
+░░ Subject: L'unité (unit) ssh.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) ssh.service a commencé à démarrer.
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sdc [SAT], is SMART capable. Adding to "monitor" list.
+févr. 05 17:36:59 NAS systemd[1]: Starting Permit User Sessions...
+░░ Subject: L'unité (unit) systemd-user-sessions.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-user-sessions.service a commencé à démarrer.
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sdc [SAT], state read from /var/lib/smartmontools/smartd.ST4000DM004_2CV104-ZFN0DK01.ata.state
+févr. 05 17:36:59 NAS systemd[1]: Started Unattended Upgrades Shutdown.
+░░ Subject: L'unité (unit) unattended-upgrades.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) unattended-upgrades.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sdd, type changed from 'scsi' to 'sat'
+févr. 05 17:36:59 NAS systemd[1]: Starting xrdp session manager...
+░░ Subject: L'unité (unit) xrdp-sesman.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) xrdp-sesman.service a commencé à démarrer.
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sdd [SAT], opened
+févr. 05 17:36:59 NAS systemd[1]: Finished Save/Restore Sound Card State.
+░░ Subject: L'unité (unit) alsa-restore.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) alsa-restore.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sdd [SAT], ST4000DM004-2CV104, S/N:ZFN0595N, WWN:5-000c50-0a3cd303f, FW:0001, 4.00 TB
+févr. 05 17:36:59 NAS systemd[1]: Finished OpenVPN service.
+░░ Subject: L'unité (unit) openvpn.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) openvpn.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sdd [SAT], found in smartd database: Seagate BarraCuda 3.5
+févr. 05 17:36:59 NAS systemd[1]: Reached target Sound Card.
+░░ Subject: L'unité (unit) sound.target a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) sound.target a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:59 NAS xrdp-sesman[647]: (647)(140640144176704)[DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+févr. 05 17:36:59 NAS systemd[1]: Starting Hostname Service...
+░░ Subject: L'unité (unit) systemd-hostnamed.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-hostnamed.service a commencé à démarrer.
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59+01:00" level=warning msg="containerd config version `1` has been deprecated and will be removed in containerd v2.0, please switch to version `2`, see https://github.com/containerd/containerd/blob/main/docs/PLUGINS.md#version-header"
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.932916015+01:00" level=info msg="starting containerd" revision=31aa4358a36870b21a992d3ad2bef29e1d693bec version=1.6.16
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.958362407+01:00" level=info msg="loading plugin \"io.containerd.content.v1.content\"..." type=io.containerd.content.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.958672922+01:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.aufs\"..." type=io.containerd.snapshotter.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.961482637+01:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.aufs\"..." error="aufs is not supported (modprobe aufs failed: exit status 1 \"modprobe: FATAL: Module aufs not found in directory /lib/modules/5.10.0-21-amd64\\n\"): skip plugin" type=io.containerd.snapshotter.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.961586211+01:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." type=io.containerd.snapshotter.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.961805024+01:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." error="path /var/lib/containerd/io.containerd.snapshotter.v1.btrfs (ext4) must be a btrfs filesystem to be used with the btrfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.961838199+01:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.devmapper\"..." type=io.containerd.snapshotter.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.961877589+01:00" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.devmapper" error="devmapper not configured"
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.961904408+01:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.native\"..." type=io.containerd.snapshotter.v1
+févr. 05 17:36:59 NAS xrdp-sesman[647]: (647)(140640144176704)[DEBUG] Closed socket 5 (AF_INET6 ::1 port 3350)
+févr. 05 17:36:59 NAS systemd[1]: Started xrdp session manager.
+░░ Subject: L'unité (unit) xrdp-sesman.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) xrdp-sesman.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.962176300+01:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.overlayfs\"..." type=io.containerd.snapshotter.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.962485837+01:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.zfs\"..." type=io.containerd.snapshotter.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.964445444+01:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.zfs\"..." error="path /var/lib/containerd/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.964484415+01:00" level=info msg="loading plugin \"io.containerd.metadata.v1.bolt\"..." type=io.containerd.metadata.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.964538402+01:00" level=warning msg="could not use snapshotter devmapper in metadata plugin" error="devmapper not configured"
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.964566129+01:00" level=info msg="metadata content store policy set" policy=shared
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.967857609+01:00" level=info msg="loading plugin \"io.containerd.differ.v1.walking\"..." type=io.containerd.differ.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.967923959+01:00" level=info msg="loading plugin \"io.containerd.event.v1.exchange\"..." type=io.containerd.event.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.967957971+01:00" level=info msg="loading plugin \"io.containerd.gc.v1.scheduler\"..." type=io.containerd.gc.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.968028860+01:00" level=info msg="loading plugin \"io.containerd.service.v1.introspection-service\"..." type=io.containerd.service.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.968061336+01:00" level=info msg="loading plugin \"io.containerd.service.v1.containers-service\"..." type=io.containerd.service.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.968092555+01:00" level=info msg="loading plugin \"io.containerd.service.v1.content-service\"..." type=io.containerd.service.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.968125311+01:00" level=info msg="loading plugin \"io.containerd.service.v1.diff-service\"..." type=io.containerd.service.v1
+févr. 05 17:36:59 NAS xrdp-sesman[650]: (650)(140640144176704)[INFO ] starting xrdp-sesman with pid 650
+févr. 05 17:36:59 NAS systemd[1]: Starting xrdp daemon...
+░░ Subject: L'unité (unit) xrdp.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) xrdp.service a commencé à démarrer.
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.968189006+01:00" level=info msg="loading plugin \"io.containerd.service.v1.images-service\"..." type=io.containerd.service.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.968228676+01:00" level=info msg="loading plugin \"io.containerd.service.v1.leases-service\"..." type=io.containerd.service.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.968259755+01:00" level=info msg="loading plugin \"io.containerd.service.v1.namespaces-service\"..." type=io.containerd.service.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.968289787+01:00" level=info msg="loading plugin \"io.containerd.service.v1.snapshots-service\"..." type=io.containerd.service.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.968321495+01:00" level=info msg="loading plugin \"io.containerd.runtime.v1.linux\"..." type=io.containerd.runtime.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.968429330+01:00" level=info msg="loading plugin \"io.containerd.runtime.v2.task\"..." type=io.containerd.runtime.v2
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.968518308+01:00" level=info msg="loading plugin \"io.containerd.monitor.v1.cgroups\"..." type=io.containerd.monitor.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.969606435+01:00" level=info msg="loading plugin \"io.containerd.service.v1.tasks-service\"..." type=io.containerd.service.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.969669292+01:00" level=info msg="loading plugin \"io.containerd.grpc.v1.introspection\"..." type=io.containerd.grpc.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.969702746+01:00" level=info msg="loading plugin \"io.containerd.internal.v1.restart\"..." type=io.containerd.internal.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.970375178+01:00" level=info msg="loading plugin \"io.containerd.grpc.v1.containers\"..." type=io.containerd.grpc.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.970407026+01:00" level=info msg="loading plugin \"io.containerd.grpc.v1.content\"..." type=io.containerd.grpc.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.970464924+01:00" level=info msg="loading plugin \"io.containerd.grpc.v1.diff\"..." type=io.containerd.grpc.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.970494956+01:00" level=info msg="loading plugin \"io.containerd.grpc.v1.events\"..." type=io.containerd.grpc.v1
+févr. 05 17:36:59 NAS xrdp-sesman[650]: (650)(140640144176704)[INFO ] listening to port 3350 on 127.0.0.1
+févr. 05 17:36:59 NAS systemd[1]: xrdp.service: Can't open PID file /run/xrdp/xrdp.pid (yet?) after start: Operation not permitted
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.970524918+01:00" level=info msg="loading plugin \"io.containerd.grpc.v1.healthcheck\"..." type=io.containerd.grpc.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.970555788+01:00" level=info msg="loading plugin \"io.containerd.grpc.v1.images\"..." type=io.containerd.grpc.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.970584143+01:00" level=info msg="loading plugin \"io.containerd.grpc.v1.leases\"..." type=io.containerd.grpc.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.970612289+01:00" level=info msg="loading plugin \"io.containerd.grpc.v1.namespaces\"..." type=io.containerd.grpc.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.970643857+01:00" level=info msg="loading plugin \"io.containerd.internal.v1.opt\"..." type=io.containerd.internal.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.973528861+01:00" level=info msg="loading plugin \"io.containerd.grpc.v1.snapshots\"..." type=io.containerd.grpc.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.973567972+01:00" level=info msg="loading plugin \"io.containerd.grpc.v1.tasks\"..." type=io.containerd.grpc.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.973600588+01:00" level=info msg="loading plugin \"io.containerd.grpc.v1.version\"..." type=io.containerd.grpc.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.973634182+01:00" level=info msg="loading plugin \"io.containerd.tracing.processor.v1.otlp\"..." type=io.containerd.tracing.processor.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.973666309+01:00" level=info msg="skip loading plugin \"io.containerd.tracing.processor.v1.otlp\"..." error="no OpenTelemetry endpoint: skip plugin" type=io.containerd.tracing.processor.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.973698645+01:00" level=info msg="loading plugin \"io.containerd.internal.v1.tracing\"..." type=io.containerd.internal.v1
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.973733147+01:00" level=error msg="failed to initialize a tracing processor \"otlp\"" error="no OpenTelemetry endpoint: skip plugin"
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.974079420+01:00" level=info msg=serving... address=/run/containerd/containerd.sock.ttrpc
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.974158620+01:00" level=info msg=serving... address=/run/containerd/containerd.sock
+févr. 05 17:36:59 NAS xrdp[659]: (659)(139970689648448)[INFO ] address [0.0.0.0] port [3389] mode 1
+févr. 05 17:36:59 NAS systemd[1]: Started containerd container runtime.
+░░ Subject: L'unité (unit) containerd.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) containerd.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:00 NAS containerd[649]: time="2023-02-05T17:36:59.980835167+01:00" level=info msg="containerd successfully booted in 0.052692s"
+févr. 05 17:36:59 NAS xrdp[659]: (659)(139970689648448)[INFO ] listening to port 3389 on 0.0.0.0
+févr. 05 17:37:00 NAS systemd[1]: Started xrdp daemon.
+░░ Subject: L'unité (unit) xrdp.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) xrdp.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:59 NAS xrdp[659]: (659)(139970689648448)[INFO ] xrdp_listen_pp done
+févr. 05 17:37:00 NAS systemd[1]: Finished Permit User Sessions.
+░░ Subject: L'unité (unit) systemd-user-sessions.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-user-sessions.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:59 NAS xrdp[659]: (659)(139970689648448)[DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+févr. 05 17:37:00 NAS systemd[1]: Starting Light Display Manager...
+░░ Subject: L'unité (unit) lightdm.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) lightdm.service a commencé à démarrer.
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sdd [SAT], is SMART capable. Adding to "monitor" list.
+févr. 05 17:37:00 NAS systemd[1]: Starting Hold until boot process finishes up...
+░░ Subject: L'unité (unit) plymouth-quit-wait.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) plymouth-quit-wait.service a commencé à démarrer.
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sdd [SAT], state read from /var/lib/smartmontools/smartd.ST4000DM004_2CV104-ZFN0595N.ata.state
+févr. 05 17:37:00 NAS systemd[1]: Started Authorization Manager.
+░░ Subject: L'unité (unit) polkit.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) polkit.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sde, type changed from 'scsi' to 'sat'
+févr. 05 17:37:00 NAS systemd[1]: Started Accounts Service.
+░░ Subject: L'unité (unit) accounts-daemon.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) accounts-daemon.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sde [SAT], opened
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sde [SAT], ST4000DM004-2CV104, S/N:Z9706Y4Z, WWN:5-000c50-0a3001c52, FW:0001, 4.00 TB
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sde [SAT], found in smartd database: Seagate BarraCuda 3.5
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sde [SAT], is SMART capable. Adding to "monitor" list.
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sde [SAT], state read from /var/lib/smartmontools/smartd.ST4000DM004_2CV104-Z9706Y4Z.ata.state
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sdf, type changed from 'scsi' to 'sat'
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sdf [SAT], opened
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sdf [SAT], ST4000DM000-1F2168, S/N:Z3058VZ6, WWN:5-000c50-0874d297b, FW:CC54, 4.00 TB
+févr. 05 17:36:59 NAS smartd[569]: Device: /dev/sdf [SAT], found in smartd database: Seagate Desktop HDD.15
+févr. 05 17:37:00 NAS smartd[569]: Device: /dev/sdf [SAT], is SMART capable. Adding to "monitor" list.
+févr. 05 17:37:00 NAS smartd[569]: Device: /dev/sdf [SAT], state read from /var/lib/smartmontools/smartd.ST4000DM000_1F2168-Z3058VZ6.ata.state
+févr. 05 17:37:00 NAS smartd[569]: Device: /dev/sdg, type changed from 'scsi' to 'sat'
+févr. 05 17:37:00 NAS smartd[569]: Device: /dev/sdg [SAT], opened
+févr. 05 17:37:00 NAS smartd[569]: Device: /dev/sdg [SAT], KingDian S180 60GB, S/N:2016032300290, WWN:5-000000-000000000, FW:F.002.00, 60.0 GB
+févr. 05 17:37:00 NAS smartd[569]: Device: /dev/sdg [SAT], not found in smartd database.
+févr. 05 17:37:00 NAS smartd[569]: Device: /dev/sdg [SAT], can't monitor Current_Pending_Sector count - no Attribute 197
+févr. 05 17:37:00 NAS smartd[569]: Device: /dev/sdg [SAT], can't monitor Offline_Uncorrectable count - no Attribute 198
+févr. 05 17:37:00 NAS smartd[569]: Device: /dev/sdg [SAT], is SMART capable. Adding to "monitor" list.
+févr. 05 17:37:00 NAS smartd[569]: Device: /dev/sdg [SAT], state read from /var/lib/smartmontools/smartd.KingDian_S180_60GB-2016032300290.ata.state
+févr. 05 17:37:00 NAS smartd[569]: Monitoring 7 ATA/SATA, 0 SCSI/SAS and 0 NVMe devices
+févr. 05 17:37:00 NAS avahi-daemon[552]: Server startup complete. Host name is NAS.local. Local service cookie is 2700167072.
+févr. 05 17:37:00 NAS smartd[569]: Device: /dev/sdb [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 109 to 108
+févr. 05 17:37:00 NAS polkitd[566]: started daemon version 0.105 using authority implementation `local' version `0.105'
+févr. 05 17:37:00 NAS dbus-daemon[558]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+févr. 05 17:37:00 NAS accounts-daemon[549]: started daemon version 0.6.55
+févr. 05 17:37:00 NAS systemd[1]: Starting Modem Manager...
+░░ Subject: L'unité (unit) ModemManager.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) ModemManager.service a commencé à démarrer.
+févr. 05 17:37:00 NAS systemd[1]: Started NVIDIA Persistence Daemon.
+░░ Subject: L'unité (unit) nvidia-persistenced.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) nvidia-persistenced.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:00 NAS dbus-daemon[558]: [system] Successfully activated service 'org.freedesktop.hostname1'
+févr. 05 17:37:00 NAS sshd[686]: Server listening on 0.0.0.0 port 22.
+févr. 05 17:37:00 NAS systemd[1]: Started Hostname Service.
+░░ Subject: L'unité (unit) systemd-hostnamed.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-hostnamed.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:00 NAS sshd[686]: Server listening on :: port 22.
+févr. 05 17:37:00 NAS systemd[1]: Started OpenBSD Secure Shell server.
+░░ Subject: L'unité (unit) ssh.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) ssh.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:00 NAS udisksd[574]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+févr. 05 17:37:00 NAS NetworkManager[562]: <info>  [1675615020.9364] hostname: hostname: using hostnamed
+févr. 05 17:37:00 NAS NetworkManager[562]: <info>  [1675615020.9364] hostname: hostname changed from (none) to "NAS"
+févr. 05 17:37:00 NAS NetworkManager[562]: <info>  [1675615020.9369] dns-mgr[0x55ddd42df170]: init: dns=default,systemd-resolved rc-manager=symlink (auto)
+févr. 05 17:37:00 NAS NetworkManager[562]: <info>  [1675615020.9590] manager[0x55ddd42ed030]: rfkill: Wi-Fi hardware radio set enabled
+févr. 05 17:37:00 NAS NetworkManager[562]: <info>  [1675615020.9591] manager[0x55ddd42ed030]: rfkill: WWAN hardware radio set enabled
+févr. 05 17:37:00 NAS systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+░░ Subject: L'unité (unit) systemd-rfkill.socket a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-rfkill.socket a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:00 NAS ModemManager[681]: <info>  ModemManager (version 1.14.12) starting in system bus...
+févr. 05 17:37:00 NAS udisksd[574]: Failed to load the 'mdraid' libblockdev plugin
+févr. 05 17:37:00 NAS NetworkManager[562]: <info>  [1675615020.9995] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.30.6/libnm-device-plugin-adsl.so)
+févr. 05 17:37:00 NAS systemd[1]: Received SIGRTMIN+21 from PID 210 (plymouthd).
+févr. 05 17:37:01 NAS systemd[1]: Received SIGRTMIN+21 from PID 210 (plymouthd).
+févr. 05 17:37:01 NAS systemd[1]: Finished Hold until boot process finishes up.
+░░ Subject: L'unité (unit) plymouth-quit-wait.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) plymouth-quit-wait.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:01 NAS systemd[1]: Started Getty on tty1.
+░░ Subject: L'unité (unit) getty@tty1.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) getty@tty1.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:01 NAS systemd[1]: Reached target Login Prompts.
+░░ Subject: L'unité (unit) getty.target a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) getty.target a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:01 NAS systemd[1]: Started CUPS Scheduler.
+░░ Subject: L'unité (unit) cups.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) cups.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:01 NAS systemd[1]: Started Make remote CUPS printers available locally.
+░░ Subject: L'unité (unit) cups-browsed.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) cups-browsed.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:01 NAS systemd[1]: Started Light Display Manager.
+░░ Subject: L'unité (unit) lightdm.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) lightdm.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:01 NAS smartd[569]: Device: /dev/sda [SAT], state written to /var/lib/smartmontools/smartd.WDC_WD5000AAKX_083CA1-WD_WCAYUHJ57348.ata.state
+févr. 05 17:37:01 NAS smartd[569]: Device: /dev/sdb [SAT], state written to /var/lib/smartmontools/smartd.WDC_WD5000AAKX_083CA1-WD_WCAYUHK81314.ata.state
+févr. 05 17:37:01 NAS smartd[569]: Device: /dev/sdc [SAT], state written to /var/lib/smartmontools/smartd.ST4000DM004_2CV104-ZFN0DK01.ata.state
+févr. 05 17:37:01 NAS smartd[569]: Device: /dev/sdd [SAT], state written to /var/lib/smartmontools/smartd.ST4000DM004_2CV104-ZFN0595N.ata.state
+févr. 05 17:37:01 NAS smartd[569]: Device: /dev/sde [SAT], state written to /var/lib/smartmontools/smartd.ST4000DM004_2CV104-Z9706Y4Z.ata.state
+févr. 05 17:37:01 NAS smartd[569]: Device: /dev/sdf [SAT], state written to /var/lib/smartmontools/smartd.ST4000DM000_1F2168-Z3058VZ6.ata.state
+févr. 05 17:37:01 NAS smartd[569]: Device: /dev/sdg [SAT], state written to /var/lib/smartmontools/smartd.KingDian_S180_60GB-2016032300290.ata.state
+févr. 05 17:37:01 NAS NetworkManager[562]: <info>  [1675615021.0715] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.30.6/libnm-device-plugin-bluetooth.so)
+févr. 05 17:37:01 NAS NetworkManager[562]: <info>  [1675615021.0967] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.30.6/libnm-device-plugin-team.so)
+févr. 05 17:37:01 NAS NetworkManager[562]: <info>  [1675615021.1022] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.30.6/libnm-device-plugin-wwan.so)
+févr. 05 17:37:01 NAS NetworkManager[562]: <info>  [1675615021.1174] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.30.6/libnm-device-plugin-wifi.so)
+févr. 05 17:37:01 NAS NetworkManager[562]: <info>  [1675615021.1179] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+févr. 05 17:37:01 NAS NetworkManager[562]: <info>  [1675615021.1184] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+févr. 05 17:37:01 NAS NetworkManager[562]: <info>  [1675615021.1186] manager: Networking is enabled by state file
+févr. 05 17:37:01 NAS systemd[1]: Started Self Monitoring and Reporting Technology (SMART) Daemon.
+░░ Subject: L'unité (unit) smartmontools.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) smartmontools.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:01 NAS dbus-daemon[558]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.7' (uid=0 pid=562 comm="/usr/sbin/NetworkManager --no-daemon ")
+févr. 05 17:37:01 NAS NetworkManager[562]: <info>  [1675615021.1188] dhcp-init: Using DHCP client 'internal'
+févr. 05 17:37:01 NAS NetworkManager[562]: <info>  [1675615021.1394] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.30.6/libnm-settings-plugin-ifupdown.so")
+févr. 05 17:37:01 NAS NetworkManager[562]: <info>  [1675615021.1395] settings: Loaded settings plugin: keyfile (internal)
+févr. 05 17:37:01 NAS NetworkManager[562]: <info>  [1675615021.1395] ifupdown: management mode: unmanaged
+févr. 05 17:37:01 NAS NetworkManager[562]: <info>  [1675615021.1395] ifupdown:       interface-parser: parsing file /etc/network/interfaces
+févr. 05 17:37:01 NAS NetworkManager[562]: <info>  [1675615021.1396] ifupdown:       interface-parser: source line includes interfaces file(s) /etc/network/interfaces.d/*
+févr. 05 17:37:01 NAS NetworkManager[562]: <warn>  [1675615021.1396] ifupdown: interfaces file /etc/network/interfaces.d/* doesn't exist
+févr. 05 17:37:01 NAS NetworkManager[562]: <info>  [1675615021.1397] ifupdown:       interface-parser: finished parsing file /etc/network/interfaces
+févr. 05 17:37:01 NAS systemd[1]: Starting Network Manager Script Dispatcher Service...
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer.
+févr. 05 17:37:01 NAS dbus-daemon[558]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+févr. 05 17:37:01 NAS systemd[1]: Started Network Manager Script Dispatcher Service.
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:01 NAS NetworkManager[562]: <info>  [1675615021.1734] device (lo): carrier: link connected
+févr. 05 17:37:01 NAS NetworkManager[562]: <info>  [1675615021.1755] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+févr. 05 17:37:01 NAS NetworkManager[562]: <info>  [1675615021.1786] manager: (enp3s0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+févr. 05 17:37:01 NAS NetworkManager[562]: <info>  [1675615021.1806] device (enp3s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+févr. 05 17:37:01 NAS kernel: RTL8211B Gigabit Ethernet r8169-0-300:00: attached PHY driver [RTL8211B Gigabit Ethernet] (mii_bus:phy_addr=r8169-0-300:00, irq=IGNORE)
+févr. 05 17:37:01 NAS kernel: r8169 0000:03:00.0 enp3s0: Link is Down
+févr. 05 17:37:01 NAS NetworkManager[562]: <info>  [1675615021.2515] manager: (enp4s0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/3)
+févr. 05 17:37:01 NAS NetworkManager[562]: <info>  [1675615021.2530] device (enp4s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+févr. 05 17:37:01 NAS kernel: RTL8211B Gigabit Ethernet r8169-0-400:00: attached PHY driver [RTL8211B Gigabit Ethernet] (mii_bus:phy_addr=r8169-0-400:00, irq=IGNORE)
+févr. 05 17:37:01 NAS systemd[1]: Started Modem Manager.
+░░ Subject: L'unité (unit) ModemManager.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) ModemManager.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:01 NAS systemd[1]: Started Disk Manager.
+░░ Subject: L'unité (unit) udisks2.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) udisks2.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:01 NAS udisksd[574]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+févr. 05 17:37:01 NAS kernel: r8169 0000:04:00.0 enp4s0: Link is Down
+févr. 05 17:37:01 NAS NetworkManager[562]: <info>  [1675615021.3344] modem-manager: ModemManager available
+févr. 05 17:37:01 NAS xrdp[666]: (666)(139970689648448)[INFO ] starting xrdp with pid 666
+févr. 05 17:37:01 NAS xrdp[666]: (666)(139970689648448)[INFO ] address [0.0.0.0] port [3389] mode 1
+févr. 05 17:37:01 NAS xrdp[666]: (666)(139970689648448)[INFO ] listening to port 3389 on 0.0.0.0
+févr. 05 17:37:01 NAS xrdp[666]: (666)(139970689648448)[INFO ] xrdp_listen_pp done
+févr. 05 17:37:01 NAS kernel: nvidia-modeset: WARNING: GPU:0: Unable to read EDID for display device VGA-0
+févr. 05 17:37:02 NAS lightdm[724]: pam_env(lightdm-greeter:session): Unable to open env file: /etc/environment: No such file or directory
+févr. 05 17:37:02 NAS lightdm[724]: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=114) by (uid=0)
+févr. 05 17:37:02 NAS systemd[1]: Created slice User Slice of UID 114.
+░░ Subject: L'unité (unit) user-114.slice a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) user-114.slice a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:02 NAS systemd[1]: Starting User Runtime Directory /run/user/114...
+░░ Subject: L'unité (unit) user-runtime-dir@114.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) user-runtime-dir@114.service a commencé à démarrer.
+févr. 05 17:37:02 NAS systemd-logind[573]: New session c1 of user lightdm.
+░░ Subject: Une nouvelle session c1 a été créée pour l'utilisateur lightdm
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ Documentation: sd-login(3)
+░░ 
+░░ Une nouvelle session a été créée pour l'utilisateur lightdm avec
+░░ l'identifiant (ID) c1.
+░░ 
+░░ Le processus maître de la session est 724.
+févr. 05 17:37:02 NAS systemd[1]: Finished User Runtime Directory /run/user/114.
+░░ Subject: L'unité (unit) user-runtime-dir@114.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) user-runtime-dir@114.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:02 NAS systemd[1]: Starting User Manager for UID 114...
+░░ Subject: L'unité (unit) user@114.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) user@114.service a commencé à démarrer.
+févr. 05 17:37:02 NAS systemd[728]: pam_unix(systemd-user:session): session opened for user lightdm(uid=114) by (uid=0)
+févr. 05 17:37:02 NAS systemd[728]: Queued start job for default target Main User Target.
+févr. 05 17:37:02 NAS systemd[728]: Created slice User Application Slice.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:02 NAS systemd[728]: Reached target Paths.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:02 NAS systemd[728]: Reached target Timers.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:02 NAS systemd[728]: Starting D-Bus User Message Bus Socket.
+░░ Subject: L'unité (unit) UNIT a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a commencé à démarrer.
+févr. 05 17:37:02 NAS systemd[728]: Listening on GnuPG network certificate management daemon.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:02 NAS systemd[728]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:02 NAS systemd[728]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:02 NAS systemd[728]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:02 NAS systemd[728]: Listening on GnuPG cryptographic agent and passphrase cache.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:02 NAS systemd[728]: Listening on Multimedia System.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:02 NAS systemd[728]: Listening on debconf communication socket.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:02 NAS systemd[728]: Listening on Sound System.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:02 NAS systemd[728]: Listening on D-Bus User Message Bus Socket.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:02 NAS systemd[728]: Reached target Sockets.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:02 NAS systemd[728]: Reached target Basic System.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:02 NAS systemd[1]: Started User Manager for UID 114.
+░░ Subject: L'unité (unit) user@114.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) user@114.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:02 NAS systemd[728]: Started Multimedia Service.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:02 NAS systemd[1]: Started Session c1 of user lightdm.
+░░ Subject: L'unité (unit) session-c1.scope a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) session-c1.scope a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:02 NAS systemd[728]: Starting Sound Service...
+░░ Subject: L'unité (unit) UNIT a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a commencé à démarrer.
+févr. 05 17:37:02 NAS systemd[728]: Starting Tracker metadata extractor...
+░░ Subject: L'unité (unit) UNIT a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a commencé à démarrer.
+févr. 05 17:37:02 NAS systemd[728]: Starting Tracker file system data miner...
+░░ Subject: L'unité (unit) UNIT a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a commencé à démarrer.
+févr. 05 17:37:02 NAS dbus-daemon[558]: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service' requested by ':1.24' (uid=114 pid=743 comm="/usr/bin/pipewire ")
+févr. 05 17:37:02 NAS systemd[1]: Starting RealtimeKit Scheduling Policy Service...
+░░ Subject: L'unité (unit) rtkit-daemon.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) rtkit-daemon.service a commencé à démarrer.
+févr. 05 17:37:02 NAS dbus-daemon[558]: [system] Successfully activated service 'org.freedesktop.RealtimeKit1'
+févr. 05 17:37:02 NAS systemd[1]: Started RealtimeKit Scheduling Policy Service.
+░░ Subject: L'unité (unit) rtkit-daemon.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) rtkit-daemon.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:02 NAS rtkit-daemon[749]: Successfully called chroot.
+févr. 05 17:37:02 NAS rtkit-daemon[749]: Successfully dropped privileges.
+févr. 05 17:37:02 NAS rtkit-daemon[749]: Successfully limited resources.
+févr. 05 17:37:02 NAS rtkit-daemon[749]: Running.
+févr. 05 17:37:02 NAS rtkit-daemon[749]: Canary thread running.
+févr. 05 17:37:02 NAS rtkit-daemon[749]: Watchdog thread running.
+févr. 05 17:37:03 NAS rtkit-daemon[749]: Successfully made thread 743 of process 743 owned by '114' high priority at nice level -11.
+févr. 05 17:37:03 NAS rtkit-daemon[749]: Supervising 1 threads of 1 processes of 1 users.
+févr. 05 17:37:03 NAS rtkit-daemon[749]: Successfully made thread 744 of process 744 owned by '114' high priority at nice level -11.
+févr. 05 17:37:03 NAS rtkit-daemon[749]: Supervising 2 threads of 2 processes of 1 users.
+févr. 05 17:37:03 NAS rtkit-daemon[749]: Supervising 2 threads of 2 processes of 1 users.
+févr. 05 17:37:03 NAS rtkit-daemon[749]: Supervising 2 threads of 2 processes of 1 users.
+févr. 05 17:37:03 NAS rtkit-daemon[749]: Successfully made thread 748 of process 743 owned by '114' RT at priority 20.
+févr. 05 17:37:03 NAS rtkit-daemon[749]: Supervising 3 threads of 2 processes of 1 users.
+févr. 05 17:37:03 NAS systemd[728]: Started D-Bus User Message Bus.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:03 NAS tracker-miner-f[746]: Set scheduler policy to SCHED_IDLE
+févr. 05 17:37:03 NAS tracker-extract[745]: Set scheduler policy to SCHED_IDLE
+févr. 05 17:37:03 NAS tracker-extract[745]: Setting priority nice level to 19
+févr. 05 17:37:03 NAS tracker-miner-f[746]: Setting priority nice level to 19
+févr. 05 17:37:03 NAS pipewire[743]: Failed to receive portal pid: org.freedesktop.DBus.Error.NameHasNoOwner: Could not get PID of name 'org.freedesktop.portal.Desktop': no such name
+févr. 05 17:37:03 NAS dbus-daemon[752]: [session uid=114 pid=752] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.4' (uid=114 pid=746 comm="/usr/libexec/tracker-miner-fs ")
+févr. 05 17:37:03 NAS systemd[728]: Starting Virtual filesystem service...
+░░ Subject: L'unité (unit) UNIT a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a commencé à démarrer.
+févr. 05 17:37:03 NAS rtkit-daemon[749]: Successfully made thread 758 of process 758 owned by '114' high priority at nice level -11.
+févr. 05 17:37:03 NAS rtkit-daemon[749]: Supervising 4 threads of 3 processes of 1 users.
+févr. 05 17:37:03 NAS rtkit-daemon[749]: Supervising 4 threads of 3 processes of 1 users.
+févr. 05 17:37:03 NAS rtkit-daemon[749]: Supervising 4 threads of 3 processes of 1 users.
+févr. 05 17:37:03 NAS rtkit-daemon[749]: Successfully made thread 762 of process 758 owned by '114' RT at priority 20.
+févr. 05 17:37:03 NAS rtkit-daemon[749]: Supervising 5 threads of 3 processes of 1 users.
+févr. 05 17:37:03 NAS NetworkManager[562]: <info>  [1675615023.2939] device (enp4s0): carrier: link connected
+févr. 05 17:37:03 NAS NetworkManager[562]: <info>  [1675615023.2943] device (enp4s0): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+févr. 05 17:37:03 NAS kernel: r8169 0000:04:00.0 enp4s0: Link is Up - 1Gbps/Full - flow control rx/tx
+févr. 05 17:37:03 NAS kernel: IPv6: ADDRCONF(NETDEV_CHANGE): enp4s0: link becomes ready
+févr. 05 17:37:03 NAS NetworkManager[562]: <info>  [1675615023.2953] policy: auto-activating connection 'Wired connection 1' (9062eb47-4715-4e5b-a9a1-83eaa3aced66)
+févr. 05 17:37:03 NAS NetworkManager[562]: <info>  [1675615023.2960] device (enp4s0): Activation: starting connection 'Wired connection 1' (9062eb47-4715-4e5b-a9a1-83eaa3aced66)
+févr. 05 17:37:03 NAS NetworkManager[562]: <info>  [1675615023.2962] device (enp4s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+févr. 05 17:37:03 NAS NetworkManager[562]: <info>  [1675615023.2966] manager: NetworkManager state is now CONNECTING
+févr. 05 17:37:03 NAS NetworkManager[562]: <info>  [1675615023.2969] device (enp4s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+févr. 05 17:37:03 NAS NetworkManager[562]: <info>  [1675615023.2975] device (enp4s0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+févr. 05 17:37:03 NAS NetworkManager[562]: <info>  [1675615023.2979] dhcp4 (enp4s0): activation: beginning transaction (timeout in 45 seconds)
+févr. 05 17:37:03 NAS avahi-daemon[552]: Joining mDNS multicast group on interface enp4s0.IPv6 with address fe80::220:edff:feff:ffff.
+févr. 05 17:37:03 NAS avahi-daemon[552]: New relevant interface enp4s0.IPv6 for mDNS.
+févr. 05 17:37:03 NAS avahi-daemon[552]: Registering new address record for fe80::220:edff:feff:ffff on enp4s0.*.
+févr. 05 17:37:03 NAS dbus-daemon[752]: [session uid=114 pid=752] Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service' requested by ':1.7' (uid=114 pid=747 comm="/usr/sbin/lightdm-gtk-greeter ")
+févr. 05 17:37:03 NAS systemd[728]: Starting Accessibility services bus...
+░░ Subject: L'unité (unit) UNIT a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a commencé à démarrer.
+févr. 05 17:37:03 NAS dbus-daemon[752]: [session uid=114 pid=752] Successfully activated service 'org.a11y.Bus'
+févr. 05 17:37:03 NAS systemd[728]: Started Accessibility services bus.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:03 NAS dbus-daemon[752]: [session uid=114 pid=752] Successfully activated service 'org.gtk.vfs.Daemon'
+févr. 05 17:37:03 NAS systemd[728]: Started Virtual filesystem service.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:03 NAS tracker-miner-f[746]: Unable to get XDG user directory path for special directory &DOCUMENTS. Ignoring this location.
+févr. 05 17:37:03 NAS tracker-miner-f[746]: Unable to get XDG user directory path for special directory &MUSIC. Ignoring this location.
+févr. 05 17:37:03 NAS tracker-miner-f[746]: Unable to get XDG user directory path for special directory &PICTURES. Ignoring this location.
+févr. 05 17:37:03 NAS tracker-miner-f[746]: Unable to get XDG user directory path for special directory &VIDEOS. Ignoring this location.
+févr. 05 17:37:03 NAS tracker-miner-f[746]: Unable to get XDG user directory path for special directory &DOWNLOAD. Ignoring this location.
+févr. 05 17:37:03 NAS tracker-miner-f[746]: Unable to get XDG user directory path for special directory &DOCUMENTS. Ignoring this location.
+févr. 05 17:37:03 NAS tracker-miner-f[746]: Unable to get XDG user directory path for special directory &MUSIC. Ignoring this location.
+févr. 05 17:37:03 NAS tracker-miner-f[746]: Unable to get XDG user directory path for special directory &PICTURES. Ignoring this location.
+févr. 05 17:37:03 NAS tracker-miner-f[746]: Unable to get XDG user directory path for special directory &VIDEOS. Ignoring this location.
+févr. 05 17:37:03 NAS dbus-daemon[752]: [session uid=114 pid=752] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.4' (uid=114 pid=746 comm="/usr/libexec/tracker-miner-fs ")
+févr. 05 17:37:03 NAS systemd[728]: Starting Virtual filesystem service - disk device monitor...
+░░ Subject: L'unité (unit) UNIT a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a commencé à démarrer.
+févr. 05 17:37:03 NAS dbus-daemon[752]: [session uid=114 pid=752] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+févr. 05 17:37:03 NAS systemd[728]: Started Virtual filesystem service - disk device monitor.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:03 NAS dbus-daemon[752]: [session uid=114 pid=752] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.4' (uid=114 pid=746 comm="/usr/libexec/tracker-miner-fs ")
+févr. 05 17:37:03 NAS systemd[728]: Starting Virtual filesystem service - digital camera monitor...
+░░ Subject: L'unité (unit) UNIT a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a commencé à démarrer.
+févr. 05 17:37:03 NAS dbus-daemon[752]: [session uid=114 pid=752] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+févr. 05 17:37:03 NAS systemd[728]: Started Virtual filesystem service - digital camera monitor.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:03 NAS dbus-daemon[752]: [session uid=114 pid=752] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.4' (uid=114 pid=746 comm="/usr/libexec/tracker-miner-fs ")
+févr. 05 17:37:03 NAS systemd[728]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+░░ Subject: L'unité (unit) UNIT a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a commencé à démarrer.
+févr. 05 17:37:03 NAS dbus-daemon[752]: [session uid=114 pid=752] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+févr. 05 17:37:03 NAS systemd[728]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:03 NAS dbus-daemon[752]: [session uid=114 pid=752] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.4' (uid=114 pid=746 comm="/usr/libexec/tracker-miner-fs ")
+févr. 05 17:37:03 NAS systemd[728]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+░░ Subject: L'unité (unit) UNIT a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a commencé à démarrer.
+févr. 05 17:37:03 NAS dbus-daemon[752]: [session uid=114 pid=752] Activating service name='org.gnome.OnlineAccounts' requested by ':1.15' (uid=114 pid=821 comm="/usr/libexec/gvfs-goa-volume-monitor ")
+févr. 05 17:37:03 NAS ModemManager[681]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.4/0000:03:00.0': not supported by any plugin
+févr. 05 17:37:03 NAS ModemManager[681]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.5/0000:04:00.0': not supported by any plugin
+févr. 05 17:37:03 NAS dbus-daemon[558]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.29' (uid=114 pid=744 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo")
+févr. 05 17:37:03 NAS systemd[1]: Condition check resulted in Bluetooth service being skipped.
+░░ Subject: L'unité (unit) bluetooth.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) bluetooth.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:03 NAS rtkit-daemon[749]: Supervising 5 threads of 3 processes of 1 users.
+févr. 05 17:37:03 NAS rtkit-daemon[749]: Successfully made thread 827 of process 744 owned by '114' RT at priority 5.
+févr. 05 17:37:03 NAS rtkit-daemon[749]: Supervising 6 threads of 3 processes of 1 users.
+févr. 05 17:37:03 NAS systemd[728]: Started Sound Service.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:04 NAS goa-daemon[825]: goa-daemon version 3.38.0 starting
+févr. 05 17:37:04 NAS dbus-daemon[752]: [session uid=114 pid=752] Activating service name='org.gnome.Identity' requested by ':1.17' (uid=114 pid=825 comm="/usr/libexec/goa-daemon ")
+févr. 05 17:37:04 NAS dbus-daemon[752]: [session uid=114 pid=752] Successfully activated service 'org.gnome.OnlineAccounts'
+févr. 05 17:37:04 NAS dbus-daemon[752]: [session uid=114 pid=752] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+févr. 05 17:37:04 NAS systemd[728]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:04 NAS dbus-daemon[752]: [session uid=114 pid=752] Successfully activated service 'org.gnome.Identity'
+févr. 05 17:37:04 NAS dbus-daemon[752]: [session uid=114 pid=752] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.4' (uid=114 pid=746 comm="/usr/libexec/tracker-miner-fs ")
+févr. 05 17:37:04 NAS systemd[728]: Starting Virtual filesystem service - Apple File Conduit monitor...
+░░ Subject: L'unité (unit) UNIT a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a commencé à démarrer.
+févr. 05 17:37:04 NAS dbus-daemon[752]: [session uid=114 pid=752] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+févr. 05 17:37:04 NAS systemd[728]: Started Virtual filesystem service - Apple File Conduit monitor.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:04 NAS dbus-daemon[558]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service' requested by ':1.32' (uid=114 pid=746 comm="/usr/libexec/tracker-miner-fs ")
+févr. 05 17:37:04 NAS systemd[1]: Starting Daemon for power management...
+░░ Subject: L'unité (unit) upower.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) upower.service a commencé à démarrer.
+févr. 05 17:37:04 NAS systemd[728]: Started Tracker metadata extractor.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:04 NAS dbus-daemon[558]: [system] Successfully activated service 'org.freedesktop.UPower'
+févr. 05 17:37:04 NAS systemd[1]: Started Daemon for power management.
+░░ Subject: L'unité (unit) upower.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) upower.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:04 NAS dbus-daemon[752]: [session uid=114 pid=752] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.4' (uid=114 pid=746 comm="/usr/libexec/tracker-miner-fs ")
+févr. 05 17:37:04 NAS dbus-daemon[752]: [session uid=114 pid=752] Activating service name='org.freedesktop.thumbnails.Cache1' requested by ':1.4' (uid=114 pid=746 comm="/usr/libexec/tracker-miner-fs ")
+févr. 05 17:37:04 NAS systemd[728]: Starting Tracker metadata database store and lookup manager...
+░░ Subject: L'unité (unit) UNIT a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a commencé à démarrer.
+févr. 05 17:37:04 NAS dbus-daemon[752]: [session uid=114 pid=752] Successfully activated service 'org.freedesktop.Tracker1'
+févr. 05 17:37:04 NAS systemd[728]: Started Tracker metadata database store and lookup manager.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:04 NAS at-spi-bus-launcher[781]: dbus-daemon[781]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=114 pid=747 comm="/usr/sbin/lightdm-gtk-greeter ")
+févr. 05 17:37:04 NAS at-spi-bus-launcher[781]: dbus-daemon[781]: Successfully activated service 'org.a11y.atspi.Registry'
+févr. 05 17:37:04 NAS at-spi-bus-launcher[890]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+févr. 05 17:37:04 NAS org.freedesktop.thumbnails.Cache1[879]: Registered thumbnailer atril-thumbnailer -s %s %u %o
+févr. 05 17:37:04 NAS org.freedesktop.thumbnails.Cache1[879]: Registered thumbnailer /usr/bin/totem-video-thumbnailer -s %s %u %o
+févr. 05 17:37:04 NAS org.freedesktop.thumbnails.Cache1[879]: Registered thumbnailer gsf-office-thumbnailer -i %i -o %o -s %s
+févr. 05 17:37:04 NAS org.freedesktop.thumbnails.Cache1[879]: Registered thumbnailer evince-thumbnailer -s %s %u %o
+févr. 05 17:37:04 NAS org.freedesktop.thumbnails.Cache1[879]: Registered thumbnailer gnome-thumbnail-font --size %s %u %o
+févr. 05 17:37:04 NAS org.freedesktop.thumbnails.Cache1[879]: Registered thumbnailer /usr/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+févr. 05 17:37:04 NAS org.freedesktop.thumbnails.Cache1[879]: Registered thumbnailer /usr/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+févr. 05 17:37:04 NAS dbus-daemon[752]: [session uid=114 pid=752] Successfully activated service 'org.freedesktop.thumbnails.Cache1'
+févr. 05 17:37:04 NAS systemd[728]: Started Tracker file system data miner.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:04 NAS systemd[728]: Reached target Main User Target.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:04 NAS systemd[728]: Startup finished in 2.160s.
+░░ Subject: Le démarrage du gestionnaire utilisateur est terminé
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'instance du gestionnaire d'utilisateurs pour l'utilisateur 114 a été démarrée.
+░░ Tous les services en file d'attente pour démarrer ont été lancés.
+░░ Notez que des services peuvent être encore en train de démarrer,
+░░ ou d'autres être lancés à tout moment ultérieur.
+░░ 
+░░ Le démarrage du gestionnaire a nécéssité 2160597 microsecondes.
+févr. 05 17:37:05 NAS NetworkManager[562]: <warn>  [1675615025.2879] ndisc[0x55ddd42f0820,"enp4s0"]: solicit: failure sending router solicitation: Opération non permise (1)
+févr. 05 17:37:11 NAS systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+févr. 05 17:37:15 NAS systemd[728]: tracker-extract.service: Succeeded.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit UNIT has successfully entered the 'dead' state.
+févr. 05 17:37:17 NAS NetworkManager[562]: <info>  [1675615037.0667] dhcp4 (enp4s0): state changed unknown -> bound, address=192.168.0.40
+févr. 05 17:37:17 NAS avahi-daemon[552]: Joining mDNS multicast group on interface enp4s0.IPv4 with address 192.168.0.40.
+févr. 05 17:37:17 NAS avahi-daemon[552]: New relevant interface enp4s0.IPv4 for mDNS.
+févr. 05 17:37:17 NAS avahi-daemon[552]: Registering new address record for 192.168.0.40 on enp4s0.IPv4.
+févr. 05 17:37:17 NAS NetworkManager[562]: <info>  [1675615037.0690] device (enp4s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+févr. 05 17:37:17 NAS dbus-daemon[558]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.7' (uid=0 pid=562 comm="/usr/sbin/NetworkManager --no-daemon ")
+févr. 05 17:37:17 NAS systemd[1]: Starting Network Manager Script Dispatcher Service...
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer.
+févr. 05 17:37:17 NAS dbus-daemon[558]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+févr. 05 17:37:17 NAS systemd[1]: Started Network Manager Script Dispatcher Service.
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:17 NAS NetworkManager[562]: <info>  [1675615037.3485] device (enp4s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+févr. 05 17:37:17 NAS NetworkManager[562]: <info>  [1675615037.3490] device (enp4s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+févr. 05 17:37:17 NAS NetworkManager[562]: <info>  [1675615037.3497] manager: NetworkManager state is now CONNECTED_LOCAL
+févr. 05 17:37:17 NAS NetworkManager[562]: <info>  [1675615037.3511] manager: NetworkManager state is now CONNECTED_SITE
+févr. 05 17:37:17 NAS NetworkManager[562]: <info>  [1675615037.3513] policy: set 'Wired connection 1' (enp4s0) as default for IPv4 routing and DNS
+févr. 05 17:37:17 NAS dbus-daemon[558]: [system] Activating via systemd: service name='org.freedesktop.resolve1' unit='dbus-org.freedesktop.resolve1.service' requested by ':1.7' (uid=0 pid=562 comm="/usr/sbin/NetworkManager --no-daemon ")
+févr. 05 17:37:17 NAS dbus-daemon[558]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.resolve1.service': Unit dbus-org.freedesktop.resolve1.service not found.
+févr. 05 17:37:17 NAS NetworkManager[562]: <info>  [1675615037.9924] device (enp4s0): Activation: successful, device activated.
+févr. 05 17:37:17 NAS NetworkManager[562]: <info>  [1675615037.9935] manager: NetworkManager state is now CONNECTED_GLOBAL
+févr. 05 17:37:17 NAS NetworkManager[562]: <info>  [1675615037.9963] manager: startup complete
+févr. 05 17:37:18 NAS systemd[1]: Finished Network Manager Wait Online.
+░░ Subject: L'unité (unit) NetworkManager-wait-online.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-wait-online.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:18 NAS systemd[1]: Reached target Network is Online.
+░░ Subject: L'unité (unit) network-online.target a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) network-online.target a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:18 NAS systemd[1]: Starting Docker Application Container Engine...
+░░ Subject: L'unité (unit) docker.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) docker.service a commencé à démarrer.
+févr. 05 17:37:18 NAS systemd[1]: Starting LSB: exim Mail Transport Agent...
+░░ Subject: L'unité (unit) exim4.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) exim4.service a commencé à démarrer.
+févr. 05 17:37:18 NAS systemd[1]: Starting LSB: disk temperature monitoring daemon...
+░░ Subject: L'unité (unit) hddtemp.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) hddtemp.service a commencé à démarrer.
+févr. 05 17:37:18 NAS systemd[1]: Starting Samba NMB Daemon...
+░░ Subject: L'unité (unit) nmbd.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) nmbd.service a commencé à démarrer.
+févr. 05 17:37:18 NAS systemd[1]: Started LSB: disk temperature monitoring daemon.
+░░ Subject: L'unité (unit) hddtemp.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) hddtemp.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:20 NAS dbus-daemon[558]: [system] Activating via systemd: service name='org.freedesktop.ColorManager' unit='colord.service' requested by ':1.15' (uid=0 pid=642 comm="/usr/sbin/cupsd -l ")
+févr. 05 17:37:20 NAS systemd[1]: Starting Manage, Install and Generate Color Profiles...
+░░ Subject: L'unité (unit) colord.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) colord.service a commencé à démarrer.
+févr. 05 17:37:20 NAS exim4[915]: Starting MTA: exim4.
+févr. 05 17:37:20 NAS systemd[1]: Started LSB: exim Mail Transport Agent.
+░░ Subject: L'unité (unit) exim4.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) exim4.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:20 NAS dbus-daemon[558]: [system] Successfully activated service 'org.freedesktop.ColorManager'
+févr. 05 17:37:20 NAS systemd[1]: Started Manage, Install and Generate Color Profiles.
+░░ Subject: L'unité (unit) colord.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) colord.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:22 NAS nmbd[917]: [2023/02/05 17:37:22.858962,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+févr. 05 17:37:22 NAS nmbd[917]:   daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+févr. 05 17:37:22 NAS systemd[1]: Started Samba NMB Daemon.
+░░ Subject: L'unité (unit) nmbd.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) nmbd.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:22 NAS systemd[1]: Starting Samba SMB Daemon...
+░░ Subject: L'unité (unit) smbd.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) smbd.service a commencé à démarrer.
+févr. 05 17:37:27 NAS smbd[1195]: [2023/02/05 17:37:27.274902,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+févr. 05 17:37:27 NAS smbd[1195]:   daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+févr. 05 17:37:27 NAS systemd[1]: Started Samba SMB Daemon.
+░░ Subject: L'unité (unit) smbd.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) smbd.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:27 NAS systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+févr. 05 17:37:29 NAS systemd-timesyncd[539]: Initial synchronization to time server 146.59.35.38:123 (2.debian.pool.ntp.org).
+févr. 05 17:37:29 NAS dbus-daemon[558]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+févr. 05 17:37:29 NAS pulseaudio[744]: GetManagedObjects() failed: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.267815651+01:00" level=info msg="Starting up"
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.287958646+01:00" level=error msg="AppArmor enabled on system but the docker-default profile could not be loaded: running `apparmor_parser apparmor_parser --version` failed with output: \nerror: exec: \"apparmor_parser\": executable file not found in $PATH"
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.291351815+01:00" level=info msg="[core] [Channel #1] Channel created" module=grpc
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.291397910+01:00" level=info msg="[core] [Channel #1] original dial target is: \"unix:///run/containerd/containerd.sock\"" module=grpc
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.291468939+01:00" level=info msg="[core] [Channel #1] parsed dial target is: {Scheme:unix Authority: Endpoint:run/containerd/containerd.sock URL:{Scheme:unix Opaque: User: Host: Path:/run/containerd/containerd.sock RawPath: OmitHost:false ForceQuery:false RawQuery: Fragment: RawFragment:}}" module=grpc
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.291503021+01:00" level=info msg="[core] [Channel #1] Channel authority set to \"localhost\"" module=grpc
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.291681466+01:00" level=info msg="[core] [Channel #1] Resolver state updated: {\n  \"Addresses\": [\n    {\n      \"Addr\": \"/run/containerd/containerd.sock\",\n      \"ServerName\": \"\",\n      \"Attributes\": {},\n      \"BalancerAttributes\": null,\n      \"Type\": 0,\n      \"Metadata\": null\n    }\n  ],\n  \"ServiceConfig\": null,\n  \"Attributes\": null\n} (resolver returned new addresses)" module=grpc
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.295836673+01:00" level=info msg="[core] [Channel #1] Channel switches to new LB policy \"pick_first\"" module=grpc
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.298153029+01:00" level=info msg="[core] [Channel #1 SubChannel #2] Subchannel created" module=grpc
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.298279581+01:00" level=info msg="[core] [Channel #1 SubChannel #2] Subchannel Connectivity change to CONNECTING" module=grpc
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.298363530+01:00" level=info msg="[core] [Channel #1 SubChannel #2] Subchannel picks a new address \"/run/containerd/containerd.sock\" to connect" module=grpc
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.298444407+01:00" level=info msg="[core] [Channel #1] Channel Connectivity change to CONNECTING" module=grpc
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.312922155+01:00" level=info msg="[core] [Channel #1 SubChannel #2] Subchannel Connectivity change to READY" module=grpc
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.312997584+01:00" level=info msg="[core] [Channel #1] Channel Connectivity change to READY" module=grpc
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.324326469+01:00" level=info msg="[core] [Channel #4] Channel created" module=grpc
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.324380875+01:00" level=info msg="[core] [Channel #4] original dial target is: \"unix:///run/containerd/containerd.sock\"" module=grpc
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.324435910+01:00" level=info msg="[core] [Channel #4] parsed dial target is: {Scheme:unix Authority: Endpoint:run/containerd/containerd.sock URL:{Scheme:unix Opaque: User: Host: Path:/run/containerd/containerd.sock RawPath: OmitHost:false ForceQuery:false RawQuery: Fragment: RawFragment:}}" module=grpc
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.324471878+01:00" level=info msg="[core] [Channel #4] Channel authority set to \"localhost\"" module=grpc
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.324566863+01:00" level=info msg="[core] [Channel #4] Resolver state updated: {\n  \"Addresses\": [\n    {\n      \"Addr\": \"/run/containerd/containerd.sock\",\n      \"ServerName\": \"\",\n      \"Attributes\": {},\n      \"BalancerAttributes\": null,\n      \"Type\": 0,\n      \"Metadata\": null\n    }\n  ],\n  \"ServiceConfig\": null,\n  \"Attributes\": null\n} (resolver returned new addresses)" module=grpc
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.324642291+01:00" level=info msg="[core] [Channel #4] Channel switches to new LB policy \"pick_first\"" module=grpc
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.324706685+01:00" level=info msg="[core] [Channel #4 SubChannel #5] Subchannel created" module=grpc
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.324774920+01:00" level=info msg="[core] [Channel #4 SubChannel #5] Subchannel Connectivity change to CONNECTING" module=grpc
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.324839104+01:00" level=info msg="[core] [Channel #4 SubChannel #5] Subchannel picks a new address \"/run/containerd/containerd.sock\" to connect" module=grpc
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.325085085+01:00" level=info msg="[core] [Channel #4] Channel Connectivity change to CONNECTING" module=grpc
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.325242437+01:00" level=info msg="[core] [Channel #4 SubChannel #5] Subchannel Connectivity change to READY" module=grpc
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.325379186+01:00" level=info msg="[core] [Channel #4] Channel Connectivity change to READY" module=grpc
+févr. 05 17:37:30 NAS systemd[728]: var-lib-docker-overlay2-check\x2doverlayfs\x2dsupport136102375-merged.mount: Succeeded.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit UNIT has successfully entered the 'dead' state.
+févr. 05 17:37:30 NAS systemd[1]: var-lib-docker-overlay2-check\x2doverlayfs\x2dsupport136102375-merged.mount: Succeeded.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit var-lib-docker-overlay2-check\x2doverlayfs\x2dsupport136102375-merged.mount has successfully entered the 'dead' state.
+févr. 05 17:37:30 NAS systemd[1]: var-lib-docker-overlay2-metacopy\x2dcheck3780463399-merged.mount: Succeeded.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit var-lib-docker-overlay2-metacopy\x2dcheck3780463399-merged.mount has successfully entered the 'dead' state.
+févr. 05 17:37:30 NAS systemd[728]: var-lib-docker-overlay2-metacopy\x2dcheck3780463399-merged.mount: Succeeded.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit UNIT has successfully entered the 'dead' state.
+févr. 05 17:37:30 NAS dockerd[914]: time="2023-02-05T17:37:30.644478913+01:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+févr. 05 17:37:31 NAS dockerd[914]: time="2023-02-05T17:37:31.360682139+01:00" level=info msg="Loading containers: start."
+févr. 05 17:37:31 NAS systemd[1]: systemd-hostnamed.service: Succeeded.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit systemd-hostnamed.service has successfully entered the 'dead' state.
+févr. 05 17:37:31 NAS kernel: bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+févr. 05 17:37:31 NAS kernel: Bridge firewalling registered
+févr. 05 17:37:31 NAS kernel: Initializing XFRM netlink socket
+févr. 05 17:37:31 NAS systemd-udevd[1239]: Using default interface naming scheme 'v247'.
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.6887] manager: (br-cd9d403f1fff): new Bridge device (/org/freedesktop/NetworkManager/Devices/4)
+févr. 05 17:37:31 NAS systemd-udevd[1239]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+févr. 05 17:37:31 NAS avahi-daemon[552]: Joining mDNS multicast group on interface br-cd9d403f1fff.IPv4 with address 192.168.90.1.
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.8462] device (br-cd9d403f1fff): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'external')
+févr. 05 17:37:31 NAS avahi-daemon[552]: New relevant interface br-cd9d403f1fff.IPv4 for mDNS.
+févr. 05 17:37:31 NAS avahi-daemon[552]: Registering new address record for 192.168.90.1 on br-cd9d403f1fff.IPv4.
+févr. 05 17:37:31 NAS systemd-udevd[1239]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.8519] device (br-cd9d403f1fff): state change: unavailable -> disconnected (reason 'connection-assumed', sys-iface-state: 'external')
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.8550] device (br-cd9d403f1fff): Activation: starting connection 'br-cd9d403f1fff' (69709f2a-6fcf-49c7-9473-bc56180379dc)
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.8574] device (br-cd9d403f1fff): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.8581] device (br-cd9d403f1fff): state change: prepare -> config (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.8592] manager: (docker0): new Bridge device (/org/freedesktop/NetworkManager/Devices/5)
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.8601] device (br-cd9d403f1fff): state change: config -> ip-config (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.8606] device (br-cd9d403f1fff): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:31 NAS dbus-daemon[558]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.7' (uid=0 pid=562 comm="/usr/sbin/NetworkManager --no-daemon ")
+févr. 05 17:37:31 NAS systemd[1]: Starting Network Manager Script Dispatcher Service...
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer.
+févr. 05 17:37:31 NAS dbus-daemon[558]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+févr. 05 17:37:31 NAS systemd[1]: Started Network Manager Script Dispatcher Service.
+░░ Subject: L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.9081] device (br-cd9d403f1fff): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.9084] device (br-cd9d403f1fff): state change: secondaries -> activated (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.9102] device (br-cd9d403f1fff): Activation: successful, device activated.
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.9111] device (docker0): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'external')
+févr. 05 17:37:31 NAS systemd-udevd[1239]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+févr. 05 17:37:31 NAS avahi-daemon[552]: Joining mDNS multicast group on interface docker0.IPv4 with address 172.17.0.1.
+févr. 05 17:37:31 NAS avahi-daemon[552]: New relevant interface docker0.IPv4 for mDNS.
+févr. 05 17:37:31 NAS avahi-daemon[552]: Registering new address record for 172.17.0.1 on docker0.IPv4.
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.9133] manager: (br-f7da39a922c9): new Bridge device (/org/freedesktop/NetworkManager/Devices/6)
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.9175] device (docker0): state change: unavailable -> disconnected (reason 'connection-assumed', sys-iface-state: 'external')
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.9186] device (docker0): Activation: starting connection 'docker0' (366ffdfc-2988-46ca-a94c-9bccad389a37)
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.9188] device (docker0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.9193] device (docker0): state change: prepare -> config (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.9198] device (docker0): state change: config -> ip-config (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.9202] device (docker0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.9391] device (docker0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.9402] device (docker0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.9419] device (docker0): Activation: successful, device activated.
+févr. 05 17:37:31 NAS avahi-daemon[552]: Joining mDNS multicast group on interface br-f7da39a922c9.IPv4 with address 192.168.92.1.
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.9754] device (br-f7da39a922c9): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'external')
+févr. 05 17:37:31 NAS avahi-daemon[552]: New relevant interface br-f7da39a922c9.IPv4 for mDNS.
+févr. 05 17:37:31 NAS avahi-daemon[552]: Registering new address record for 192.168.92.1 on br-f7da39a922c9.IPv4.
+févr. 05 17:37:31 NAS systemd-udevd[1239]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.9802] device (br-f7da39a922c9): state change: unavailable -> disconnected (reason 'connection-assumed', sys-iface-state: 'external')
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.9813] device (br-f7da39a922c9): Activation: starting connection 'br-f7da39a922c9' (12f76f4a-9fe8-4075-8cfd-3d22ba8d98ff)
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.9838] manager: (br-2da0b2bc3f42): new Bridge device (/org/freedesktop/NetworkManager/Devices/7)
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.9847] device (br-f7da39a922c9): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.9851] device (br-f7da39a922c9): state change: prepare -> config (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.9855] device (br-f7da39a922c9): state change: config -> ip-config (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.9859] device (br-f7da39a922c9): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.9899] device (br-f7da39a922c9): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.9903] device (br-f7da39a922c9): state change: secondaries -> activated (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:31 NAS NetworkManager[562]: <info>  [1675615051.9921] device (br-f7da39a922c9): Activation: successful, device activated.
+févr. 05 17:37:32 NAS avahi-daemon[552]: Joining mDNS multicast group on interface br-2da0b2bc3f42.IPv4 with address 172.18.0.1.
+févr. 05 17:37:32 NAS avahi-daemon[552]: New relevant interface br-2da0b2bc3f42.IPv4 for mDNS.
+févr. 05 17:37:32 NAS avahi-daemon[552]: Registering new address record for 172.18.0.1 on br-2da0b2bc3f42.IPv4.
+févr. 05 17:37:32 NAS NetworkManager[562]: <info>  [1675615052.0369] device (br-2da0b2bc3f42): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'external')
+févr. 05 17:37:32 NAS systemd-udevd[1239]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+févr. 05 17:37:32 NAS NetworkManager[562]: <info>  [1675615052.0421] device (br-2da0b2bc3f42): state change: unavailable -> disconnected (reason 'connection-assumed', sys-iface-state: 'external')
+févr. 05 17:37:32 NAS NetworkManager[562]: <info>  [1675615052.0432] device (br-2da0b2bc3f42): Activation: starting connection 'br-2da0b2bc3f42' (a40d22ef-ed3a-4a3a-a61c-163ef1e0f214)
+févr. 05 17:37:32 NAS NetworkManager[562]: <info>  [1675615052.0442] manager: (br-7d8601ee0d5a): new Bridge device (/org/freedesktop/NetworkManager/Devices/8)
+févr. 05 17:37:32 NAS NetworkManager[562]: <info>  [1675615052.0452] device (br-2da0b2bc3f42): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:32 NAS NetworkManager[562]: <info>  [1675615052.0460] device (br-2da0b2bc3f42): state change: prepare -> config (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:32 NAS NetworkManager[562]: <info>  [1675615052.0464] device (br-2da0b2bc3f42): state change: config -> ip-config (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:32 NAS NetworkManager[562]: <info>  [1675615052.0469] device (br-2da0b2bc3f42): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:32 NAS NetworkManager[562]: <info>  [1675615052.0494] device (br-2da0b2bc3f42): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:32 NAS NetworkManager[562]: <info>  [1675615052.0498] device (br-2da0b2bc3f42): state change: secondaries -> activated (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:32 NAS NetworkManager[562]: <info>  [1675615052.0516] device (br-2da0b2bc3f42): Activation: successful, device activated.
+févr. 05 17:37:32 NAS avahi-daemon[552]: Joining mDNS multicast group on interface br-7d8601ee0d5a.IPv4 with address 192.168.91.1.
+févr. 05 17:37:32 NAS avahi-daemon[552]: New relevant interface br-7d8601ee0d5a.IPv4 for mDNS.
+févr. 05 17:37:32 NAS NetworkManager[562]: <info>  [1675615052.0997] device (br-7d8601ee0d5a): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'external')
+févr. 05 17:37:32 NAS avahi-daemon[552]: Registering new address record for 192.168.91.1 on br-7d8601ee0d5a.IPv4.
+févr. 05 17:37:32 NAS NetworkManager[562]: <info>  [1675615052.1052] device (br-7d8601ee0d5a): state change: unavailable -> disconnected (reason 'connection-assumed', sys-iface-state: 'external')
+févr. 05 17:37:32 NAS NetworkManager[562]: <info>  [1675615052.1068] device (br-7d8601ee0d5a): Activation: starting connection 'br-7d8601ee0d5a' (ca699866-c1e8-4cc2-9770-9a1bec5fd319)
+févr. 05 17:37:32 NAS NetworkManager[562]: <info>  [1675615052.1073] device (br-7d8601ee0d5a): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:32 NAS NetworkManager[562]: <info>  [1675615052.1083] device (br-7d8601ee0d5a): state change: prepare -> config (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:32 NAS NetworkManager[562]: <info>  [1675615052.1090] device (br-7d8601ee0d5a): state change: config -> ip-config (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:32 NAS NetworkManager[562]: <info>  [1675615052.1095] device (br-7d8601ee0d5a): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:32 NAS NetworkManager[562]: <info>  [1675615052.1116] device (br-7d8601ee0d5a): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:32 NAS NetworkManager[562]: <info>  [1675615052.1120] device (br-7d8601ee0d5a): state change: secondaries -> activated (reason 'none', sys-iface-state: 'external')
+févr. 05 17:37:32 NAS NetworkManager[562]: <info>  [1675615052.1138] device (br-7d8601ee0d5a): Activation: successful, device activated.
+févr. 05 17:37:32 NAS dockerd[914]: panic: interface conversion: interface {} is nil, not string
+févr. 05 17:37:32 NAS dockerd[914]: goroutine 1 [running]:
+févr. 05 17:37:32 NAS dockerd[914]: github.com/docker/docker/libnetwork/drivers/ipvlan.(*configuration).UnmarshalJSON(0xc0013e0750, {0xc0013be1e0, 0xf0, 0xf0})
+févr. 05 17:37:32 NAS dockerd[914]:         /go/src/github.com/docker/docker/libnetwork/drivers/ipvlan/ipvlan_store.go:196 +0x40c
+févr. 05 17:37:32 NAS dockerd[914]: encoding/json.(*decodeState).object(0xc0013e07e0, {0x55855c732660?, 0xc0013e0750?, 0x0?})
+févr. 05 17:37:32 NAS dockerd[914]:         /usr/local/go/src/encoding/json/decode.go:613 +0x6ef
+févr. 05 17:37:32 NAS dockerd[914]: encoding/json.(*decodeState).value(0xc0013e07e0, {0x55855c732660?, 0xc0013e0750?, 0x90?})
+févr. 05 17:37:32 NAS dockerd[914]:         /usr/local/go/src/encoding/json/decode.go:374 +0x45
+févr. 05 17:37:32 NAS dockerd[914]: encoding/json.(*decodeState).unmarshal(0xc0013e07e0, {0x55855c732660?, 0xc0013e0750?})
+févr. 05 17:37:32 NAS dockerd[914]:         /usr/local/go/src/encoding/json/decode.go:181 +0x1de
+févr. 05 17:37:32 NAS dockerd[914]: encoding/json.Unmarshal({0xc0013be1e0, 0xf0, 0xf0}, {0x55855c732660, 0xc0013e0750})
+févr. 05 17:37:32 NAS dockerd[914]:         /usr/local/go/src/encoding/json/decode.go:108 +0x125
+févr. 05 17:37:32 NAS dockerd[914]: github.com/docker/docker/libnetwork/drivers/ipvlan.(*configuration).SetValue(0xc000e92640?, {0xc0013be1e0?, 0x23?, 0x23?})
+févr. 05 17:37:32 NAS dockerd[914]:         /go/src/github.com/docker/docker/libnetwork/drivers/ipvlan/ipvlan_store.go:230 +0x31
+févr. 05 17:37:32 NAS dockerd[914]: github.com/docker/docker/libnetwork/datastore.(*cache).kmap(0xc000a5d488, {0x55855c837d00, 0xc0013e06c0})
+févr. 05 17:37:32 NAS dockerd[914]:         /go/src/github.com/docker/docker/libnetwork/datastore/cache.go:61 +0x4f2
+févr. 05 17:37:32 NAS dockerd[914]: github.com/docker/docker/libnetwork/datastore.(*cache).list(0xc000a5d488, {0x55855c837d00?, 0xc0013e06c0?})
+févr. 05 17:37:32 NAS dockerd[914]:         /go/src/github.com/docker/docker/libnetwork/datastore/cache.go:164 +0x75
+févr. 05 17:37:32 NAS dockerd[914]: github.com/docker/docker/libnetwork/datastore.(*datastore).List(0xc0012e3b60?, {0xc000cec2a0?, 0x6?}, {0x55855c837d00?, 0xc0013e06c0?})
+févr. 05 17:37:32 NAS dockerd[914]:         /go/src/github.com/docker/docker/libnetwork/datastore/datastore.go:517 +0x13f
+févr. 05 17:37:32 NAS dockerd[914]: github.com/docker/docker/libnetwork/drivers/ipvlan.(*driver).populateNetworks(0xc000d462a0)
+févr. 05 17:37:32 NAS dockerd[914]:         /go/src/github.com/docker/docker/libnetwork/drivers/ipvlan/ipvlan_store.go:77 +0x175
+févr. 05 17:37:32 NAS dockerd[914]: github.com/docker/docker/libnetwork/drivers/ipvlan.(*driver).initStore(0xc000d462a0, 0x55855b20382d?)
+févr. 05 17:37:32 NAS dockerd[914]:         /go/src/github.com/docker/docker/libnetwork/drivers/ipvlan/ipvlan_store.go:62 +0x1c5
+févr. 05 17:37:32 NAS dockerd[914]: github.com/docker/docker/libnetwork/drivers/ipvlan.Init({0x55855c814860, 0xc001193740}, 0x6?)
+févr. 05 17:37:32 NAS dockerd[914]:         /go/src/github.com/docker/docker/libnetwork/drivers/ipvlan/ipvlan.go:74 +0x6a
+févr. 05 17:37:32 NAS dockerd[914]: github.com/docker/docker/libnetwork/drvregistry.(*DrvRegistry).AddDriver(...)
+févr. 05 17:37:32 NAS dockerd[914]:         /go/src/github.com/docker/docker/libnetwork/drvregistry/drvregistry.go:72
+févr. 05 17:37:32 NAS dockerd[914]: github.com/docker/docker/libnetwork.New({0xc0009dbb90, 0x8, 0xe})
+févr. 05 17:37:32 NAS dockerd[914]:         /go/src/github.com/docker/docker/libnetwork/controller.go:217 +0x602
+févr. 05 17:37:32 NAS dockerd[914]: github.com/docker/docker/daemon.(*Daemon).initNetworkController(0xc0001938c0, 0xc001095140)
+févr. 05 17:37:32 NAS dockerd[914]:         /go/src/github.com/docker/docker/daemon/daemon_unix.go:851 +0x4e
+févr. 05 17:37:32 NAS dockerd[914]: github.com/docker/docker/daemon.(*Daemon).restore(0xc0001938c0)
+févr. 05 17:37:32 NAS dockerd[914]:         /go/src/github.com/docker/docker/daemon/daemon.go:478 +0x51d
+févr. 05 17:37:32 NAS dockerd[914]: github.com/docker/docker/daemon.NewDaemon({0x55855c829098?, 0xc000246200}, 0xc0001b5080, 0xc000a3b380)
+févr. 05 17:37:32 NAS dockerd[914]:         /go/src/github.com/docker/docker/daemon/daemon.go:1085 +0x2b79
+févr. 05 17:37:32 NAS dockerd[914]: main.(*DaemonCli).start(0xc00024aa80, 0xc000250cb0)
+févr. 05 17:37:32 NAS dockerd[914]:         /go/src/github.com/docker/docker/cmd/dockerd/daemon.go:200 +0x9f6
+févr. 05 17:37:32 NAS dockerd[914]: main.runDaemon(...)
+févr. 05 17:37:32 NAS dockerd[914]:         /go/src/github.com/docker/docker/cmd/dockerd/docker_unix.go:14
+févr. 05 17:37:32 NAS dockerd[914]: main.newDaemonCommand.func1(0xc0006b0000?, {0xc00024aa20?, 0x3?, 0x3?})
+févr. 05 17:37:32 NAS dockerd[914]:         /go/src/github.com/docker/docker/cmd/dockerd/docker.go:38 +0x5e
+févr. 05 17:37:32 NAS dockerd[914]: github.com/docker/docker/vendor/github.com/spf13/cobra.(*Command).execute(0xc0006b0000, {0xc000052090, 0x3, 0x3})
+févr. 05 17:37:32 NAS dockerd[914]:         /go/src/github.com/docker/docker/vendor/github.com/spf13/cobra/command.go:916 +0x862
+févr. 05 17:37:32 NAS dockerd[914]: github.com/docker/docker/vendor/github.com/spf13/cobra.(*Command).ExecuteC(0xc0006b0000)
+févr. 05 17:37:32 NAS dockerd[914]:         /go/src/github.com/docker/docker/vendor/github.com/spf13/cobra/command.go:1044 +0x3bd
+févr. 05 17:37:32 NAS dockerd[914]: github.com/docker/docker/vendor/github.com/spf13/cobra.(*Command).Execute(...)
+févr. 05 17:37:32 NAS dockerd[914]:         /go/src/github.com/docker/docker/vendor/github.com/spf13/cobra/command.go:968
+févr. 05 17:37:32 NAS dockerd[914]: main.main()
+févr. 05 17:37:32 NAS dockerd[914]:         /go/src/github.com/docker/docker/cmd/dockerd/docker.go:102 +0x15d
+févr. 05 17:37:32 NAS systemd[1]: docker.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ An ExecStart= process belonging to unit docker.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 2.
+févr. 05 17:37:32 NAS systemd[1]: docker.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit docker.service has entered the 'failed' state with result 'exit-code'.
+févr. 05 17:37:32 NAS systemd[1]: docker.service: Unit process 1508 (docker-proxy) remains running after unit stopped.
+févr. 05 17:37:32 NAS systemd[1]: docker.service: Unit process 1528 (docker-proxy) remains running after unit stopped.
+févr. 05 17:37:32 NAS systemd[1]: docker.service: Unit process 1787 (docker-proxy) remains running after unit stopped.
+févr. 05 17:37:32 NAS systemd[1]: docker.service: Unit process 1501 (docker-proxy) remains running after unit stopped.
+févr. 05 17:37:32 NAS systemd[1]: Failed to start Docker Application Container Engine.
+░░ Subject: L'unité (unit) docker.service a échoué
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) docker.service a échoué, avec le résultat failed.
+févr. 05 17:37:32 NAS systemd[1]: docker.service: Consumed 1.731s CPU time.
+░░ Subject: Ressources consommées durant l'éxécution de l'unité (unit)
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) docker.service s'est arrêtée et a consommé les ressources indiquées.
+févr. 05 17:37:32 NAS systemd[1]: Reached target Multi-User System.
+░░ Subject: L'unité (unit) multi-user.target a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) multi-user.target a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:32 NAS systemd[1]: Reached target Graphical Interface.
+░░ Subject: L'unité (unit) graphical.target a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) graphical.target a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:32 NAS systemd[1]: Starting Update UTMP about System Runlevel Changes...
+░░ Subject: L'unité (unit) systemd-update-utmp-runlevel.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-update-utmp-runlevel.service a commencé à démarrer.
+févr. 05 17:37:32 NAS systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit systemd-update-utmp-runlevel.service has successfully entered the 'dead' state.
+févr. 05 17:37:32 NAS systemd[1]: Finished Update UTMP about System Runlevel Changes.
+░░ Subject: L'unité (unit) systemd-update-utmp-runlevel.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) systemd-update-utmp-runlevel.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:37:32 NAS systemd[1]: Startup finished in 6.890s (kernel) + 36.615s (userspace) = 43.505s.
+░░ Subject: Le démarrage du système est terminé
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ Tous les services nécessaires au démarrage du système ont été lancés.
+░░ Notez que cela ne signifie pas que le système est maintenant au repos,
+░░ car des services peuvent encore être en train de terminer leur démarrage.
+░░ 
+░░ Le chargement du noyau a nécessité 6890017 microsecondes.
+░░ 
+░░ Le chargement du « RAM disk » initial a nécessité INITRD_USEC microsecondes.
+░░ 
+░░ Le chargement de l'espace utilisateur a nécessité 36615462 microsecondes.
+févr. 05 17:37:34 NAS systemd[1]: docker.service: Scheduled restart job, restart counter is at 1.
+░░ Subject: Le redémarrage automatique d'une unité (unit) a été planifié
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ Le redémarrage automatique de l'unité (unit) docker.service a été planifié, en
+░░ raison de sa configuration avec le paramètre Restart=.
+févr. 05 17:37:34 NAS systemd[1]: Stopped Docker Application Container Engine.
+░░ Subject: L'unité (unit) docker.service a terminé son arrêt
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) docker.service a terminé son arrêt.
+févr. 05 17:37:34 NAS systemd[1]: docker.service: Consumed 1.732s CPU time.
+░░ Subject: Ressources consommées durant l'éxécution de l'unité (unit)
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) docker.service s'est arrêtée et a consommé les ressources indiquées.
+févr. 05 17:37:34 NAS systemd[1]: Starting Docker Application Container Engine...
+░░ Subject: L'unité (unit) docker.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) docker.service a commencé à démarrer.
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.801027801+01:00" level=info msg="Starting up"
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.803087770+01:00" level=error msg="AppArmor enabled on system but the docker-default profile could not be loaded: running `apparmor_parser apparmor_parser --version` failed with output: \nerror: exec: \"apparmor_parser\": executable file not found in $PATH"
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.803618982+01:00" level=info msg="[core] [Channel #1] Channel created" module=grpc
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.803658932+01:00" level=info msg="[core] [Channel #1] original dial target is: \"unix:///run/containerd/containerd.sock\"" module=grpc
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.803709776+01:00" level=info msg="[core] [Channel #1] parsed dial target is: {Scheme:unix Authority: Endpoint:run/containerd/containerd.sock URL:{Scheme:unix Opaque: User: Host: Path:/run/containerd/containerd.sock RawPath: OmitHost:false ForceQuery:false RawQuery: Fragment: RawFragment:}}" module=grpc
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.803759922+01:00" level=info msg="[core] [Channel #1] Channel authority set to \"localhost\"" module=grpc
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.803931941+01:00" level=info msg="[core] [Channel #1] Resolver state updated: {\n  \"Addresses\": [\n    {\n      \"Addr\": \"/run/containerd/containerd.sock\",\n      \"ServerName\": \"\",\n      \"Attributes\": {},\n      \"BalancerAttributes\": null,\n      \"Type\": 0,\n      \"Metadata\": null\n    }\n  ],\n  \"ServiceConfig\": null,\n  \"Attributes\": null\n} (resolver returned new addresses)" module=grpc
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.804018335+01:00" level=info msg="[core] [Channel #1] Channel switches to new LB policy \"pick_first\"" module=grpc
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.804117719+01:00" level=info msg="[core] [Channel #1 SubChannel #2] Subchannel created" module=grpc
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.804293370+01:00" level=info msg="[core] [Channel #1 SubChannel #2] Subchannel Connectivity change to CONNECTING" module=grpc
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.804339186+01:00" level=info msg="[core] [Channel #1 SubChannel #2] Subchannel picks a new address \"/run/containerd/containerd.sock\" to connect" module=grpc
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.804352106+01:00" level=info msg="[core] [Channel #1] Channel Connectivity change to CONNECTING" module=grpc
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.805032430+01:00" level=info msg="[core] [Channel #1 SubChannel #2] Subchannel Connectivity change to READY" module=grpc
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.805081808+01:00" level=info msg="[core] [Channel #1] Channel Connectivity change to READY" module=grpc
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.806072995+01:00" level=info msg="[core] [Channel #4] Channel created" module=grpc
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.806117135+01:00" level=info msg="[core] [Channel #4] original dial target is: \"unix:///run/containerd/containerd.sock\"" module=grpc
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.806167281+01:00" level=info msg="[core] [Channel #4] parsed dial target is: {Scheme:unix Authority: Endpoint:run/containerd/containerd.sock URL:{Scheme:unix Opaque: User: Host: Path:/run/containerd/containerd.sock RawPath: OmitHost:false ForceQuery:false RawQuery: Fragment: RawFragment:}}" module=grpc
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.806196196+01:00" level=info msg="[core] [Channel #4] Channel authority set to \"localhost\"" module=grpc
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.806319186+01:00" level=info msg="[core] [Channel #4] Resolver state updated: {\n  \"Addresses\": [\n    {\n      \"Addr\": \"/run/containerd/containerd.sock\",\n      \"ServerName\": \"\",\n      \"Attributes\": {},\n      \"BalancerAttributes\": null,\n      \"Type\": 0,\n      \"Metadata\": null\n    }\n  ],\n  \"ServiceConfig\": null,\n  \"Attributes\": null\n} (resolver returned new addresses)" module=grpc
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.806387002+01:00" level=info msg="[core] [Channel #4] Channel switches to new LB policy \"pick_first\"" module=grpc
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.806451116+01:00" level=info msg="[core] [Channel #4 SubChannel #5] Subchannel created" module=grpc
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.806503637+01:00" level=info msg="[core] [Channel #4 SubChannel #5] Subchannel Connectivity change to CONNECTING" module=grpc
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.806562234+01:00" level=info msg="[core] [Channel #4 SubChannel #5] Subchannel picks a new address \"/run/containerd/containerd.sock\" to connect" module=grpc
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.806868627+01:00" level=info msg="[core] [Channel #4] Channel Connectivity change to CONNECTING" module=grpc
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.807164405+01:00" level=info msg="[core] [Channel #4 SubChannel #5] Subchannel Connectivity change to READY" module=grpc
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.807246678+01:00" level=info msg="[core] [Channel #4] Channel Connectivity change to READY" module=grpc
+févr. 05 17:37:34 NAS systemd[728]: var-lib-docker-overlay2-check\x2doverlayfs\x2dsupport4210680616-merged.mount: Succeeded.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit UNIT has successfully entered the 'dead' state.
+févr. 05 17:37:34 NAS systemd[1]: var-lib-docker-overlay2-check\x2doverlayfs\x2dsupport4210680616-merged.mount: Succeeded.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit var-lib-docker-overlay2-check\x2doverlayfs\x2dsupport4210680616-merged.mount has successfully entered the 'dead' state.
+févr. 05 17:37:34 NAS systemd[1]: var-lib-docker-overlay2-metacopy\x2dcheck3621250057-merged.mount: Succeeded.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit var-lib-docker-overlay2-metacopy\x2dcheck3621250057-merged.mount has successfully entered the 'dead' state.
+févr. 05 17:37:34 NAS systemd[728]: var-lib-docker-overlay2-metacopy\x2dcheck3621250057-merged.mount: Succeeded.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit UNIT has successfully entered the 'dead' state.
+févr. 05 17:37:34 NAS dockerd[1817]: time="2023-02-05T17:37:34.965117801+01:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+févr. 05 17:37:35 NAS dockerd[1817]: time="2023-02-05T17:37:35.072200553+01:00" level=info msg="Loading containers: start."
+févr. 05 17:37:35 NAS tracker-store[878]: OK
+févr. 05 17:37:35 NAS systemd[728]: tracker-store.service: Succeeded.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit UNIT has successfully entered the 'dead' state.
+févr. 05 17:37:35 NAS dockerd[1817]: panic: interface conversion: interface {} is nil, not string
+févr. 05 17:37:35 NAS dockerd[1817]: goroutine 1 [running]:
+févr. 05 17:37:35 NAS dockerd[1817]: github.com/docker/docker/libnetwork/drivers/ipvlan.(*configuration).UnmarshalJSON(0xc0014a82d0, {0xc0009f2ff0, 0xf0, 0xf0})
+févr. 05 17:37:35 NAS dockerd[1817]:         /go/src/github.com/docker/docker/libnetwork/drivers/ipvlan/ipvlan_store.go:196 +0x40c
+févr. 05 17:37:35 NAS dockerd[1817]: encoding/json.(*decodeState).object(0xc0014a8360, {0x55b3e0c83660?, 0xc0014a82d0?, 0x0?})
+févr. 05 17:37:35 NAS dockerd[1817]:         /usr/local/go/src/encoding/json/decode.go:613 +0x6ef
+févr. 05 17:37:35 NAS dockerd[1817]: encoding/json.(*decodeState).value(0xc0014a8360, {0x55b3e0c83660?, 0xc0014a82d0?, 0x90?})
+févr. 05 17:37:35 NAS dockerd[1817]:         /usr/local/go/src/encoding/json/decode.go:374 +0x45
+févr. 05 17:37:35 NAS dockerd[1817]: encoding/json.(*decodeState).unmarshal(0xc0014a8360, {0x55b3e0c83660?, 0xc0014a82d0?})
+févr. 05 17:37:35 NAS dockerd[1817]:         /usr/local/go/src/encoding/json/decode.go:181 +0x1de
+févr. 05 17:37:35 NAS dockerd[1817]: encoding/json.Unmarshal({0xc0009f2ff0, 0xf0, 0xf0}, {0x55b3e0c83660, 0xc0014a82d0})
+févr. 05 17:37:35 NAS dockerd[1817]:         /usr/local/go/src/encoding/json/decode.go:108 +0x125
+févr. 05 17:37:35 NAS dockerd[1817]: github.com/docker/docker/libnetwork/drivers/ipvlan.(*configuration).SetValue(0xc00146e410?, {0xc0009f2ff0?, 0x23?, 0x23?})
+févr. 05 17:37:35 NAS dockerd[1817]:         /go/src/github.com/docker/docker/libnetwork/drivers/ipvlan/ipvlan_store.go:230 +0x31
+févr. 05 17:37:35 NAS dockerd[1817]: github.com/docker/docker/libnetwork/datastore.(*cache).kmap(0xc0014a0318, {0x55b3e0d88d00, 0xc0014a8240})
+févr. 05 17:37:35 NAS dockerd[1817]:         /go/src/github.com/docker/docker/libnetwork/datastore/cache.go:61 +0x4f2
+févr. 05 17:37:35 NAS dockerd[1817]: github.com/docker/docker/libnetwork/datastore.(*cache).list(0xc0014a0318, {0x55b3e0d88d00?, 0xc0014a8240?})
+févr. 05 17:37:35 NAS dockerd[1817]:         /go/src/github.com/docker/docker/libnetwork/datastore/cache.go:164 +0x75
+févr. 05 17:37:35 NAS dockerd[1817]: github.com/docker/docker/libnetwork/datastore.(*datastore).List(0xc0014a6d20?, {0xc0014a41e0?, 0x6?}, {0x55b3e0d88d00?, 0xc0014a8240?})
+févr. 05 17:37:35 NAS dockerd[1817]:         /go/src/github.com/docker/docker/libnetwork/datastore/datastore.go:517 +0x13f
+févr. 05 17:37:35 NAS dockerd[1817]: github.com/docker/docker/libnetwork/drivers/ipvlan.(*driver).populateNetworks(0xc001473a10)
+févr. 05 17:37:35 NAS dockerd[1817]:         /go/src/github.com/docker/docker/libnetwork/drivers/ipvlan/ipvlan_store.go:77 +0x175
+févr. 05 17:37:35 NAS dockerd[1817]: github.com/docker/docker/libnetwork/drivers/ipvlan.(*driver).initStore(0xc001473a10, 0x55b3df75482d?)
+févr. 05 17:37:35 NAS dockerd[1817]:         /go/src/github.com/docker/docker/libnetwork/drivers/ipvlan/ipvlan_store.go:62 +0x1c5
+févr. 05 17:37:35 NAS dockerd[1817]: github.com/docker/docker/libnetwork/drivers/ipvlan.Init({0x55b3e0d65860, 0xc000ed8fc0}, 0x6?)
+févr. 05 17:37:35 NAS dockerd[1817]:         /go/src/github.com/docker/docker/libnetwork/drivers/ipvlan/ipvlan.go:74 +0x6a
+févr. 05 17:37:35 NAS dockerd[1817]: github.com/docker/docker/libnetwork/drvregistry.(*DrvRegistry).AddDriver(...)
+févr. 05 17:37:35 NAS dockerd[1817]:         /go/src/github.com/docker/docker/libnetwork/drvregistry/drvregistry.go:72
+févr. 05 17:37:35 NAS dockerd[1817]: github.com/docker/docker/libnetwork.New({0xc0005bb880, 0x8, 0xe})
+févr. 05 17:37:35 NAS dockerd[1817]:         /go/src/github.com/docker/docker/libnetwork/controller.go:217 +0x602
+févr. 05 17:37:35 NAS dockerd[1817]: github.com/docker/docker/daemon.(*Daemon).initNetworkController(0xc0004c5440, 0xc000d45c50)
+févr. 05 17:37:35 NAS dockerd[1817]:         /go/src/github.com/docker/docker/daemon/daemon_unix.go:851 +0x4e
+févr. 05 17:37:35 NAS dockerd[1817]: github.com/docker/docker/daemon.(*Daemon).restore(0xc0004c5440)
+févr. 05 17:37:35 NAS dockerd[1817]:         /go/src/github.com/docker/docker/daemon/daemon.go:478 +0x51d
+févr. 05 17:37:35 NAS dockerd[1817]: github.com/docker/docker/daemon.NewDaemon({0x55b3e0d7a098?, 0xc00079e100}, 0xc000150100, 0xc00059d5c0)
+févr. 05 17:37:35 NAS dockerd[1817]:         /go/src/github.com/docker/docker/daemon/daemon.go:1085 +0x2b79
+févr. 05 17:37:35 NAS dockerd[1817]: main.(*DaemonCli).start(0xc000118d80, 0xc0002616c0)
+févr. 05 17:37:35 NAS dockerd[1817]:         /go/src/github.com/docker/docker/cmd/dockerd/daemon.go:200 +0x9f6
+févr. 05 17:37:35 NAS dockerd[1817]: main.runDaemon(...)
+févr. 05 17:37:35 NAS dockerd[1817]:         /go/src/github.com/docker/docker/cmd/dockerd/docker_unix.go:14
+févr. 05 17:37:35 NAS dockerd[1817]: main.newDaemonCommand.func1(0xc0009bc000?, {0xc000118d20?, 0x3?, 0x3?})
+févr. 05 17:37:35 NAS dockerd[1817]:         /go/src/github.com/docker/docker/cmd/dockerd/docker.go:38 +0x5e
+févr. 05 17:37:35 NAS dockerd[1817]: github.com/docker/docker/vendor/github.com/spf13/cobra.(*Command).execute(0xc0009bc000, {0xc000052090, 0x3, 0x3})
+févr. 05 17:37:35 NAS dockerd[1817]:         /go/src/github.com/docker/docker/vendor/github.com/spf13/cobra/command.go:916 +0x862
+févr. 05 17:37:35 NAS dockerd[1817]: github.com/docker/docker/vendor/github.com/spf13/cobra.(*Command).ExecuteC(0xc0009bc000)
+févr. 05 17:37:35 NAS dockerd[1817]:         /go/src/github.com/docker/docker/vendor/github.com/spf13/cobra/command.go:1044 +0x3bd
+févr. 05 17:37:35 NAS dockerd[1817]: github.com/docker/docker/vendor/github.com/spf13/cobra.(*Command).Execute(...)
+févr. 05 17:37:35 NAS dockerd[1817]:         /go/src/github.com/docker/docker/vendor/github.com/spf13/cobra/command.go:968
+févr. 05 17:37:35 NAS dockerd[1817]: main.main()
+févr. 05 17:37:35 NAS dockerd[1817]:         /go/src/github.com/docker/docker/cmd/dockerd/docker.go:102 +0x15d
+févr. 05 17:37:35 NAS systemd[1]: docker.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ An ExecStart= process belonging to unit docker.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 2.
+févr. 05 17:37:35 NAS systemd[1]: docker.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit docker.service has entered the 'failed' state with result 'exit-code'.
+févr. 05 17:37:35 NAS systemd[1]: Failed to start Docker Application Container Engine.
+░░ Subject: L'unité (unit) docker.service a échoué
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) docker.service a échoué, avec le résultat failed.
+févr. 05 17:37:35 NAS systemd[1]: docker.service: Consumed 1.267s CPU time.
+░░ Subject: Ressources consommées durant l'éxécution de l'unité (unit)
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) docker.service s'est arrêtée et a consommé les ressources indiquées.
+févr. 05 17:37:38 NAS systemd[1]: docker.service: Scheduled restart job, restart counter is at 2.
+░░ Subject: Le redémarrage automatique d'une unité (unit) a été planifié
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ Le redémarrage automatique de l'unité (unit) docker.service a été planifié, en
+░░ raison de sa configuration avec le paramètre Restart=.
+févr. 05 17:37:38 NAS systemd[1]: Stopped Docker Application Container Engine.
+░░ Subject: L'unité (unit) docker.service a terminé son arrêt
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) docker.service a terminé son arrêt.
+févr. 05 17:37:38 NAS systemd[1]: docker.service: Consumed 1.267s CPU time.
+░░ Subject: Ressources consommées durant l'éxécution de l'unité (unit)
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) docker.service s'est arrêtée et a consommé les ressources indiquées.
+févr. 05 17:37:38 NAS systemd[1]: Starting Docker Application Container Engine...
+░░ Subject: L'unité (unit) docker.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) docker.service a commencé à démarrer.
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.303881271+01:00" level=info msg="Starting up"
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.305930624+01:00" level=error msg="AppArmor enabled on system but the docker-default profile could not be loaded: running `apparmor_parser apparmor_parser --version` failed with output: \nerror: exec: \"apparmor_parser\": executable file not found in $PATH"
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.308347342+01:00" level=info msg="[core] [Channel #1] Channel created" module=grpc
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.308402796+01:00" level=info msg="[core] [Channel #1] original dial target is: \"unix:///run/containerd/containerd.sock\"" module=grpc
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.308459926+01:00" level=info msg="[core] [Channel #1] parsed dial target is: {Scheme:unix Authority: Endpoint:run/containerd/containerd.sock URL:{Scheme:unix Opaque: User: Host: Path:/run/containerd/containerd.sock RawPath: OmitHost:false ForceQuery:false RawQuery: Fragment: RawFragment:}}" module=grpc
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.308492472+01:00" level=info msg="[core] [Channel #1] Channel authority set to \"localhost\"" module=grpc
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.308681882+01:00" level=info msg="[core] [Channel #1] Resolver state updated: {\n  \"Addresses\": [\n    {\n      \"Addr\": \"/run/containerd/containerd.sock\",\n      \"ServerName\": \"\",\n      \"Attributes\": {},\n      \"BalancerAttributes\": null,\n      \"Type\": 0,\n      \"Metadata\": null\n    }\n  ],\n  \"ServiceConfig\": null,\n  \"Attributes\": null\n} (resolver returned new addresses)" module=grpc
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.308843425+01:00" level=info msg="[core] [Channel #1] Channel switches to new LB policy \"pick_first\"" module=grpc
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.308915431+01:00" level=info msg="[core] [Channel #1 SubChannel #2] Subchannel created" module=grpc
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.308984015+01:00" level=info msg="[core] [Channel #1 SubChannel #2] Subchannel Connectivity change to CONNECTING" module=grpc
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.309028295+01:00" level=info msg="[core] [Channel #1 SubChannel #2] Subchannel picks a new address \"/run/containerd/containerd.sock\" to connect" module=grpc
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.309373590+01:00" level=info msg="[core] [Channel #1] Channel Connectivity change to CONNECTING" module=grpc
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.309465641+01:00" level=info msg="[core] [Channel #1 SubChannel #2] Subchannel Connectivity change to READY" module=grpc
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.309534015+01:00" level=info msg="[core] [Channel #1] Channel Connectivity change to READY" module=grpc
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.310602028+01:00" level=info msg="[core] [Channel #4] Channel created" module=grpc
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.310641000+01:00" level=info msg="[core] [Channel #4] original dial target is: \"unix:///run/containerd/containerd.sock\"" module=grpc
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.310687863+01:00" level=info msg="[core] [Channel #4] parsed dial target is: {Scheme:unix Authority: Endpoint:run/containerd/containerd.sock URL:{Scheme:unix Opaque: User: Host: Path:/run/containerd/containerd.sock RawPath: OmitHost:false ForceQuery:false RawQuery: Fragment: RawFragment:}}" module=grpc
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.310717685+01:00" level=info msg="[core] [Channel #4] Channel authority set to \"localhost\"" module=grpc
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.310777330+01:00" level=info msg="[core] [Channel #4] Resolver state updated: {\n  \"Addresses\": [\n    {\n      \"Addr\": \"/run/containerd/containerd.sock\",\n      \"ServerName\": \"\",\n      \"Attributes\": {},\n      \"BalancerAttributes\": null,\n      \"Type\": 0,\n      \"Metadata\": null\n    }\n  ],\n  \"ServiceConfig\": null,\n  \"Attributes\": null\n} (resolver returned new addresses)" module=grpc
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.310825311+01:00" level=info msg="[core] [Channel #4] Channel switches to new LB policy \"pick_first\"" module=grpc
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.310865050+01:00" level=info msg="[core] [Channel #4 SubChannel #5] Subchannel created" module=grpc
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.310936847+01:00" level=info msg="[core] [Channel #4 SubChannel #5] Subchannel Connectivity change to CONNECTING" module=grpc
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.310988739+01:00" level=info msg="[core] [Channel #4 SubChannel #5] Subchannel picks a new address \"/run/containerd/containerd.sock\" to connect" module=grpc
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.311288847+01:00" level=info msg="[core] [Channel #4] Channel Connectivity change to CONNECTING" module=grpc
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.311396962+01:00" level=info msg="[core] [Channel #4 SubChannel #5] Subchannel Connectivity change to READY" module=grpc
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.311433838+01:00" level=info msg="[core] [Channel #4] Channel Connectivity change to READY" module=grpc
+févr. 05 17:37:38 NAS systemd[728]: var-lib-docker-overlay2-check\x2doverlayfs\x2dsupport2380251579-merged.mount: Succeeded.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit UNIT has successfully entered the 'dead' state.
+févr. 05 17:37:38 NAS systemd[1]: var-lib-docker-overlay2-check\x2doverlayfs\x2dsupport2380251579-merged.mount: Succeeded.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit var-lib-docker-overlay2-check\x2doverlayfs\x2dsupport2380251579-merged.mount has successfully entered the 'dead' state.
+févr. 05 17:37:38 NAS systemd[1]: var-lib-docker-overlay2-metacopy\x2dcheck3353555783-merged.mount: Succeeded.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit var-lib-docker-overlay2-metacopy\x2dcheck3353555783-merged.mount has successfully entered the 'dead' state.
+févr. 05 17:37:38 NAS systemd[728]: var-lib-docker-overlay2-metacopy\x2dcheck3353555783-merged.mount: Succeeded.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit UNIT has successfully entered the 'dead' state.
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.406710688+01:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+févr. 05 17:37:38 NAS dockerd[2339]: time="2023-02-05T17:37:38.514728964+01:00" level=info msg="Loading containers: start."
+févr. 05 17:37:39 NAS dockerd[2339]: panic: interface conversion: interface {} is nil, not string
+févr. 05 17:37:39 NAS dockerd[2339]: goroutine 1 [running]:
+févr. 05 17:37:39 NAS dockerd[2339]: github.com/docker/docker/libnetwork/drivers/ipvlan.(*configuration).UnmarshalJSON(0xc000d1b290, {0xc0013281e0, 0xf0, 0xf0})
+févr. 05 17:37:39 NAS dockerd[2339]:         /go/src/github.com/docker/docker/libnetwork/drivers/ipvlan/ipvlan_store.go:196 +0x40c
+févr. 05 17:37:39 NAS dockerd[2339]: encoding/json.(*decodeState).object(0xc000d1b320, {0x562f48cce660?, 0xc000d1b290?, 0x0?})
+févr. 05 17:37:39 NAS dockerd[2339]:         /usr/local/go/src/encoding/json/decode.go:613 +0x6ef
+févr. 05 17:37:39 NAS dockerd[2339]: encoding/json.(*decodeState).value(0xc000d1b320, {0x562f48cce660?, 0xc000d1b290?, 0x90?})
+févr. 05 17:37:39 NAS dockerd[2339]:         /usr/local/go/src/encoding/json/decode.go:374 +0x45
+févr. 05 17:37:39 NAS dockerd[2339]: encoding/json.(*decodeState).unmarshal(0xc000d1b320, {0x562f48cce660?, 0xc000d1b290?})
+févr. 05 17:37:39 NAS dockerd[2339]:         /usr/local/go/src/encoding/json/decode.go:181 +0x1de
+févr. 05 17:37:39 NAS dockerd[2339]: encoding/json.Unmarshal({0xc0013281e0, 0xf0, 0xf0}, {0x562f48cce660, 0xc000d1b290})
+févr. 05 17:37:39 NAS dockerd[2339]:         /usr/local/go/src/encoding/json/decode.go:108 +0x125
+févr. 05 17:37:39 NAS dockerd[2339]: github.com/docker/docker/libnetwork/drivers/ipvlan.(*configuration).SetValue(0xc00102c230?, {0xc0013281e0?, 0x23?, 0x23?})
+févr. 05 17:37:39 NAS dockerd[2339]:         /go/src/github.com/docker/docker/libnetwork/drivers/ipvlan/ipvlan_store.go:230 +0x31
+févr. 05 17:37:39 NAS dockerd[2339]: github.com/docker/docker/libnetwork/datastore.(*cache).kmap(0xc000036b28, {0x562f48dd3d00, 0xc000d1b200})
+févr. 05 17:37:39 NAS dockerd[2339]:         /go/src/github.com/docker/docker/libnetwork/datastore/cache.go:61 +0x4f2
+févr. 05 17:37:39 NAS dockerd[2339]: github.com/docker/docker/libnetwork/datastore.(*cache).list(0xc000036b28, {0x562f48dd3d00?, 0xc000d1b200?})
+févr. 05 17:37:39 NAS dockerd[2339]:         /go/src/github.com/docker/docker/libnetwork/datastore/cache.go:164 +0x75
+févr. 05 17:37:39 NAS dockerd[2339]: github.com/docker/docker/libnetwork/datastore.(*datastore).List(0xc001307020?, {0xc000c5acf0?, 0x6?}, {0x562f48dd3d00?, 0xc000d1b200?})
+févr. 05 17:37:39 NAS dockerd[2339]:         /go/src/github.com/docker/docker/libnetwork/datastore/datastore.go:517 +0x13f
+févr. 05 17:37:39 NAS dockerd[2339]: github.com/docker/docker/libnetwork/drivers/ipvlan.(*driver).populateNetworks(0xc000abdda0)
+févr. 05 17:37:39 NAS dockerd[2339]:         /go/src/github.com/docker/docker/libnetwork/drivers/ipvlan/ipvlan_store.go:77 +0x175
+févr. 05 17:37:39 NAS dockerd[2339]: github.com/docker/docker/libnetwork/drivers/ipvlan.(*driver).initStore(0xc000abdda0, 0x562f4779f82d?)
+févr. 05 17:37:39 NAS dockerd[2339]:         /go/src/github.com/docker/docker/libnetwork/drivers/ipvlan/ipvlan_store.go:62 +0x1c5
+févr. 05 17:37:39 NAS dockerd[2339]: github.com/docker/docker/libnetwork/drivers/ipvlan.Init({0x562f48db0860, 0xc000ec9280}, 0x6?)
+févr. 05 17:37:39 NAS dockerd[2339]:         /go/src/github.com/docker/docker/libnetwork/drivers/ipvlan/ipvlan.go:74 +0x6a
+févr. 05 17:37:39 NAS dockerd[2339]: github.com/docker/docker/libnetwork/drvregistry.(*DrvRegistry).AddDriver(...)
+févr. 05 17:37:39 NAS dockerd[2339]:         /go/src/github.com/docker/docker/libnetwork/drvregistry/drvregistry.go:72
+févr. 05 17:37:39 NAS dockerd[2339]: github.com/docker/docker/libnetwork.New({0xc000156380, 0x8, 0xe})
+févr. 05 17:37:39 NAS dockerd[2339]:         /go/src/github.com/docker/docker/libnetwork/controller.go:217 +0x602
+févr. 05 17:37:39 NAS dockerd[2339]: github.com/docker/docker/daemon.(*Daemon).initNetworkController(0xc00059cfc0, 0xc00110c900)
+févr. 05 17:37:39 NAS dockerd[2339]:         /go/src/github.com/docker/docker/daemon/daemon_unix.go:851 +0x4e
+févr. 05 17:37:39 NAS dockerd[2339]: github.com/docker/docker/daemon.(*Daemon).restore(0xc00059cfc0)
+févr. 05 17:37:39 NAS dockerd[2339]:         /go/src/github.com/docker/docker/daemon/daemon.go:478 +0x51d
+févr. 05 17:37:39 NAS dockerd[2339]: github.com/docker/docker/daemon.NewDaemon({0x562f48dc5098?, 0xc000053080}, 0xc0001b4000, 0xc000149590)
+févr. 05 17:37:39 NAS dockerd[2339]:         /go/src/github.com/docker/docker/daemon/daemon.go:1085 +0x2b79
+févr. 05 17:37:39 NAS dockerd[2339]: main.(*DaemonCli).start(0xc0009d5170, 0xc0008ac150)
+févr. 05 17:37:39 NAS dockerd[2339]:         /go/src/github.com/docker/docker/cmd/dockerd/daemon.go:200 +0x9f6
+févr. 05 17:37:39 NAS dockerd[2339]: main.runDaemon(...)
+févr. 05 17:37:39 NAS dockerd[2339]:         /go/src/github.com/docker/docker/cmd/dockerd/docker_unix.go:14
+févr. 05 17:37:39 NAS dockerd[2339]: main.newDaemonCommand.func1(0xc000522000?, {0xc0009d4ff0?, 0x3?, 0x3?})
+févr. 05 17:37:39 NAS dockerd[2339]:         /go/src/github.com/docker/docker/cmd/dockerd/docker.go:38 +0x5e
+févr. 05 17:37:39 NAS dockerd[2339]: github.com/docker/docker/vendor/github.com/spf13/cobra.(*Command).execute(0xc000522000, {0xc000052090, 0x3, 0x3})
+févr. 05 17:37:39 NAS dockerd[2339]:         /go/src/github.com/docker/docker/vendor/github.com/spf13/cobra/command.go:916 +0x862
+févr. 05 17:37:39 NAS dockerd[2339]: github.com/docker/docker/vendor/github.com/spf13/cobra.(*Command).ExecuteC(0xc000522000)
+févr. 05 17:37:39 NAS dockerd[2339]:         /go/src/github.com/docker/docker/vendor/github.com/spf13/cobra/command.go:1044 +0x3bd
+févr. 05 17:37:39 NAS dockerd[2339]: github.com/docker/docker/vendor/github.com/spf13/cobra.(*Command).Execute(...)
+févr. 05 17:37:39 NAS dockerd[2339]:         /go/src/github.com/docker/docker/vendor/github.com/spf13/cobra/command.go:968
+févr. 05 17:37:39 NAS dockerd[2339]: main.main()
+févr. 05 17:37:39 NAS dockerd[2339]:         /go/src/github.com/docker/docker/cmd/dockerd/docker.go:102 +0x15d
+févr. 05 17:37:39 NAS systemd[1]: docker.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ An ExecStart= process belonging to unit docker.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 2.
+févr. 05 17:37:39 NAS systemd[1]: docker.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit docker.service has entered the 'failed' state with result 'exit-code'.
+févr. 05 17:37:39 NAS systemd[1]: docker.service: Unit process 2533 (docker-proxy) remains running after unit stopped.
+févr. 05 17:37:39 NAS systemd[1]: docker.service: Unit process 2560 (docker-proxy) remains running after unit stopped.
+févr. 05 17:37:39 NAS systemd[1]: docker.service: Unit process 2651 (docker-proxy) remains running after unit stopped.
+févr. 05 17:37:39 NAS systemd[1]: docker.service: Unit process 2675 (docker-proxy) remains running after unit stopped.
+févr. 05 17:37:39 NAS systemd[1]: docker.service: Unit process 2708 (docker-proxy) remains running after unit stopped.
+févr. 05 17:37:39 NAS systemd[1]: docker.service: Unit process 2747 (docker-proxy) remains running after unit stopped.
+févr. 05 17:37:39 NAS systemd[1]: docker.service: Unit process 2619 (docker-proxy) remains running after unit stopped.
+févr. 05 17:37:39 NAS systemd[1]: Failed to start Docker Application Container Engine.
+░░ Subject: L'unité (unit) docker.service a échoué
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) docker.service a échoué, avec le résultat failed.
+févr. 05 17:37:39 NAS systemd[1]: docker.service: Consumed 1.315s CPU time.
+░░ Subject: Ressources consommées durant l'éxécution de l'unité (unit)
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) docker.service s'est arrêtée et a consommé les ressources indiquées.
+févr. 05 17:37:41 NAS systemd[1]: docker.service: Scheduled restart job, restart counter is at 3.
+░░ Subject: Le redémarrage automatique d'une unité (unit) a été planifié
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ Le redémarrage automatique de l'unité (unit) docker.service a été planifié, en
+░░ raison de sa configuration avec le paramètre Restart=.
+févr. 05 17:37:41 NAS systemd[1]: Stopped Docker Application Container Engine.
+░░ Subject: L'unité (unit) docker.service a terminé son arrêt
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) docker.service a terminé son arrêt.
+févr. 05 17:37:41 NAS systemd[1]: docker.service: Consumed 1.318s CPU time.
+░░ Subject: Ressources consommées durant l'éxécution de l'unité (unit)
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) docker.service s'est arrêtée et a consommé les ressources indiquées.
+févr. 05 17:37:41 NAS systemd[1]: docker.service: Start request repeated too quickly.
+févr. 05 17:37:41 NAS systemd[1]: docker.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit docker.service has entered the 'failed' state with result 'exit-code'.
+févr. 05 17:37:41 NAS systemd[1]: Failed to start Docker Application Container Engine.
+░░ Subject: L'unité (unit) docker.service a échoué
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) docker.service a échoué, avec le résultat failed.
+févr. 05 17:37:41 NAS systemd[1]: docker.socket: Failed with result 'service-start-limit-hit'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit docker.socket has entered the 'failed' state with result 'service-start-limit-hit'.
+févr. 05 17:37:42 NAS systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+févr. 05 17:37:44 NAS kernel: ata7.00: exception Emask 0x10 SAct 0x20000000 SErr 0x400000 action 0x6 frozen
+févr. 05 17:37:44 NAS kernel: ata7.00: irq_stat 0x08000000, interface fatal error
+févr. 05 17:37:44 NAS kernel: ata7: SError: { Handshk }
+févr. 05 17:37:44 NAS kernel: ata7.00: failed command: WRITE FPDMA QUEUED
+févr. 05 17:37:44 NAS kernel: ata7.00: cmd 61/30:e8:a8:a9:44/02:00:03:00:00/40 tag 29 ncq dma 286720 out
+                                        res 40/00:e8:a8:a9:44/00:00:03:00:00/40 Emask 0x10 (ATA bus error)
+févr. 05 17:37:44 NAS kernel: ata7.00: status: { DRDY }
+févr. 05 17:37:44 NAS kernel: ata7: hard resetting link
+févr. 05 17:37:44 NAS kernel: ata7: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+févr. 05 17:37:44 NAS kernel: ata7.00: configured for UDMA/100
+févr. 05 17:37:44 NAS kernel: ata7: EH complete
+févr. 05 17:39:30 NAS sshd[2865]: Accepted password for root from 192.168.0.13 port 56377 ssh2
+févr. 05 17:39:30 NAS sshd[2865]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+févr. 05 17:39:30 NAS systemd[1]: Created slice User Slice of UID 0.
+░░ Subject: L'unité (unit) user-0.slice a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) user-0.slice a terminé son démarrage, avec le résultat done.
+févr. 05 17:39:30 NAS systemd[1]: Starting User Runtime Directory /run/user/0...
+░░ Subject: L'unité (unit) user-runtime-dir@0.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) user-runtime-dir@0.service a commencé à démarrer.
+févr. 05 17:39:30 NAS systemd-logind[573]: New session 2 of user root.
+░░ Subject: Une nouvelle session 2 a été créée pour l'utilisateur root
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ Documentation: sd-login(3)
+░░ 
+░░ Une nouvelle session a été créée pour l'utilisateur root avec
+░░ l'identifiant (ID) 2.
+░░ 
+░░ Le processus maître de la session est 2865.
+févr. 05 17:39:30 NAS systemd[1]: Finished User Runtime Directory /run/user/0.
+░░ Subject: L'unité (unit) user-runtime-dir@0.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) user-runtime-dir@0.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:39:30 NAS systemd[1]: Starting User Manager for UID 0...
+░░ Subject: L'unité (unit) user@0.service a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) user@0.service a commencé à démarrer.
+févr. 05 17:39:30 NAS systemd[2868]: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+févr. 05 17:39:30 NAS systemd[2868]: Queued start job for default target Main User Target.
+févr. 05 17:39:30 NAS systemd[2868]: Created slice User Application Slice.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:39:30 NAS systemd[2868]: Reached target Paths.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:39:30 NAS systemd[2868]: Reached target Timers.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:39:30 NAS systemd[2868]: Starting D-Bus User Message Bus Socket.
+░░ Subject: L'unité (unit) UNIT a commencé à démarrer
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a commencé à démarrer.
+févr. 05 17:39:30 NAS systemd[2868]: Listening on GnuPG network certificate management daemon.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:39:30 NAS systemd[2868]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:39:30 NAS systemd[2868]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:39:30 NAS systemd[2868]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:39:30 NAS systemd[2868]: Listening on GnuPG cryptographic agent and passphrase cache.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:39:30 NAS systemd[2868]: Condition check resulted in Multimedia System being skipped.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:39:30 NAS systemd[2868]: Listening on debconf communication socket.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:39:30 NAS systemd[2868]: Condition check resulted in Sound System being skipped.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:39:30 NAS systemd[2868]: Listening on D-Bus User Message Bus Socket.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:39:30 NAS systemd[2868]: Reached target Sockets.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:39:30 NAS systemd[2868]: Reached target Basic System.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:39:30 NAS systemd[2868]: Condition check resulted in Multimedia Service being skipped.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:39:30 NAS systemd[2868]: Condition check resulted in Sound Service being skipped.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:39:30 NAS systemd[2868]: Condition check resulted in Tracker metadata extractor being skipped.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:39:30 NAS systemd[2868]: Condition check resulted in Tracker file system data miner being skipped.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:39:30 NAS systemd[1]: Started User Manager for UID 0.
+░░ Subject: L'unité (unit) user@0.service a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) user@0.service a terminé son démarrage, avec le résultat done.
+févr. 05 17:39:30 NAS systemd[2868]: Reached target Main User Target.
+░░ Subject: L'unité (unit) UNIT a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) UNIT a terminé son démarrage, avec le résultat done.
+févr. 05 17:39:30 NAS systemd[2868]: Startup finished in 243ms.
+░░ Subject: Le démarrage du gestionnaire utilisateur est terminé
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'instance du gestionnaire d'utilisateurs pour l'utilisateur 0 a été démarrée.
+░░ Tous les services en file d'attente pour démarrer ont été lancés.
+░░ Notez que des services peuvent être encore en train de démarrer,
+░░ ou d'autres être lancés à tout moment ultérieur.
+░░ 
+░░ Le démarrage du gestionnaire a nécéssité 243793 microsecondes.
+févr. 05 17:39:30 NAS systemd[1]: Started Session 2 of user root.
+░░ Subject: L'unité (unit) session-2.scope a terminé son démarrage
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ L'unité (unit) session-2.scope a terminé son démarrage, avec le résultat done.
+févr. 05 17:39:30 NAS sshd[2865]: pam_env(sshd:session): Unable to open env file: /etc/environment: No such file or directory
