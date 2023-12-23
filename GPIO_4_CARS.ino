@@ -23,13 +23,14 @@ const int pin_output_power = 4;
 const int analog_5v_value = 615;      // When N2 powered is of, 5v drops to 2.1V, so we compare to around 3V with the 615 analog value (0 to 1023 range)
 int input_pwm = 0;
 int input_5v = 0;
-int low_duty_cycle_value = 50;
+int low_duty_cycle_value = 20;
 bool input_12v = false;
 bool power_output = false;
 bool old_power_output = false;
 bool boot_sequence = true;
 
-unsigned long boot_time = 0;
+unsigned long millis_boot = 0;
+unsigned long boot_duration_time = 500000;
  
 void setup() {
   pinMode(pin_input_pwm, INPUT);
@@ -64,7 +65,7 @@ void loop() {    // Set output_power pin HIGH if input_12v OR input_5v are HIGH
       clock_high();
       pwm_setup();                                // CONFIGURE PWM
       boot_sequence = true;
-      boot_time = millis();
+      millis_boot = millis();
       digitalWrite(pin_output_power, HIGH);       // ENABLE POWER  
     } else {
       delay(1000);                                // DELAY BEFORE SHUTDOWN
@@ -86,8 +87,9 @@ void loop() {    // Set output_power pin HIGH if input_12v OR input_5v are HIGH
      input_pwm = analogRead(pin_input_pwm);
      pwm_duty_cycle = ((input_pwm >> 4) + (input_pwm >> 3));
    } else {                                       // Set PWM to low duty cycle during boot process
-     pwm_duty_cycle = low_duty_cycle_value;
-     if (millis() >= (boot_time + 100000)) {
+//     pwm_duty_cycle = low_duty_cycle_value;
+//     if (millis() >= (millis_boot + boot_duration_time)) {
+     if (millis() - millis_boot >= boot_duration_time) {
      boot_sequence = false;
      }
    }
