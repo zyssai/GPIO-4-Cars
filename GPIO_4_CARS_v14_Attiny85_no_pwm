@@ -21,7 +21,6 @@ int input_5v = 0;
 bool input_12v = false;
 bool power_output = false;
 bool old_power_output = false;
-bool boot_sequence = true;
  
 void setup() {
   pinMode(pin_input_5v, INPUT);
@@ -52,7 +51,6 @@ void loop() {    // Set output_power pin HIGH if input_12v OR input_5v are HIGH
   if (power_output != old_power_output) {
     if (power_output == true) {
 //      clock_high();
-      boot_sequence = true;
       digitalWrite(pin_output_power, HIGH);       // ENABLE POWER  
     } else {
       delay(1000);                                // DELAY BEFORE SHUTDOWN
