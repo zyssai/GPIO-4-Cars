@@ -1,0 +1,74 @@
+/*
+
+  GPIO'4'Cars NO PWM
+                 ATtiny85 Pin map
+
+                    +-\/-+
+            NC PB5 1|O   |8 VCC
+            NC PB3 2|    |7 PB2 A1 input_5v
+ ouput_power 4 PB4 3|    |6 PB1 1  input_12v
+               GND 4|    |5 PB0 NC                 
+                    +----+
+                    
+*/
+
+const int pin_input_5v = A1;
+const int pin_input_12v = 1;
+const int pin_output_power = 4;
+
+const int analog_5v_value = 615;      // When N2 powered is of, 5v drops to 2.1V, so we compare to around 3V with the 615 analog value (0 to 1023 range)
+int input_5v = 0;
+bool input_12v = false;
+bool power_output = false;
+bool old_power_output = false;
+bool boot_sequence = true;
+ 
+void setup() {
+  pinMode(pin_input_5v, INPUT);
+  pinMode(pin_input_12v, INPUT);
+  pinMode(pin_output_power, OUTPUT);
+
+  clock_low();
+}
+
+void loop() {    // Set output_power pin HIGH if input_12v OR input_5v are HIGH
+
+  input_5v = analogRead(pin_input_5v);
+  input_12v = digitalRead(pin_input_12v);
+  
+  if ((input_12v == true) || (input_5v > analog_5v_value)) {   // input_12v OR input_5v are HIGH
+    power_output = true;
+  } else {
+    delay(100);                                                // DEBOUNCING
+    input_5v = analogRead(pin_input_5v);
+    input_12v = digitalRead(pin_input_12v);
+    if ((input_12v == true) || (input_5v > analog_5v_value)) {
+      power_output = true;
+    } else {
+      power_output = false;
+    }
+  }
+
+  if (power_output != old_power_output) {
+    if (power_output == true) {
+//      clock_high();
+      boot_sequence = true;
+      digitalWrite(pin_output_power, HIGH);       // ENABLE POWER  
+    } else {
+      delay(1000);                                // DELAY BEFORE SHUTDOWN
+      digitalWrite(pin_output_power, LOW);        // DISABLE POWER
+//      clock_low();
+    }
+  old_power_output = power_output;
+  }
+}
+
+// void clock_high() {
+//   CLKPR = (1<<CLKPCE);                        // Prescaler enable
+//   CLKPR = ((0<<CLKPS3) | (0<<CLKPS2) | (0<<CLKPS1) | (1<<CLKPS0));  // Clock division factor by 2  (0001)  
+// }
+
+void clock_low() {
+  CLKPR = (1<<CLKPCE);                        // Prescaler enable
+  CLKPR = ((0<<CLKPS3) | (1<<CLKPS2) | (0<<CLKPS1) | (0<<CLKPS0));  // Clock division factor by 16  (0100)  
+}
