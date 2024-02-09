@@ -1,0 +1,83 @@
+[    0.000000] Kernel command line: rootfstype=ramfs init=/init console=ttyS0,115200n8 no_console_suspend earlyprintk=aml-uart,0xff803000 quiet ramoops.pstore_en=1 ramoops.record_size=0x8000 ramoops.console_size=0x4000 max_freq_a73=2208 max_freq_a53=1908 modeline=1024,600,50400,37500,59,1024,1048,1184,1344,600,603,609,638,0,1,1 customwidth=1024 customheight=600 disable_vu7=false touch_invert_x=false touch_invert_y=false zoom_rate=100 test_mt_vid=0000 test_mt_pid=0000 backlight_pwm=yes suspend_hdmiphy=1 prevent_sleep=1 usb-xhci.tablesize=2 boot_device=mmcblk0 androidboot.selinux=permissive androidboot.firstboot= jtag=disable androidboot.hardware=odroidn2 otg_device=1 androidboot.variant=n2_plus usbhid.quirks=0x16b4:0x0705:0x0004 colorattribute=444,8bit disablehpd=false ignorecec=false logo=osd0,loaded,0x3d800000 cvbsmode=576cvbs hdmimode=custombuilt voutmode=dvi cvbscable= osd_reverse=0 video_reverse=0 gpiopower= enable_wol=0 otg_device=1 buildvariant=userdebug
+[    0.545412] usbcore: registered new interface driver usbfs
+[    0.545459] usbcore: registered new interface driver hub
+[    0.545545] usbcore: registered new device driver usb
+[    0.843174] usbcore: registered new interface driver asix
+[    0.843267] usbcore: registered new interface driver ax88179_178a
+[    0.843312] usbcore: registered new interface driver cdc_ether
+[    0.843364] usbcore: registered new interface driver net1080
+[    0.843408] usbcore: registered new interface driver cdc_subset
+[    0.843457] usbcore: registered new interface driver zaurus
+[    0.843512] usbcore: registered new interface driver cdc_ncm
+[    0.843948] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    0.843952] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    0.844312] usbcore: registered new interface driver usb-storage
+[    0.844406] usbcore: registered new interface driver usbserial
+[    0.846041] usbcore: registered new interface driver appletouch
+[    0.846095] usbcore: registered new interface driver bcm5974
+[    0.846726] usbcore: registered new interface driver iforce
+[    0.847353] usbcore: registered new interface driver xpad
+[    0.849645] usbcore: registered new interface driver uvcvideo
+[    0.849649] USB Video Class driver (1.1.1)
+[    0.851323] usbcore: registered new interface driver bcm203x
+[    0.851372] usbcore: registered new interface driver bpa10x
+[    0.851439] usbcore: registered new interface driver bfusb
+[    0.851487] usbcore: registered new interface driver btusb
+[    0.851570] usbcore: registered new interface driver ath3k
+[    0.854440] usbcore: registered new interface driver usbhid
+[    0.854445] usbhid: USB HID core driver
+[    0.961407] amlogic-new-usb2-v2 ffe09000.usb2phy: USB2 phy probe:phy_mem:0xffe09000, iomap phy_base:0xffffff800860d000
+[    0.961730] amlogic-new-usb3-v2 ffe09080.usb3phy: USB3 phy probe:phy_mem:0xffe09080, iomap phy_base:0xffffff800862b080
+[    1.303119] usbcore: registered new interface driver snd-usb-audio
+[    1.758331] xhci-hcd xhci-hcd.0.auto: new USB bus registered, assigned bus number 1
+[    1.758336] usb: xhci: determined sg_tablesize: 2
+[    1.758900] hub 1-0:1.0: USB hub found
+[    1.759077] xhci-hcd xhci-hcd.0.auto: new USB bus registered, assigned bus number 2
+[    1.759080] usb: xhci: determined sg_tablesize: 2
+[    1.759107] usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.
+[    1.759383] hub 2-0:1.0: USB hub found
+[    1.760217] dwc_otg: usb0: type: 2 speed: 0, config: 0, dma: 0, id: 0, phy: ffe09000, ctrl: 0
+[    2.085922] usb 1-1: new high-speed USB device number 2 using xhci-hcd
+[    2.239315] hub 1-1:1.0: USB hub found
+[    2.346053] usb 2-1: new SuperSpeed USB device number 2 using xhci-hcd
+[    2.383417] hub 2-1:1.0: USB hub found
+[    2.581917] usb 1-1.1: new high-speed USB device number 3 using xhci-hcd
+[    2.719364] hub 1-1.1:1.0: USB hub found
+[    2.853914] usb 1-1.2: new high-speed USB device number 4 using xhci-hcd
+[    2.984410] init: Added '/system/etc/init/hw/init.usb.rc' to import list
+[    2.984441] init: Added '/system/etc/init/hw/init.usb.configfs.rc' to import list
+[    2.986794] init: Parsing file /system/etc/init/hw/init.usb.rc...
+[    2.988363] init: Added '/vendor/etc/init/hw/init.odroid.usb.rc' to import list
+[    2.989708] init: Parsing file /vendor/etc/init/hw/init.odroid.usb.rc...
+[    2.991874] init: Parsing file /system/etc/init/hw/init.usb.configfs.rc...
+[    2.995301] usb-storage 1-1.2:1.0: USB Mass Storage device detected
+[    2.995543] scsi host0: usb-storage 1-1.2:1.0
+[    3.006528] init: Parsing file /system/etc/init/usbd.rc...
+[    3.018500] init: Parsing file /vendor/etc/init/android.hardware.usb@1.0-service.odroid.rc...
+[    3.073927] usb 1-1.1.1: new high-speed USB device number 5 using xhci-hcd
+[    3.128849] ueventd: CopyDistFiles: Destination file "/odm/usb_modeswitch.conf" exists, skipping
+[    3.175963] uvcvideo: Found UVC 1.00 device AV TO USB2.0 (534d:0021)
+[    3.275989] audit: type=1400 audit(1707463991.012:3): avc:  denied  { getattr } for  pid=2917 comm="usb_modeswitch" path="/postinstall" dev="mmcblk0p16" ino=59 scontext=u:r:usb_modeswitch:s0 tcontext=u:object_r:postinstall_mnt_dir:s0 tclass=dir permissive=1
+[    3.276038] audit: type=1400 audit(1707463991.012:4): avc:  denied  { dac_override } for  pid=2917 comm="usb_modeswitch" capability=1  scontext=u:r:usb_modeswitch:s0 tcontext=u:r:usb_modeswitch:s0 tclass=capability permissive=1
+[    3.276050] audit: type=1400 audit(1707463991.012:5): avc:  denied  { read } for  pid=2917 comm="usb_modeswitch" name="data" dev="mmcblk0p16" ino=20 scontext=u:r:usb_modeswitch:s0 tcontext=u:object_r:system_data_root_file:s0 tclass=dir permissive=1
+[    3.295772] usb 1-1.2: USB disconnect, device number 4
+[    3.313927] usb 1-1.1.2: new full-speed USB device number 6 using xhci-hcd
+[    3.455280] usb 1-1.1.2: Unsupported device
+[    3.455389] usb 1-1.1.2: Unsupported device
+[    3.545925] usb 1-1.1.3: new full-speed USB device number 7 using xhci-hcd
+[    3.602840] cdc_acm 1-1.1.2:1.0: ttyACM0: USB ACM device
+[    3.603185] usbcore: registered new interface driver cdc_acm
+[    3.603188] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+[    3.753949] usb 1-1.2: new high-speed USB device number 8 using xhci-hcd
+[    3.810276] usb 1-1.1.3: Warning! Unlikely big volume range (=999), cval->res is probably wrong.
+[    3.810281] usb 1-1.1.3: [2] FU [PCM Playback Volume] ch = 2, val = 0/999/1
+[    3.811677] usb 1-1.1.3: Warning! Unlikely big volume range (=3996), cval->res is probably wrong.
+[    3.811681] usb 1-1.1.3: [5] FU [Mic Capture Volume] ch = 2, val = 0/3996/1
+[    3.816096] input: AIGER Car DSP AMP as /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-1/1-1.1/1-1.1.3/1-1.1.3:1.3/0003:8888:1234.0001/input/input7
+[    3.816314] hid-generic 0003:8888:1234.0001: input,hidraw0: USB HID v2.01 Device [AIGER Car DSP AMP] on usb-xhci-hcd.0.auto-1.1.3/input3
+[    3.816464] usbhid 1-1.1.3:1.4: couldn't find an input interrupt endpoint
+[    3.817798] usb 1-1.1.3: Unsupported device
+[    3.909774] usb 1-1.2: Unsupported device
+[    3.977915] usb 1-1.1.4: new full-speed USB device number 9 using xhci-hcd
+[    4.080846] usb 1-1.1.4: Unsupported device
+[   19.881987] usbcore: registered new interface driver rtl8821cu
