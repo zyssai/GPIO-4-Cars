@@ -63,67 +63,68 @@ digitalWrite(pin_output_power, LOW);
 void loop() {
 
 
-  power_output = false;
+power_output = false;
 
-  tm_offdelay--;
-  if (tm_offdelay == 0xffff) {
-  	tm_offdelay = 0;
-  }
+tm_offdelay--;
+if (tm_offdelay == 0xffff) {
+	tm_offdelay = 0;
+}
 
   delay(100);
   read_input();
 
-  if (input_12v == true) {
-    on = 1;
-  } else {
-    on = 0;
-  }
+if (input_12v == true) {
+  on = 1;
+} else {
+  on = 0;
+}
 
-  if (input_5v == true) {
-    hold = 1;
-  } else {
-    hold = 0;
-  }
+if (input_5v == true) {
+  hold = 1;
+} else {
+  hold = 0;
+}
 
-  if ((on == 1) && (on_old == 0)) {       // IF N2 IS STARTING, SET PWM LOW DUTY CYCLE FOR BOOT SEQUENCE
-    boot_sequence = true;
-    duty_cycle = low_duty_cycle;
-    pwm_setup();
-  }
+if ((on == 1) && (on_old == 0)) {       // IF N2 IS STARTING, SET PWM LOW DUTY CYCLE FOR BOOT SEQUENCE
+  boot_sequence = true;
+  duty_cycle = low_duty_cycle;
+  pwm_setup();
+}
 
-  if ((on == 0) && (on_old == 1)) {       // FORCE SHUTDOWN AFTER DELAY IF ONLY 5V
-	  tm_offdelay = 1000;                   // 1000 = ~25 Seconds
-  }
-  on_old = on;
+if ((on == 0) && (on_old == 1)) {       // FORCE SHUTDOWN AFTER DELAY IF ONLY 5V
+	tm_offdelay = 1000;                   // 1000 = ~25 Seconds
+}
+on_old = on;
 
-  if ((hold == 0) && (hold_old == 1)) {
-	  tm_offdelay = 100;
-  }
-  hold_old = hold;
+if ((hold == 0) && (hold_old == 1)) {
+	tm_offdelay = 100;
+}
+hold_old = hold;
 
-  if (tm_offdelay > 0) {
-	  off_delay = 1;
-  } else {
-	  off_delay = 0;
-    hold = 0;
-    hold_old = 0;
-  }
+if (tm_offdelay > 0) {
+	off_delay = 1;
+} else {
+	off_delay = 0;
+  hold = 0;
+  hold_old = 0;
+}
 
-  power_output |= hold;
-  power_output |= on;
-  power_output |= off_delay;
+power_output |= hold;
+power_output |= on;
+power_output |= off_delay;
 
-  if (input_reset == true) {
-    power_output = 0;
-  }
+if (input_reset == true) {
+  power_output = 0;
+}
 
 
-  if (power_output > 0) {
-    poweron();
-    pwm();
-  } else {
-    poweroff();
-  }
+if (power_output > 0) {
+  poweron();
+  pwm();
+} else {
+  poweroff();
+}
+
 }
 
 
@@ -143,7 +144,8 @@ void read_input() {                             // READING INPUTS
 
 void poweroff() {
   digitalWrite(pin_output_power, LOW);        // DISABLE POWER
-  if (input_reset == true) {
+
+if (input_reset == true) {
     delay(20000);
   } else {
     delay(3000);
@@ -160,10 +162,11 @@ void pwm() {
   if (boot_sequence == false) {                           // Set PWM duty cycle according to incoming N2+ PWM
     duty_cycle = ((input_pwm >> 4) + (input_pwm >> 3));   // Maximum brightness value is reduced to 70% to prevent damage
   } else {                                                // Set PWM to low duty cycle during boot sequence
-    if (input_pwm <= 950 ) {                              // Compare maximum duty cycle of boot sequence with lower value at end of boot sequence
+    if (input_pwm <= 800 ) {                              // Compare maximum duty cycle of boot sequence with lower value at end of boot sequence
       boot_sequence = false;
     }
   }
+  analogWrite(pin_output_pwm, duty_cycle);
 }
 
 void pwm_setup() {
@@ -172,10 +175,23 @@ void pwm_setup() {
 // Set up TCA for PWM
   TCA0.SINGLE.CTRLA = TCA_SINGLE_CLKSEL_DIV1_gc;  // Use the system clock directly
   TCA0.SINGLE.CTRLB = TCA_SINGLE_WGMODE_FRQ_gc;   // Frequency generation mode
-  TCA0.SINGLE.PER = 170;                          // Set PER for desired frequency (Giving 23KHz)
+  TCA0.SINGLE.PER = 250;                          // Set PER for desired frequency (170 giving 23KHz for 1MHz system clock)
   TCA0.SINGLE.CTRLA |= TCA_SINGLE_ENABLE_bm;      // Enable the TCA0 timer
 //                                                                system clock frequency
 //                                                PWM Frequency =  --------------------
-//                               
+//                                                                        PER
   analogWrite(pin_output_pwm, duty_cycle);
 }
+
+/*
+void clock_high() {
+  CLKPR = (1<<CLKPCE);                        // Prescaler enable
+  CLKPR = ((0<<CLKPS3) | (0<<CLKPS2) | (0<<CLKPS1) | (1<<CLKPS0));  // Clock division factor by 2  (0001)  
+}
+
+void clock_low() {
+  CLKPR = (1<<CLKPCE);                        // Prescaler enable
+  CLKPR = ((0<<CLKPS3) | (1<<CLKPS2) | (0<<CLKPS1) | (0<<CLKPS0));  // Clock division factor by 16  (0100)  
+}
+
+*/
