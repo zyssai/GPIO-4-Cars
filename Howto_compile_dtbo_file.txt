@@ -59,7 +59,9 @@ $ make dtbs
 If you are facing issues like this:
 "multiple definition of 'yylloc'..."
 
-Then, edit ./linux/scripts/dtc/dtc-lexer-lex.c
+Then do:
+
+nano ./linux/scripts/dtc/dtc-lexer.lex.c
 
 Search for:
 YYLTYPE yylloc
