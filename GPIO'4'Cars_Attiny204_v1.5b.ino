@@ -26,7 +26,7 @@ const int input_5v_trigger = 615;      // When N2 powered is of, 5v drops to 2.1
 int input_5v_analog = 0;
 int input_pwm = 0;
 int duty_cycle = 0;
-int low_duty_cycle = 10;
+int low_duty_cycle = 5;
 int hold = 0;
 int hold_old = 0;
 int on = 0;
@@ -36,9 +36,6 @@ int acc_old = 0;
 uint8_t off_delay = 0;
 bool boot_sequence = false;
 bool input_reset = false;
-bool input_5v = false;
-bool input_12v = false;
-bool input_acc = false;
 bool power_output = false;
 
 uint16_t tm_offdelay = 0;
@@ -62,69 +59,64 @@ digitalWrite(pin_output_power, LOW);
 
 void loop() {
 
+  power_output = false;
 
-power_output = false;
-
-tm_offdelay--;
-if (tm_offdelay == 0xffff) {
-	tm_offdelay = 0;
-}
+  tm_offdelay--;
+  if (tm_offdelay == 0xffff) {
+  	tm_offdelay = 0;
+  }
 
   delay(100);
   read_input();
 
-if (input_12v == true) {
-  on = 1;
-} else {
-  on = 0;
-}
+  if ((on == 1) && (on_old == 0)) {       // IF 12V IS GOING ON, POWER ON AND SET PWM LOW DUTY CYCLE FOR BOOT SEQUENCE
+    boot_sequence = true;
+    duty_cycle = low_duty_cycle;
+    pwm_setup();
+  }
 
-if (input_5v == true) {
-  hold = 1;
-} else {
-  hold = 0;
-}
+  if ((on == 0) && (on_old == 1)) {       // FORCE SHUTDOWN AFTER DELAY IF ONLY 5V
+	  tm_offdelay = 10000;                   // 1000 = ~5 Seconds
+  }
+  
+  if ((hold == 0) && (hold_old == 1)) {   // SHUTDOWN WHEN 5V IS GOING OFF
+	  tm_offdelay = 100;
+  }
 
-if ((on == 1) && (on_old == 0)) {       // IF N2 IS STARTING, SET PWM LOW DUTY CYCLE FOR BOOT SEQUENCE
-  boot_sequence = true;
-  duty_cycle = low_duty_cycle;
-  pwm_setup();
-}
+  if ((acc == 1) && (acc_old == 0) && (on == 1) && (hold == 0)) {
+    input_reset = true;
+  }
 
-if ((on == 0) && (on_old == 1)) {       // FORCE SHUTDOWN AFTER DELAY IF ONLY 5V
-	tm_offdelay = 1000;                   // 1000 = ~25 Seconds
-}
-on_old = on;
-
-if ((hold == 0) && (hold_old == 1)) {
-	tm_offdelay = 100;
-}
-hold_old = hold;
-
-if (tm_offdelay > 0) {
-	off_delay = 1;
-} else {
-	off_delay = 0;
-  hold = 0;
-  hold_old = 0;
-}
-
-power_output |= hold;
-power_output |= on;
-power_output |= off_delay;
-
-if (input_reset == true) {
-  power_output = 0;
-}
+  if (tm_offdelay > 0) {
+	  off_delay = 1;
+  } else {
+	  off_delay = 0;
+    hold = 0;
+    hold_old = 0;
+  }
 
 
-if (power_output > 0) {
-  poweron();
-  pwm();
-} else {
-  poweroff();
-}
+  power_output |= hold;
+  power_output |= on;
+  power_output |= off_delay;
 
+  if (input_reset == true) {
+    power_output = 0;
+  }
+
+  if (power_output > 0) {
+    poweron();
+    if (on_old == 0) {
+      delay(1000);
+    }
+    pwm();
+  } else {
+    poweroff();
+  }
+
+  on_old = on;
+  hold_old = hold;
+  acc_old = acc;
 }
 
 
@@ -132,20 +124,21 @@ void read_input() {                             // READING INPUTS
 
   input_reset = !digitalRead(pin_reset);        // "!" is here to reverse boolean state as pin_reset is pulled up and short to ground if pressed.
   input_5v_analog = analogRead(pin_input_5v);
-  input_12v = digitalRead(pin_input_12v);
-//  input_acc = !digitalRead(pin_input_acc);     // "!" is here to reverse boolean state as ACC input is reversed by Q2 transistor.
+  on = digitalRead(pin_input_12v);
+  acc = !digitalRead(pin_input_acc);     // "!" is here to reverse boolean state as ACC input is reversed by Q2 transistor.
 
   if (input_5v_analog > input_5v_trigger) {
-    input_5v = true;
+    hold = true;
   } else {
-    input_5v = false;
+    hold = false;
   }
 }
 
 void poweroff() {
   digitalWrite(pin_output_power, LOW);        // DISABLE POWER
+  pinMode(pin_output_pwm, INPUT);             // PWM DISABLED, BY SETTING PWM AS INPUT
 
-if (input_reset == true) {
+  if (input_reset == true) {
     delay(20000);
   } else {
     delay(3000);
@@ -158,15 +151,14 @@ void poweron() {
 
 void pwm() {
   input_pwm = analogRead(pin_input_pwm);                  // Read incoming N2 PWM duty cycle
-
   if (boot_sequence == false) {                           // Set PWM duty cycle according to incoming N2+ PWM
-    duty_cycle = ((input_pwm >> 4) + (input_pwm >> 3));   // Maximum brightness value is reduced to 70% to prevent damage
+    duty_cycle = (((input_pwm >> 4) + (input_pwm >> 3)) +1);   // Maximum brightness value is reduced to 70% to prevent damage
+    analogWrite(pin_output_pwm, duty_cycle);
   } else {                                                // Set PWM to low duty cycle during boot sequence
-    if (input_pwm <= 800 ) {                              // Compare maximum duty cycle of boot sequence with lower value at end of boot sequence
-      boot_sequence = false;
+    if ((input_pwm <= 400 ) && (input_pwm >= 250)) {   // Check incoming duty cycle of boot sequence 
+      boot_sequence = false;                           // Voltage is going around 1.10V during boot. Once found 1.10V, exit boot sequence.
     }
   }
-  analogWrite(pin_output_pwm, duty_cycle);
 }
 
 void pwm_setup() {
@@ -180,18 +172,5 @@ void pwm_setup() {
 //                                                                system clock frequency
 //                                                PWM Frequency =  --------------------
 //                                                                        PER
-  analogWrite(pin_output_pwm, duty_cycle);
+  analogWrite(pin_output_pwm, low_duty_cycle);
 }
-
-/*
-void clock_high() {
-  CLKPR = (1<<CLKPCE);                        // Prescaler enable
-  CLKPR = ((0<<CLKPS3) | (0<<CLKPS2) | (0<<CLKPS1) | (1<<CLKPS0));  // Clock division factor by 2  (0001)  
-}
-
-void clock_low() {
-  CLKPR = (1<<CLKPCE);                        // Prescaler enable
-  CLKPR = ((0<<CLKPS3) | (1<<CLKPS2) | (0<<CLKPS1) | (0<<CLKPS0));  // Clock division factor by 16  (0100)  
-}
-
-*/
