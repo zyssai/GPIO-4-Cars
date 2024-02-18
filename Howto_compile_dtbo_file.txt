@@ -69,7 +69,7 @@ YYLTYPE yylloc
 Change it to:
 extern YYLTYPE yylloc
 
-Do the same with ./linux/scripts/dtc/dtc-lexer-lex.c_shipped
+Do the same with ./linux/scripts/dtc/dtc-lexer.lex.c_shipped
 
 
 You can find your compiled dtbo file at the same folder as dtbo file.
