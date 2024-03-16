@@ -1,0 +1,31 @@
+Follow wiki here:
+
+https://wiki.odroid.com/odroid-n2/software/building_u-boot
+
+Apply modifications to the uboot file here:
+/board/hardkernel/odroidn2/odroidn2.c
+
+$ cd u-boot
+$ make odroidn2_defconfig
+$ make
+
+Start Odroid in SPI mode.
+
+Exit to shell.
+Type:
+$ ums /dev/mmcblk0
+
+Connect to otg on the linux computer, then enter:
+
+$ fdisk -l
+
+to find usb odroid drive.
+For example:
+
+/dev/sdh1             2185488  2251023    65536    32M  c W95 FAT32 (LBA)
+/dev/sdh2             9705744 30535679 20829936   9,9G 83 Linux
+
+To copy uboot file to odroid:
+
+$ cd sd_fuse
+$ ./sd_fusing.sh /dev/sdh

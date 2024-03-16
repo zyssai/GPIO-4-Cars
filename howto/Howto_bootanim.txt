@@ -1,0 +1,5 @@
+remount
+cp /storage/emulated/0/Download/boot-logo.bmp.gz /odm/
+chmod 755 /odm/boot-logo.bmp.gz
+cp /storage/emulated/0/Download/bootanimation.zip /system/product/media/
+chmod 755 /system/product/media/bootanimation.zip
