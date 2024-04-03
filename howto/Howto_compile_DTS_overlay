@@ -1,0 +1,73 @@
+To compile dtbo file, follow these steps:
+
+$ sudo apt-get update
+$ sudo apt-get install git lzop build-essential gcc bc libncurses5-dev libc6-i386 lib32stdc++6 zlib1g:i386
+
+Mkdir a folder, or use something like /home/xxx/Downloads, and go into it.
+
+$ wget https://releases.linaro.org/components/toolchain/binaries/7.4-2019.02/aarch64-linux-gnu/gcc-linaro-7.4.1-2019.02-x86_64_aarch64-linux-gnu.tar.xz
+
+Unzip this file:
+
+$ sudo mkdir -p /opt/toolchains
+$ sudo tar Jxvf gcc-linaro-7.4.1-2019.02-x86_64_aarch64-linux-gnu.tar.xz -C /opt/toolchains/
+
+
+Edit PATH file:
+$ nano $HOME/.bashrc
+
+Add the following lines:
+
+export ARCH=arm64
+export CROSS_COMPILE=aarch64-linux-gnu-
+export PATH=/opt/toolchains/gcc-linaro-7.4.1-2019.02-x86_64_aarch64-linux-gnu/bin/:$PATH
+
+
+Apply changes :
+$ source ~/.bashrc
+
+Check correct installation, you must see version number :
+
+$ aarch64-linux-gnu-gcc -v
+
+Download kernel:
+
+$ git clone --depth 1 https://github.com/hardkernel/linux.git -b odroidg12-4.9.y-android
+
+$ cd ./linux/arch/arm64/boot/dts/amlogic/overlays/odroidn2/
+
+Apply your changes to keymatrix.dts file:
+
+$ nano keymatrix.dts
+
+Then:
+
+$ cd /home/xxx/Downloads/Linux
+
+Compile your dtbo file:
+
+$ make odroidn2_android_defconfig
+
+$ make dtbs
+
+If you are facing issues like this:
+"multiple definition of 'yylloc'..."
+
+Then, edit ./linux/scripts/dtc/dtc-lexer-lex.c
+
+Search for:
+YYLTYPE yylloc
+
+Change it to:
+extern YYLTYPE yylloc
+
+Do the same with ./linux/scripts/dtc/dtc-lexer-lex.c_shipped
+
+
+You can find your compiled dtbo file at the same folder as dts file.
+
+
+
+
+Source:
+https://wiki.odroid.com/odroid-n2/software/building_kernel#tab__android1
