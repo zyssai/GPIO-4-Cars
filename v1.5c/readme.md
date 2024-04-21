@@ -31,7 +31,7 @@ Before connecting the screen, launch Odroid Settings app, and in DTB Overlay sec
 
 With this overlay, sound output is used by HDMI port. So if you need to have sound output to N2 USB or analog, do the following:
 
-Download [display_vu7c_no_dai.dtbo]([GPIO-4-Cars/display_vu7c_no_dai.dtbo at main · zyssai/GPIO-4-Cars · GitHub](https://github.com/zyssai/GPIO-4-Cars/blob/main/display_vu7c_no_dai.dtbo)) and place it to `/odm` folder.
+Download [display_vu7c_no_dai.dtbo](https://github.com/zyssai/GPIO-4-Cars/display_vu7c_no_dai.dtbo) and place it to `/odm` folder.
 
 Edit `/odm/env.ini` and add `display_vu7c_no_dai` to `user_overlays` at the end of the file.
 
