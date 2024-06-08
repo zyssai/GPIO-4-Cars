@@ -14,7 +14,7 @@ Download and install [Balena Etcher](https://www.balena.io/etcher/) on a compute
 
 Download and install [Minimal ADB](https://androidmtk.com/download-minimal-adb-and-fastboot-tool) on Windows machine (not required on Linux):
 
-Download last available [LineageOS 20](https://oph.mdrjr.net/voodik/S922X/ODROID-N2/Android/LineageOTA-20.0/builds/selfinstall/) (tested with alpha 0.2).
+Download last available [LineageOS 20](https://oph.mdrjr.net/voodik/S922X/ODROID-N2/Android/LineageOTA-20.0/builds/selfinstall/) (tested with alpha 0.2 and 0.3).
 Do not use Vulkan version, there is problems with GPIO pins.
 Do not unzip.
 
