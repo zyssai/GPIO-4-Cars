@@ -1,0 +1,139 @@
+06-08 12:51:56.279     0     0 I [    1.824163@5] init: [libfs_mgr]Filesystem on /dev/block/system was not cleanly shutdown; state flags: 0x0, incompat feature flags: 0x42
+06-08 12:52:09.594  3485  3599 D SystemServerTimingAsync: InitThreadPoolExec:Update app-ops uidState in case package com.jw.shutdownservice changed
+06-08 12:52:09.594  3485  3599 D SystemServerInitThreadPool: Started executing Update app-ops uidState in case package com.jw.shutdownservice changed
+06-08 12:52:09.595  3485  3599 D SystemServerInitThreadPool: Finished executing Update app-ops uidState in case package com.jw.shutdownservice changed
+06-08 12:52:09.595  3485  3599 V SystemServerTimingAsync: InitThreadPoolExec:Update app-ops uidState in case package com.jw.shutdownservice changed took to complete: 0ms
+06-08 12:52:12.220  3485  3485 V StorageManagerService: Package com.jw.shutdownservice does not have legacy storage
+06-08 12:52:26.163  4263  4263 W ProximityAuth: [PhoneHubNotificationProcessor] shutdown(): context is null.
+06-08 12:52:27.779  3485  3541 I ActivityManager: Start proc 6719:com.jw.shutdownservice/u0a153 for broadcast {com.jw.shutdownservice/com.jw.shutdownservice.autostart}
+06-08 12:52:27.800  6719  6719 I shutdownservice: Late-enabling -Xcheck:jni
+06-08 12:52:27.953  6719  6719 W ziparchive: Unable to open '/data/app/~~TtSOXtbybw0WomxvD1scUA==/com.jw.shutdownservice-u-ns5QqLq9tAkV9C-H0gDw==/base.dm': No such file or directory
+06-08 12:52:27.953  6719  6719 W ziparchive: Unable to open '/data/app/~~TtSOXtbybw0WomxvD1scUA==/com.jw.shutdownservice-u-ns5QqLq9tAkV9C-H0gDw==/base.dm': No such file or directory
+06-08 12:52:28.322  6719  6719 V GraphicsEnvironment: ANGLE Developer option for 'com.jw.shutdownservice' set to: 'default'
+06-08 12:52:28.339  6719  6719 V GraphicsEnvironment: ANGLE GameManagerService for com.jw.shutdownservice: false
+06-08 12:52:28.406  3485  3921 I ActivityManager: Background started FGS: Allowed [callingPackage: com.jw.shutdownservice; callingUid: 10153; uidState: RCVR; intent: Intent { cmp=com.jw.shutdownservice/.GpioShutdownService }; code:SYSTEM_ALERT_WINDOW_PERMISSION; tempAllowListReason:<,reasonCode:SYSTEM_ALLOW_LISTED,duration:9223372036854775807,callingUid:-1>; targetSdkVersion:33; callerTargetSdkVersion:33; startForegroundCount:0; bindFromPackage:null]
+06-08 12:52:28.416  6719  6719 I com.jw.gpioshutdown: Autostart Service
+06-08 12:52:28.455  6719  6719 I com.jw.gpioshutdown: onCreate() entry
+06-08 12:52:28.509  6719  6912 W shutdownservice: Accessing hidden field Ljava/lang/UNIXProcess;->pid:I (unsupported, reflection, allowed)
+06-08 12:52:28.564  6906  6906 I sh      : type=1400 audit(0.0:376): avc: denied { read } for name="/" dev="mmcblk0p16" ino=2 scontext=u:r:untrusted_app:s0:c153,c256,c512,c768 tcontext=u:object_r:rootfs:s0 tclass=dir permissive=1 app=com.jw.shutdownservice
+06-08 12:52:28.564  6906  6906 I sh      : type=1400 audit(0.0:377): avc: denied { open } for path="/" dev="mmcblk0p16" ino=2 scontext=u:r:untrusted_app:s0:c153,c256,c512,c768 tcontext=u:object_r:rootfs:s0 tclass=dir permissive=1 app=com.jw.shutdownservice
+06-08 12:52:28.712  6719  6719 I com.jw.gpioshutdown: Root is available
+06-08 12:52:28.823  6719  6719 I com.jw.gpioshutdown: RootTools access is given
+06-08 12:52:28.823  6719  6719 I com.jw.gpioshutdown: Model: hardkernel odroid-n2plus
+06-08 12:52:28.823  6719  6719 I com.jw.gpioshutdown: Checking ro.product.device, check = true
+06-08 12:52:28.823  6719  6719 I com.jw.gpioshutdown: buildtype: odroid
+06-08 12:52:28.823  6719  6719 I com.jw.gpioshutdown: Entering wiringPiSetup, check = true
+06-08 12:52:28.836  6719  6719 I shutdownservice: type=1400 audit(0.0:378): avc: denied { read } for name="model" dev="sysfs" ino=63 scontext=u:r:untrusted_app:s0:c153,c256,c512,c768 tcontext=u:object_r:sysfs_boottype:s0 tclass=file permissive=1 app=com.jw.shutdownservice
+06-08 12:52:28.839  6719  6719 I com.jw.gpioshutdown: Starting reading shared preferences, check = true
+06-08 12:52:28.836  6719  6719 I shutdownservice: type=1400 audit(0.0:379): avc: denied { open } for path="/sys/firmware/devicetree/base/model" dev="sysfs" ino=63 scontext=u:r:untrusted_app:s0:c153,c256,c512,c768 tcontext=u:object_r:sysfs_boottype:s0 tclass=file permissive=1 app=com.jw.shutdownservice
+06-08 12:52:28.836  6719  6719 I shutdownservice: type=1400 audit(0.0:380): avc: denied { getattr } for path="/sys/firmware/devicetree/base/model" dev="sysfs" ino=63 scontext=u:r:untrusted_app:s0:c153,c256,c512,c768 tcontext=u:object_r:sysfs_boottype:s0 tclass=file permissive=1 app=com.jw.shutdownservice
+06-08 12:52:28.859  6719  6719 I com.jw.gpioshutdown: Gpio.Restart: 
+06-08 12:52:28.859  6719  6719 I com.jw.gpioshutdown: Gpio.Shutdown: 
+06-08 12:52:28.859  6719  6719 I com.jw.gpioshutdown: Time.Shutdown: 3000
+06-08 12:52:28.859  6719  6719 I com.jw.gpioshutdown: Time.Shutdown: 3000
+06-08 12:52:28.859  6719  6719 I com.jw.gpioshutdown: Gpio.Heartbeat: 
+06-08 12:52:28.859  6719  6719 I com.jw.gpioshutdown: Time.Heartbeat: 
+06-08 12:52:28.859  6719  6719 I com.jw.gpioshutdown: Gpio.HoldPower: 
+06-08 12:52:28.859  6719  6719 I com.jw.gpioshutdown: Gpio.GpioRemotePiSequence: 
+06-08 12:52:28.859  6719  6719 I com.jw.gpioshutdown: Gpio.Extra1: 15
+06-08 12:52:28.859  6719  6719 I com.jw.gpioshutdown: Gpio.Extra2: -16
+06-08 12:52:28.860  6719  6719 I com.jw.gpioshutdown: Gpio.Extra3: 24
+06-08 12:52:28.860  6719  6719 I com.jw.gpioshutdown: Gpio.Extra4: 3
+06-08 12:52:28.860  6719  6719 I com.jw.gpioshutdown: Gpio.Extra5: 0
+06-08 12:52:28.860  6719  6719 I com.jw.gpioshutdown: Gpio.Extra6: 
+06-08 12:52:28.860  6719  6719 I com.jw.gpioshutdown: Gpio.Extra7: 
+06-08 12:52:28.860  6719  6719 I com.jw.gpioshutdown: Gpio.Extra8: 
+06-08 12:52:28.860  6719  6719 I com.jw.gpioshutdown: Gpio.Extra9: 
+06-08 12:52:28.860  6719  6719 I com.jw.gpioshutdown: Gpio.Extra10: 
+06-08 12:52:28.860  6719  6719 I com.jw.gpioshutdown: Gpio.Extra11: 
+06-08 12:52:28.860  6719  6719 I com.jw.gpioshutdown: Gpio.Extra12: 
+06-08 12:52:28.860  6719  6719 I com.jw.gpioshutdown: GpioShutdownService is made by J. Wolff and works only on Odroid_C1/C2/ Experimental on XU3/XU4/N1. Use it on your own risk!
+06-08 12:52:28.860  6719  6719 I com.jw.gpioshutdown: The default values are:
+06-08 12:52:28.860  6719  6719 I com.jw.gpioshutdown: wiringPi# 24 aka Pin 35: short by resistor 2k to GND triggers Shutdown.
+06-08 12:52:28.860  6719  6719 I com.jw.gpioshutdown: wiringPi# 27 aka Pin 36: short by resistor 2k to GND triggers Reboot.
+06-08 12:52:28.860  6719  6719 I com.jw.gpioshutdown: wiringPi# 23 aka Pin 33: output set to high until powered down
+06-08 12:52:28.860  6719  6719 I com.jw.gpioshutdown: Don't use it on other Platform! You have been warned.
+06-08 12:52:28.862  6719  6719 I com.jw.gpioshutdown: Alt for15: 0
+06-08 12:52:28.863  6719  6719 I com.jw.gpioshutdown: pinMode: 15
+06-08 12:52:28.863  6719  6719 I com.jw.gpioshutdown: Alt for16: 0
+06-08 12:52:28.863  6719  6719 I com.jw.gpioshutdown: pinMode: 16
+06-08 12:52:28.863  6719  6719 I com.jw.gpioshutdown: pinMode: 24
+06-08 12:52:28.863  6719  6719 I com.jw.gpioshutdown: pinMode: 3
+06-08 12:52:28.864  6719  6719 F libc    : Fatal signal 11 (SIGSEGV), code 2 (SEGV_ACCERR), fault addr 0x748f1aa668 in tid 6719 (shutdownservice), pid 6719 (shutdownservice)
+06-08 12:52:29.519  7122  7122 F DEBUG   : Cmdline: com.jw.shutdownservice
+06-08 12:52:29.519  7122  7122 F DEBUG   : pid: 6719, tid: 6719, name: shutdownservice  >>> com.jw.shutdownservice <<<
+06-08 12:52:29.519  7122  7122 F DEBUG   :       #08 pc 0000000000001438  /data/app/~~TtSOXtbybw0WomxvD1scUA==/com.jw.shutdownservice-u-ns5QqLq9tAkV9C-H0gDw==/base.apk!libwpi_android.so (offset 0x1000) (Java_com_jw_wiringpi_wpiAndroid_pinMode+36) (BuildId: bd561544161dd116d14a03e46f15ba648c5c000c)
+06-08 12:52:29.519  7122  7122 F DEBUG   :       #11 pc 00000000000003f2  [anon:dalvik-classes6.dex extracted in memory from /data/app/~~TtSOXtbybw0WomxvD1scUA==/com.jw.shutdownservice-u-ns5QqLq9tAkV9C-H0gDw==/base.apk!classes6.dex] (com.jw.gpio.wiring.pinMode+30)
+06-08 12:52:29.520  7122  7122 F DEBUG   :       #13 pc 00000000000068b2  [anon:dalvik-classes4.dex extracted in memory from /data/app/~~TtSOXtbybw0WomxvD1scUA==/com.jw.shutdownservice-u-ns5QqLq9tAkV9C-H0gDw==/base.apk!classes4.dex] (com.jw.shutdownservice.GpioShutdownService.onCreate+5466)
+06-08 12:52:29.701  3485  3699 I ActivityManager: Process com.jw.shutdownservice (pid 6719) has died: prcp FGS 
+06-08 12:52:29.702  3485  3699 W ActivityManager: Scheduling restart of crashed service com.jw.shutdownservice/.GpioShutdownService in 2586ms for start-requested
+06-08 12:52:30.855  4461  4671 E gbvr    :     Make sure to call shutdown()/shutdownNow()
+06-08 12:52:32.297  3485  3541 I ActivityManager: Start proc 7375:com.jw.shutdownservice/u0a153 for service {com.jw.shutdownservice/com.jw.shutdownservice.GpioShutdownService}
+06-08 12:52:32.306  7375  7375 I shutdownservice: Late-enabling -Xcheck:jni
+06-08 12:52:32.362  7375  7375 W ziparchive: Unable to open '/data/app/~~TtSOXtbybw0WomxvD1scUA==/com.jw.shutdownservice-u-ns5QqLq9tAkV9C-H0gDw==/base.dm': No such file or directory
+06-08 12:52:32.363  7375  7375 W ziparchive: Unable to open '/data/app/~~TtSOXtbybw0WomxvD1scUA==/com.jw.shutdownservice-u-ns5QqLq9tAkV9C-H0gDw==/base.dm': No such file or directory
+06-08 12:52:32.522  7375  7375 V GraphicsEnvironment: ANGLE Developer option for 'com.jw.shutdownservice' set to: 'default'
+06-08 12:52:32.522  7375  7375 V GraphicsEnvironment: ANGLE GameManagerService for com.jw.shutdownservice: false
+06-08 12:52:32.552  7375  7375 I com.jw.gpioshutdown: onCreate() entry
+06-08 12:52:32.564  7375  7395 W shutdownservice: Accessing hidden field Ljava/lang/UNIXProcess;->pid:I (unsupported, reflection, allowed)
+06-08 12:52:32.572  7392  7392 I sh      : type=1400 audit(0.0:394): avc: denied { read } for name="/" dev="mmcblk0p16" ino=2 scontext=u:r:untrusted_app:s0:c153,c256,c512,c768 tcontext=u:object_r:rootfs:s0 tclass=dir permissive=1 app=com.jw.shutdownservice
+06-08 12:52:32.572  7392  7392 I sh      : type=1400 audit(0.0:395): avc: denied { open } for path="/" dev="mmcblk0p16" ino=2 scontext=u:r:untrusted_app:s0:c153,c256,c512,c768 tcontext=u:object_r:rootfs:s0 tclass=dir permissive=1 app=com.jw.shutdownservice
+06-08 12:52:32.624  7375  7375 I com.jw.gpioshutdown: Root is available
+06-08 12:52:32.674  7375  7375 I com.jw.gpioshutdown: RootTools access is given
+06-08 12:52:32.675  7375  7375 I com.jw.gpioshutdown: Model: hardkernel odroid-n2plus
+06-08 12:52:32.675  7375  7375 I com.jw.gpioshutdown: Checking ro.product.device, check = true
+06-08 12:52:32.675  7375  7375 I com.jw.gpioshutdown: buildtype: odroid
+06-08 12:52:32.675  7375  7375 I com.jw.gpioshutdown: Entering wiringPiSetup, check = true
+06-08 12:52:32.672  7375  7375 I shutdownservice: type=1400 audit(0.0:396): avc: denied { read } for name="model" dev="sysfs" ino=63 scontext=u:r:untrusted_app:s0:c153,c256,c512,c768 tcontext=u:object_r:sysfs_boottype:s0 tclass=file permissive=1 app=com.jw.shutdownservice
+06-08 12:52:32.676  7375  7375 I shutdownservice: type=1400 audit(0.0:397): avc: denied { open } for path="/sys/firmware/devicetree/base/model" dev="sysfs" ino=63 scontext=u:r:untrusted_app:s0:c153,c256,c512,c768 tcontext=u:object_r:sysfs_boottype:s0 tclass=file permissive=1 app=com.jw.shutdownservice
+06-08 12:52:32.676  7375  7375 I shutdownservice: type=1400 audit(0.0:398): avc: denied { getattr } for path="/sys/firmware/devicetree/base/model" dev="sysfs" ino=63 scontext=u:r:untrusted_app:s0:c153,c256,c512,c768 tcontext=u:object_r:sysfs_boottype:s0 tclass=file permissive=1 app=com.jw.shutdownservice
+06-08 12:52:32.676  7375  7375 I shutdownservice: type=1400 audit(0.0:399): avc: denied { read write } for name="gpiomem" dev="tmpfs" ino=15538 scontext=u:r:untrusted_app:s0:c153,c256,c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1 app=com.jw.shutdownservice
+06-08 12:52:32.676  7375  7375 I shutdownservice: type=1400 audit(0.0:400): avc: denied { open } for path="/dev/gpiomem" dev="tmpfs" ino=15538 scontext=u:r:untrusted_app:s0:c153,c256,c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1 app=com.jw.shutdownservice
+06-08 12:52:32.678  7375  7375 I com.jw.gpioshutdown: Starting reading shared preferences, check = true
+06-08 12:52:32.680  7375  7375 I shutdownservice: type=1400 audit(0.0:401): avc: denied { read } for name="pwm" dev="sysfs" ino=8765 scontext=u:r:untrusted_app:s0:c153,c256,c512,c768 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=1 app=com.jw.shutdownservice
+06-08 12:52:32.680  7375  7375 I shutdownservice: type=1400 audit(0.0:402): avc: denied { open } for path="/sys/class/pwm" dev="sysfs" ino=8765 scontext=u:r:untrusted_app:s0:c153,c256,c512,c768 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=1 app=com.jw.shutdownservice
+06-08 12:52:32.683  7375  7375 I com.jw.gpioshutdown: Gpio.Restart: 
+06-08 12:52:32.683  7375  7375 I com.jw.gpioshutdown: Gpio.Shutdown: 
+06-08 12:52:32.683  7375  7375 I com.jw.gpioshutdown: Time.Shutdown: 3000
+06-08 12:52:32.683  7375  7375 I com.jw.gpioshutdown: Time.Shutdown: 3000
+06-08 12:52:32.683  7375  7375 I com.jw.gpioshutdown: Gpio.Heartbeat: 
+06-08 12:52:32.683  7375  7375 I com.jw.gpioshutdown: Time.Heartbeat: 
+06-08 12:52:32.683  7375  7375 I com.jw.gpioshutdown: Gpio.HoldPower: 
+06-08 12:52:32.683  7375  7375 I com.jw.gpioshutdown: Gpio.GpioRemotePiSequence: 
+06-08 12:52:32.683  7375  7375 I com.jw.gpioshutdown: Gpio.Extra1: 15
+06-08 12:52:32.683  7375  7375 I com.jw.gpioshutdown: Gpio.Extra2: -16
+06-08 12:52:32.683  7375  7375 I com.jw.gpioshutdown: Gpio.Extra3: 24
+06-08 12:52:32.683  7375  7375 I com.jw.gpioshutdown: Gpio.Extra4: 3
+06-08 12:52:32.683  7375  7375 I com.jw.gpioshutdown: Gpio.Extra5: 0
+06-08 12:52:32.683  7375  7375 I com.jw.gpioshutdown: Gpio.Extra6: 
+06-08 12:52:32.684  7375  7375 I com.jw.gpioshutdown: Gpio.Extra7: 
+06-08 12:52:32.684  7375  7375 I com.jw.gpioshutdown: Gpio.Extra8: 
+06-08 12:52:32.684  7375  7375 I com.jw.gpioshutdown: Gpio.Extra9: 
+06-08 12:52:32.684  7375  7375 I com.jw.gpioshutdown: Gpio.Extra10: 
+06-08 12:52:32.684  7375  7375 I com.jw.gpioshutdown: Gpio.Extra11: 
+06-08 12:52:32.684  7375  7375 I com.jw.gpioshutdown: Gpio.Extra12: 
+06-08 12:52:32.684  7375  7375 I com.jw.gpioshutdown: GpioShutdownService is made by J. Wolff and works only on Odroid_C1/C2/ Experimental on XU3/XU4/N1. Use it on your own risk!
+06-08 12:52:32.684  7375  7375 I com.jw.gpioshutdown: The default values are:
+06-08 12:52:32.684  7375  7375 I com.jw.gpioshutdown: wiringPi# 24 aka Pin 35: short by resistor 2k to GND triggers Shutdown.
+06-08 12:52:32.684  7375  7375 I com.jw.gpioshutdown: wiringPi# 27 aka Pin 36: short by resistor 2k to GND triggers Reboot.
+06-08 12:52:32.684  7375  7375 I com.jw.gpioshutdown: wiringPi# 23 aka Pin 33: output set to high until powered down
+06-08 12:52:32.684  7375  7375 I com.jw.gpioshutdown: Don't use it on other Platform! You have been warned.
+06-08 12:52:32.684  7375  7375 I com.jw.gpioshutdown: Alt for15: 0
+06-08 12:52:32.685  7375  7375 I com.jw.gpioshutdown: pinMode: 15
+06-08 12:52:32.685  7375  7375 I com.jw.gpioshutdown: Alt for16: 0
+06-08 12:52:32.685  7375  7375 I com.jw.gpioshutdown: pinMode: 16
+06-08 12:52:32.685  7375  7375 I com.jw.gpioshutdown: pinMode: 24
+06-08 12:52:32.685  7375  7375 I com.jw.gpioshutdown: pinMode: 3
+06-08 12:52:32.685  7375  7375 F libc    : Fatal signal 11 (SIGSEGV), code 2 (SEGV_ACCERR), fault addr 0x748f1aa668 in tid 7375 (shutdownservice), pid 7375 (shutdownservice)
+06-08 12:52:32.992  7436  7436 F DEBUG   : Cmdline: com.jw.shutdownservice
+06-08 12:52:32.992  7436  7436 F DEBUG   : pid: 7375, tid: 7375, name: shutdownservice  >>> com.jw.shutdownservice <<<
+06-08 12:52:32.993  7436  7436 F DEBUG   :       #08 pc 0000000000001438  /data/app/~~TtSOXtbybw0WomxvD1scUA==/com.jw.shutdownservice-u-ns5QqLq9tAkV9C-H0gDw==/base.apk!libwpi_android.so (offset 0x1000) (Java_com_jw_wiringpi_wpiAndroid_pinMode+36) (BuildId: bd561544161dd116d14a03e46f15ba648c5c000c)
+06-08 12:52:32.993  7436  7436 F DEBUG   :       #11 pc 00000000000003f2  [anon:dalvik-classes6.dex extracted in memory from /data/app/~~TtSOXtbybw0WomxvD1scUA==/com.jw.shutdownservice-u-ns5QqLq9tAkV9C-H0gDw==/base.apk!classes6.dex] (com.jw.gpio.wiring.pinMode+30)
+06-08 12:52:32.993  7436  7436 F DEBUG   :       #13 pc 00000000000068b2  [anon:dalvik-classes4.dex extracted in memory from /data/app/~~TtSOXtbybw0WomxvD1scUA==/com.jw.shutdownservice-u-ns5QqLq9tAkV9C-H0gDw==/base.apk!classes4.dex] (com.jw.shutdownservice.GpioShutdownService.onCreate+5466)
+06-08 12:52:33.025  3485  3529 I ActivityManager: Showing crash dialog for package com.jw.shutdownservice u0
+06-08 12:52:33.059  3485  4559 I ActivityManager: Process com.jw.shutdownservice (pid 7375) has died: prcp FGS 
+06-08 12:52:33.059  3485  4559 W ActivityManager: Scheduling restart of crashed service com.jw.shutdownservice/.GpioShutdownService in 1800000ms for start-requested
+06-08 12:52:33.077  3485  3529 D CoreBackPreview: Window{8c62200 u0 Application Error: com.jw.shutdownservice}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.WindowOnBackInvokedDispatcher$OnBackInvokedCallbackWrapper@d6a7dd7, mPriority=0}
+06-08 12:52:33.079  3485  3529 D CoreBackPreview: Window{8c62200 u0 Application Error: com.jw.shutdownservice}: Setting back callback null
+06-08 12:52:33.081  3485  7456 W ActivityManager: Ignoring remove of inactive process: ProcessRecord{633347 0:com.jw.shutdownservice/u0a153}
+06-08 12:52:33.082  3485  3529 W InputManager-JNI: Input channel object '8c62200 Application Error: com.jw.shutdownservice (client)' was disposed without first being removed with the input manager!
