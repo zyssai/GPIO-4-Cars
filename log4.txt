@@ -1,0 +1,28 @@
+Module                  Size  Used by
+8821cu               2998272  0 
+amvdec_mavs            53248  0 
+vpu                    49152  0 
+encoder                53248  0 
+amvdec_avs2           200704  0 
+amvdec_vp9            114688  0 
+amvdec_vc1             65536  0 
+amvdec_real            40960  0 
+amvdec_mmpeg4          40960  0 
+amvdec_mpeg4           61440  0 
+amvdec_mmpeg12         45056  0 
+amvdec_mpeg12         110592  0 
+amvdec_mmjpeg          24576  0 
+amvdec_mjpeg           40960  0 
+amvdec_h265           139264  0 
+amvdec_h264mvc         53248  0 
+amvdec_mh264          151552  0 
+amvdec_h264           143360  0 
+amvdec_avs             65536  0 
+stream_input          176128  11 amvdec_mavs,amvdec_avs2,amvdec_vp9,amvdec_real,amvdec_mmpeg12,amvdec_mpeg12,amvdec_h265,amvdec_h264mvc,amvdec_mh264,amvdec_h264,amvdec_avs
+decoder_common        155648  18 amvdec_mavs,encoder,amvdec_avs2,amvdec_vp9,amvdec_vc1,amvdec_real,amvdec_mmpeg4,amvdec_mpeg4,amvdec_mmpeg12,amvdec_mpeg12,amvdec_mmjpeg,amvdec_mjpeg,amvdec_h265,amvdec_h264mvc,amvdec_mh264,amvdec_h264,amvdec_avs,stream_input
+firmware               28672  19 amvdec_mavs,encoder,amvdec_avs2,amvdec_vp9,amvdec_vc1,amvdec_real,amvdec_mmpeg4,amvdec_mpeg4,amvdec_mmpeg12,amvdec_mpeg12,amvdec_mmjpeg,amvdec_mjpeg,amvdec_h265,amvdec_h264mvc,amvdec_mh264,amvdec_h264,amvdec_avs,stream_input,decoder_common
+media_clock            32768  15 amvdec_mavs,vpu,encoder,amvdec_avs2,amvdec_vp9,amvdec_vc1,amvdec_mpeg4,amvdec_mpeg12,amvdec_h265,amvdec_mh264,amvdec_h264,amvdec_avs,stream_input,decoder_common,firmware
+dwav_usb_mt            16384  0 
+spi_meson_spicc        20480  0 
+spidev                 20480  0 
+mali_kbase            479232  19 
