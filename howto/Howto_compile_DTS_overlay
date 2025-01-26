@@ -50,6 +50,7 @@ $ make odroidn2_android_defconfig
 
 $ make dtbs
 
+###################################
 If you are facing issues like this:
 "multiple definition of 'yylloc'..."
 
@@ -63,10 +64,27 @@ extern YYLTYPE yylloc
 
 Do the same with ./linux/scripts/dtc/dtc-lexer-lex.c_shipped
 
+###################################
+If you are facing issues like this:
+"Could not get phandle node for /fragment@0/__overlay__/........."
 
+edit scripts/Makefile.lib
+
+Go on line 290
+
+Change:
+
+        -Wno-pci_device_reg
+
+to:
+
+        -Wno-pci_device_reg \
+         -Wno-gpios_property
+
+Save and retry.
+
+##################################
 You can find your compiled dtbo file at the same folder as dts file.
-
-
 
 
 Source:
