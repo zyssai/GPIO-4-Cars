@@ -1,4 +1,6 @@
-## Here is a tutorial for GPIO'4'Cars boards revision **1.5b** and newer, with latest [LINEAGE OS 20](https://forum.odroid.com/viewtopic.php?f=178&t=45758), please just use non-vulkan for the moment, because there is some problem while using gpio with vulkan version.
+## Here is a tutorial for GPIO'4'Cars boards revision **1.5b** and newer, with latest [LINEAGE OS 20](https://forum.odroid.com/viewtopic.php?f=178&t=45758), please just use non-vulkan for the moment, because there is some problem while using gpio with vulkan version
+
+Please use LOS20 alpha 0.2 if you plan to use keymatrix, 0.3 and up are not working.
 
 Should work with other OS's but not tested.
 
