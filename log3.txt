@@ -1,4 +1,0 @@
-pwmchip0
-pwmchip12
-pwmchip4
-pwmchip8
