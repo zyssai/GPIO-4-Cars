@@ -1,5 +1,6 @@
 ============================================================
           ODROID N2 DTB / DTBO UPDATED BUILD QUICK GUIDE
+             I USE THIS TO WORK WITH VOODIK LOS22.1
                I KEPT THE OLD TUTORIAL AT THE END
 ============================================================
 
@@ -60,6 +61,8 @@ cd android_kernel_voodik_odroidg12
 
 5. BUILD DTB / DTBO FILES
 -------------------------
+
+make odroidn2_android_defconfig
 
 make dtbs
 
