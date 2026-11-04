@@ -1,8 +1,11 @@
-# Mémo compilation DTB/DTBO ODROID N2
+============================================================
+          ODROID N2 DTB / DTBO UPDATED BUILD QUICK GUIDE
+               I KEPT THE OLD TUTORIAL AT THE END
+============================================================
 
-## Installation
+1. INSTALL REQUIRED PACKAGES
+----------------------------
 
-```bash
 sudo apt update
 
 sudo apt install \
@@ -15,109 +18,81 @@ sudo apt install \
     bison \
     flex \
     libncurses-dev
-```
 
----
 
-## Configuration de l'environnement
+2. CONFIGURE THE BUILD ENVIRONMENT
+----------------------------------
 
-Éditer `~/.bashrc` :
+Edit ~/.bashrc :
 
-```bash
 nano ~/.bashrc
-```
 
-Ajouter à la fin du fichier :
+Add the following lines at the end of the file:
 
-```bash
 export ARCH=arm64
 export CROSS_COMPILE=aarch64-linux-gnu-
-```
 
-Appliquer les modifications :
+Apply the changes:
 
-```bash
 source ~/.bashrc
-```
 
-Vérifier :
+Verify:
 
-```bash
 echo $ARCH
 echo $CROSS_COMPILE
-```
 
-Résultat attendu :
 
-```text
-arm64
-aarch64-linux-gnu-
-```
+3. VERIFY THE CROSS COMPILER
+----------------------------
 
----
-
-## Vérification du compilateur
-
-```bash
 aarch64-linux-gnu-gcc -v
-```
 
----
 
-## Clonage du kernel Voodik
+4. CLONE THE VOODIK KERNEL SOURCE
+---------------------------------
 
-```bash
 git clone --depth 1 \
     -b lineage-22.1_odroidg12_64_1 \
     https://github.com/voodik/android_kernel_voodik_odroidg12.git
 
 cd android_kernel_voodik_odroidg12
-```
 
----
 
-## Compilation des DTB / DTBO
+5. BUILD DTB / DTBO FILES
+-------------------------
 
-Depuis la racine du dépôt :
-
-```bash
 make dtbs
-```
 
----
 
-## Emplacement des fichiers générés
+6. GENERATED OUTPUT FILES
+-------------------------
 
-```text
 arch/arm64/boot/dts/amlogic/overlays/odroidn2/
-```
 
----
 
-## Vérification des fichiers générés
+7. VERIFY GENERATED OVERLAYS
+----------------------------
 
-```bash
 ls -l arch/arm64/boot/dts/amlogic/overlays/odroidn2/*.dtbo
-```
 
----
 
-## Recompiler après modification d'un DTS
+8. REBUILD AFTER DTS MODIFICATIONS
+----------------------------------
 
-Après chaque modification d'un fichier `.dts` :
+After modifying any .dts file:
 
-```bash
 make dtbs
-```
 
----
 
-## Notes
+NOTES
+-----
 
-- La vieille toolchain Linaro 7.4.1 n'a finalement pas été nécessaire.
-- Le compilateur Debian `gcc-aarch64-linux-gnu` fonctionne correctement pour la génération des DTB/DTBO.
-- Quelques warnings PWM peuvent apparaître durant la compilation, mais ils n'empêchent pas la génération des fichiers `.dtbo`.
+- The legacy Linaro 7.4.1 toolchain was not required.
+- Debian's gcc-aarch64-linux-gnu cross-compiler works correctly.
+- PWM-related warnings may appear during compilation.
+- These warnings do not prevent .dtbo files from being generated.
 
+============================================================
 
 
 #################### OLD TUTORIAL ##################
