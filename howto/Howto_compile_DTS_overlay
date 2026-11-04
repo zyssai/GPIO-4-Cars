@@ -1,3 +1,127 @@
+# Mémo compilation DTB/DTBO ODROID N2
+
+## Installation
+
+```bash
+sudo apt update
+
+sudo apt install \
+    git \
+    make \
+    device-tree-compiler \
+    gcc-aarch64-linux-gnu \
+    libssl-dev \
+    bc \
+    bison \
+    flex \
+    libncurses-dev
+```
+
+---
+
+## Configuration de l'environnement
+
+Éditer `~/.bashrc` :
+
+```bash
+nano ~/.bashrc
+```
+
+Ajouter à la fin du fichier :
+
+```bash
+export ARCH=arm64
+export CROSS_COMPILE=aarch64-linux-gnu-
+```
+
+Appliquer les modifications :
+
+```bash
+source ~/.bashrc
+```
+
+Vérifier :
+
+```bash
+echo $ARCH
+echo $CROSS_COMPILE
+```
+
+Résultat attendu :
+
+```text
+arm64
+aarch64-linux-gnu-
+```
+
+---
+
+## Vérification du compilateur
+
+```bash
+aarch64-linux-gnu-gcc -v
+```
+
+---
+
+## Clonage du kernel Voodik
+
+```bash
+git clone --depth 1 \
+    -b lineage-22.1_odroidg12_64_1 \
+    https://github.com/voodik/android_kernel_voodik_odroidg12.git
+
+cd android_kernel_voodik_odroidg12
+```
+
+---
+
+## Compilation des DTB / DTBO
+
+Depuis la racine du dépôt :
+
+```bash
+make dtbs
+```
+
+---
+
+## Emplacement des fichiers générés
+
+```text
+arch/arm64/boot/dts/amlogic/overlays/odroidn2/
+```
+
+---
+
+## Vérification des fichiers générés
+
+```bash
+ls -l arch/arm64/boot/dts/amlogic/overlays/odroidn2/*.dtbo
+```
+
+---
+
+## Recompiler après modification d'un DTS
+
+Après chaque modification d'un fichier `.dts` :
+
+```bash
+make dtbs
+```
+
+---
+
+## Notes
+
+- La vieille toolchain Linaro 7.4.1 n'a finalement pas été nécessaire.
+- Le compilateur Debian `gcc-aarch64-linux-gnu` fonctionne correctement pour la génération des DTB/DTBO.
+- Quelques warnings PWM peuvent apparaître durant la compilation, mais ils n'empêchent pas la génération des fichiers `.dtbo`.
+
+
+
+#################### OLD TUTORIAL ##################
+
 To compile dtbo file, follow these steps:
 
 $ sudo apt-get update
