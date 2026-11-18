@@ -48,7 +48,7 @@ Note that pin 26 is labelled with a square on the board.
 
 Now, go down to [How to manage AUX and POWER connectors with Android](https://github.com/zyssai/GPIO-4-Cars/blob/main/v1.5c/readme.md#how-to-manage-aux-and-power-connectors-with-android) chapter below and follow the same process to define every button to desired action.  
 
-If you intend to use pin 32 with LOS20, state of this pin at start is defined wrong, so follow these steps:  
+If you intend to use pin 32 with LOS22.1, state of this pin at start is defined wrong, so follow these steps:  
 
 Edit `/vendor/etc/init/hw/init.odroidn2.rc`  
 Find `on init`  
@@ -99,14 +99,13 @@ user_overlay="keymatrix"
 
 And add `keymatrix` to the `DTB Overlay` section of `Odroid Settings` app.
 
-If you use LOS20, state of pin 32 is defined wrong at start, you can check it with:
+If you use LOS22.1, state of pin 32 is defined wrong at start, you can check it with:
 
 ```
-su
-cat /sys/kernel/debug/gpio
+gpio readall -a
 ```
 
-if there is one of the `matrix_kbd_***` at `lo`, then do the following steps:
+if there is one pin at `P/D`, then do the following steps:
 
 Edit `/vendor/etc/init/hw/init.odroidn2.rc`  
 Find `on init`  

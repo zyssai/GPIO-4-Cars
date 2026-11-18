@@ -87,47 +87,26 @@ First, into Odroid Settings app, go to Update, Updater, click on the 3 dots, pre
 This will prevent auto updates because if there is, this will remove root and cause GPIO to not function anymore.
 
 To root system, follow this:
+
+Download apk file from here with your computer
+https://github.com/topjohnwu/magisk/
+Rename apk to zip. push it to internal storage.
+
 Connect N2 with micro USB cable to the computer.
-Launch a command terminal.
-type:
+With cmd:
 
-`adb shell`
+```adb push magisk.zip /sdcard/
+adb reboot recovery```
 
-You should out with this:
+Reboot to recovery and Apply update from internal storage.
 
-`odroidn2:/ #`
+After installation from recovery you should install apk.
+Rename zip back to apk and install it via file manager or adb
 
-Then type:
+```adb install magisk.apk```
 
-```
-cd /storage/emulated/0/Download
-dd if=/dev/block/boot of=boot.img
-```
+If Magisk app ask for reinstall the root > do it in direct mode > then reboot. 
 
-Now open Magisk app on N2, click `INSTALL` (the first row with Magisk), then `SELECT AND PATCH A FILE`
-
-Click the 3 dots at the top left, then `ODROID-N2PLUS`, `DOWNLOAD`, and `BOOT.IMG`
-
-Select `LET’S GO`
-
-Once `ALL DONE`, take care of the output file name, should be something like `magisk_patched-xxxxx_xxxx.img`
-
-Go back to the terminal, type (replace xxxxx):
-
-```
-dd of=/dev/block/boot
-if=magisk_patched-xxxxx_xxxx.img
-```
-
-If it worked, you will have this:
-
-```
-odroidn2:/storage/emulated/0/Download # dd of=/dev/block/boot if=magisk_patched-25100_1NLE9.img
-32768+0 records in
-32768+0 records out
-16777216 bytes (16 M) copied, 1.104671 s, 14 M/s
-odroidn2:/storage/emulated/0/Download #
-```
 
 Now if you wanna change boot screens:
 
