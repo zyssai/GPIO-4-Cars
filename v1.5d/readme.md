@@ -135,7 +135,7 @@ Add all actions, it's easy to understand.
 
 First step is to declare which pin numbers are used.  
 This is done by using [Shutdownservice](https://forum.odroid.com/viewtopic.php?f=213&t=44791) app from joerg (Yes this is a post from Odroid M1 section but it's ok)  
-Last version tested and working is `1.15.2`  
+Last version tested and working is `1.15.3`  
 Install it, and give superuser rights.  
 
 Before using this app, we need to edit these 2 files:  
